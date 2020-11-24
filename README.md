@@ -23,5 +23,5 @@ https://github.com/CelloCorgi/SIGCSE2021-IterativeAndRecursive/blob/main/paper_e
 * `qualtrics`: Contains a pdf of the survey used in our experiment along with a qualtrics-formatted project file
 * `code`: Contains text versions of the program stimuli. Variable names and formatting were modified between this text version and the final qualtrics version shown to participants (see `qualtrics` folder)
 * `data`: contains annonymized data analyzed for the paper. `all_participants_raw.csv` contains all data recorded by qualtrics (including incomplete study attempts) and `valid_participants_scores.csv` contains just the 162 participants who completed the study.
-* `recruitment.txt`: contains a template for the email sent to participants 
+
 
