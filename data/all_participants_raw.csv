@@ -1,0 +1,1050 @@
+StartDate,EndDate,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,DistributionChannel,UserLanguage,DigitTimeR_First Click,DigitTimeR_Last Click,DigitTimeR_Page Submit,DigitTimeR_Click Count,DigitR,DigitUnR,DigitTimeT_First Click,DigitTimeT_Last Click,DigitTimeT_Page Submit,DigitTimeT_Click Count,DigitT,DigitUnT,DigitTimeI_First Click,DigitTimeI_Last Click,DigitTimeI_Page Submit,DigitTimeI_Click Count,DigitI,DigitUnI,ExpTimeR_First Click,ExpTimeR_Last Click,ExpTimeR_Page Submit,ExpTimeR_Click Count,ExpR,ExpUnR,FiblikeTimeR_First Click,FiblikeTimeR_Last Click,FiblikeTimeR_Page Submit,FiblikeTimeR_Click Count,FiblikeR,FiblikeUnR,FiblikeTimeT_First Click,FiblikeTimeT_Last Click,FiblikeTimeT_Page Submit,FiblikeTimeT_Click Count,FiblikeT,FiblikeUnT,FiblikeTimeI_First Click,FiblikeTimeI_Last Click,FiblikeTimeI_Page Submit,FiblikeTimeI_Click Count,FiblikeI,FiblikeUnI,GcdTimeR_First Click,GcdTimeR_Last Click,GcdTimeR_Page Submit,GcdTimeR_Click Count,GcdR,GcdUnR,GcdTimeI_First Click,GcdTimeI_Last Click,GcdTimeI_Page Submit,GcdTimeI_Click Count,GcdI,GcdUnI,PalindromeTimeR_First Click,PalindromeTimeR_Last Click,PalindromeTimeR_Page Submit,PalindromeTimeR_Click Count,PalindromeR,PalindromeUnR,PalindromeTimeI_First Click,PalindromeTimeI_Last Click,PalindromeTimeI_Page Submit,PalindromeTimeI_Click Count,PalindromeI,PalindromeUnI,ReverseTimeR_First Click,ReverseTimeR_Last Click,ReverseTimeR_Page Submit,ReverseTimeR_Click Count,ReverseR,ReversUnR,ReverseTimeI_First Click,ReverseTimeI_Last Click,ReverseTimeI_Page Submit,ReverseTimeI_Click Count,ReverseI,ReverseUnI,TriangleTimeR_First Click,TriangleTimeR_Last Click,TriangleTimeR_Page Submit,TriangleTimeR_Click Count,TriangleR,TriangleUnR,TriangleTimeI_First Click,TriangleTimeI_Last Click,TriangleTimeI_Page Submit,TriangleTimeI_Click Count,TriangleI,TriangleUnI,Q34_First Click,Q34_Last Click,Q34_Page Submit,Q34_Click Count,PF1,PF2,PF3,PF4,PF5,PF6,PF7,PF8,PF9,PF10,Q37_First Click,Q37_Last Click,Q37_Page Submit,,Q37_Click Count,PFT11,PFT12,PFT13,PFT14,PFT15,PFT16,PFT17,PFT18,PFT19,PFT20,gender,ethnicity,exper,classes,scratchPaper,car,travel,Room,computers,self,zipcode,compensation,NumIterative,NumRecursive,TotalNumEach,Q_SurveyVersionID,Q_BallotBoxStuffing,Q_TotalDuration
+Start Date,End Date,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Distribution Channel,User Language,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please write the return value of func(1314) in the box below:
+
+
+
+int func(int value) {
+
+    if (value == 0) {
+
+        return 0;
+
+    } else {
+
+        return (value % 10) + func(value / 10);
+
+    }
+
+}",Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please write the return value of func(1314) in the box below:
+ 
+
+int func(int value) {
+
+    return func_helper(value, 0);
+
+}
+
+
+
+int func_helper(int value, int result) {
+
+    if (value == 0) {
+
+        return result;
+
+    } else {
+
+        return func_helper(value / 10, result + value % 10);
+
+    }
+
+}",Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Please write the return value of func(1314) in the box below:int func(int value) { in,Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please write the return value of func(2, 4) in the box below:
+
+
+int func(int x, int y) {
+
+    if (y == 0) {
+
+        return 1;
+
+    } else if (y == 1) {
+
+        return x;
+
+    }
+
+
+
+    int tmp = func(x, y / 2);
+
+    tmp = tmp * tmp;
+
+    if (y % 2 == 1) {
+
+        return x * tmp;
+
+    } else {
+
+        return tmp;
+
+    }
+
+}",Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please write the return value of func(3) in the box below:
+
+
+int func(int n) {
+
+    if (n",Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please write the return value of func(3) in the box below:
+
+int func(int n) {
+
+    if (n 
+
+
+
+int func_helper(int n, int i, int a, int b) {
+
+    if (i == n) {
+
+        return b;
+
+    } else {
+
+        return func_helper(n, i + 1, b, b - 2 * a);
+
+    }
+
+}",Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please write the return value of func(3) in the box below:
+
+int func(int n) {
+
+    if (n",Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please write the return value of func(100, 70) in the box below: 
+
+
+int func(int x, int y) {
+
+    if (y == 0) {
+
+        return x;
+
+    } else {
+
+        return func(y, x % y);
+
+    }
+
+}",Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please write the return value of func(100, 70) in the box below:
+ 
+
+int func(int x, int y) {
+
+    while (y != 0) {
+
+        int tmp = x % y;
+
+        x = y;
+
+        y = tmp;
+
+    }
+
+    return x;
+
+}",Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please write the return value of func({5, 1, 3, 2, 9, 3, 1, 5}, 8) in the box below:   bool func(int array[], int size) {
+
+    if (size",Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please write the return value of func({5, 1, 3, 2, 9, 3, 1, 5}, 8) in the box below: 
+
+
+bool func(int array[], int size) {
+
+    while (size > 1) {
+
+        if (array[0] != array[size - 1]) {
+
+            return false;
+
+        }
+
+        ++array;
+
+        size -= 2;
+
+    }
+
+    return true;
+
+}",Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please write the contents of array after execution of func({4, 1, 2, 3, 7, 6, 9}, 7) in the box below:
+
+
+
+For example, if array = {1, 2, 3} write 1 2 3
+
+ 
+
+void func(int array[], int size) {
+
+    if (size > 1) {
+
+        int tmp = array[0];
+
+        array[0] = array[size - 1];
+
+        array[size - 1] = tmp;
+
+        func(array + 1, size - 2);
+
+    }
+
+}",Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please write the contents of array after execution of func({4, 1, 2, 3, 7, 6, 9}, 7) in the box below:
+For example, if array = [1, 2, 3] write 1 2 3
+void func(int array[], int size) {
+
+    while (size > 1) {
+
+        int tmp = array[0];
+
+        array[0] = array[size - 1];
+
+        array[size - 1] = tmp;
+
+        ++array;
+
+        size -= 2;
+
+    }
+
+}",Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please write the print output of func(4) in the box below: 
+Use the enter key to separate each line of the output. 
+void func(int value) {
+
+    if (value == 0) {
+
+        return;
+
+    }
+
+    for (int i = 0; i",Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please write the print output of func(4) in the box below:  
+Use the enter key to separate each line of the output.   void func(int value) {
+
+    for (int i = value; i > 0; i--) {
+
+        for (int j = 0; j",Does this function contain elements you are unfamiliar with?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"For each of the following, choose the paper on the right that results from the folding operations on the left:",PF2,PF3,PF4,PF5,PF6,PF7,PF8,PF9,PF10,Timing - First Click,Timing - Last Click,Timing - Page Submit,,Timing - Click Count,"For each of the following, choose the paper on the right that results from the folding operations on the left:",PFT12,PFT13,PFT14,PFT15,PFT16,PFT17,PFT18,PFT19,PFT20,Which gender do you most identify with?,I identify my ethnicity as (select all that apply):,How many years of programming experience do you have?,Please select which EECS courses you are currently enrolled in or have completed (select all that apply):,Did you use scratch paper while completing the programming portion?,"Does your family own a car, van, or truck?",How many times did you or your family travel away on holiday during the past 12 months?,"Growing up, did you have a bedroom to yourself?","How many computers (including laptops and tablets, not including game consoles and smartphones) does your family own?",How well off do you think your family is?,What is your family's zipcode?,"Survey Complete
+
+
+
+Thank you for completing our study on programming style features!
+
+ 
+To be considered for compensation, please enter either your uniquename or the access code from the email we sent you in the box below. All compensation notifications will be sent by November 30th.",NumIterative,NumRecursive,TotalNumEach,Q_SurveyVersionID,Q_BallotBoxStuffing,Q_TotalDuration
+11/4/2019 9:10:41,11/4/2019 9:29:28,100,1127,True,11/4/2019 9:29:29,R_12asJXnqYz2KghG,anonymous,EN,68.909,77.395,78.011,5,9,No,,,,,,,,,,,,,4.401,115.207,115.61,13,16,No,85.043,122.549,122.963,3,-1,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21.636,135.991,136.7,9,False ,No,,,,,,,0.633,123.587,124.056,19,9 6 7 3 2 1 4,No,,,,,,,1.62,46.859,47.397,11,"****
+***
+**
+*",No,4.118,169.493,180.123,38,A,D,D,,,,Not Sure,Not Sure,Not Sure,Not Sure,1.167,179.909,179.955,360.078,37,C,B,A,E,A,B,E,Not Sure,Not Sure,Not Sure,Man,Asian,4,"EECS 183,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",,Two or more,Twice,Yes,One,Slightly well,48105,,3,3,3,,,1127
+11/4/2019 11:03:07,11/4/2019 11:23:05,100,1197,True,11/4/2019 11:23:05,R_0BY8WPAZyeohHXP,anonymous,EN,,,,,,,,,,,,,,,,,,,24.485,63.06,165.966,4,16,No,,,,,,,79.993,87.212,99.222,3,-1,No,,,,,,,,,,,,,64.505,73.877,106.381,3,10,No,,,,,,,1.735,54.997,55.644,3,false,No,,,,,,,13.661,78.482,98.255,3,9 6 7 3 2 1 4,No,3.17,46.725,47.79,9,"****
+***
+**
+*",No,,,,,,,5.19,154.511,180.112,13,B,D,,D,B,E,D,C,,E,3.799,114.448,180.114,360.226,10,C,B,A,E,B,A,E,D,D,D,Woman,Caucasian,3,"EECS 183,EECS 280,EECS 281,EECS 370,One upper level EECS elective",,Two or more,Twice,Yes,More than two,Very well,48359,felichri,3,3,3,,,1197
+11/5/2019 17:15:03,11/5/2019 17:26:11,72,667,False,11/12/2019 17:26:13,R_1pATkJBFlUWzqSk,anonymous,EN,36.868,43.188,43.784,2,9,No,,,,,,,,,,,,,94.582,96.342,97.164,2,16,No,,,,,,,,,,,,,,,,,,,7.001,56.284,58.206,3,10,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.721,47.274,48.423,2,"****
+***
+**
+*
+",No,8.461,158.009,180.019,8,A,E,B,D,C,E,A,C,,,4.898,158.04,158.584,338.603,12,C,B,A,E,B,A,E,D,D,C,,,,,,,,,,,,,1,3,3,,,667
+11/11/2019 14:46:17,11/11/2019 14:47:04,5,47,False,11/18/2019 14:47:18,R_3M4IXww9Zk9MLSH,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,000.000,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,47
+11/11/2019 14:48:47,11/11/2019 14:49:07,1,20,False,11/18/2019 14:49:09,R_1IFUM0VuQV0AcYd,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,000.000,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,20
+11/11/2019 14:51:06,11/11/2019 14:51:33,1,27,False,11/18/2019 14:51:34,R_1o5ywumVwoaue2d,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,000.000,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,27
+11/11/2019 14:46:59,11/11/2019 14:52:08,100,309,True,11/11/2019 14:52:09,R_cVbJmwZtCXFVCdX,anonymous,EN,,,,,,,,,,,,,15.083,16.821,17.913,2,30,No,24.23,26.088,26.855,2,8,No,14.382,15.696,16.563,2,2,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.424,13.436,14.051,2,false,No,,,,,,,9.4,35.339,36.235,2,"7,5,3,1",No,12.433,30.211,31.166,2,"****
+***
+**
+*",No,,,,,,,6.599,53.884,54.63,14,A,D,E,C,D,B,E,B,C,D,0.812,8.614,9.277,063.907,11,D,Not Sure,E,C,B,C,B,C,D,D,Man,Asian,2,"ENGIN 101,EECS 280,EECS 281",No,Two or more,Once,Yes,More than two,Very well,08540,vohrahul,3,3,3,,,309
+11/11/2019 14:53:02,11/11/2019 14:53:47,22,44,False,11/18/2019 14:53:58,R_1GIWAyhoE1FahsU,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,000.000,,,,,,,,,,,,,,,,,,,,,,,,1,0,3,,,44
+11/11/2019 14:50:01,11/11/2019 14:53:55,45,233,False,11/18/2019 14:53:55,R_3QRBnHZRsTHegkO,anonymous,EN,,,,,,,1.981,142.21,142.601,23,131,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.837,69.833,70.782,11,False,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,000.000,,,,,,,,,,,,,,,,,,,,,,,,0,2,3,,,233
+11/11/2019 14:49:24,11/11/2019 14:54:18,100,294,True,11/11/2019 14:54:19,R_R3rCfx3pXOm26Nr,anonymous,EN,,,,,,,,,,,,,27.412,30.351,31.267,2,3,Yes,,,,,,,,,,,,,1.663,5.783,7.144,2,idk,Yes,,,,,,,1.15,5.8,6.524,2,idk,Yes,,,,,,,,,,,,,2.348,53.143,54.033,2,false false false false true,Yes,12.565,40.977,41.801,2,1 2 3,Yes,,,,,,,,,,,,,10.334,15.793,16.611,2,***,Yes,8.8,49.326,50.062,12,A,B,B,C,B,D,B,D,C,B,1.146,11.369,12.177,062.239,12,B,E,A,B,C,B,D,B,C,D,Woman,Caucasian,0,ENGIN 101,No,No,Never,Yes,Two,Moderately well,48044,brboyce,3,3,3,,,294
+11/11/2019 14:49:31,11/11/2019 14:55:15,71,344,False,11/18/2019 14:55:16,R_7ZGvbD6g7u0Ix9f,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.038,22.058,23.166,8,"70,30",No,,,,,,,,,,,,,,,,,,,,,,,,,0.762,12.648,13.279,9,I don't know..,Yes,,,,,,,0.862,23.672,24.062,13,I don't know,Yes,1.013,104.942,106.898,45,A,C,B,B,B,E,A,C,B,E,1.105,108.863,109.653,216.551,37,C,B,A,E,B,A,B,E,D,Not Sure,,,,,,,,,,,,,2,1,3,,,344
+11/11/2019 14:53:01,11/11/2019 14:56:15,13,194,False,11/18/2019 14:56:24,R_xobQTt35TR0D57P,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25.675,156.259,180.023,10,A,D,B,D,B,E,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,194
+11/11/2019 14:56:09,11/11/2019 14:56:49,1,40,False,11/18/2019 14:56:52,R_oZ6xgZkw2lfzhGV,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,40
+11/11/2019 14:57:25,11/11/2019 14:57:33,1,8,False,11/18/2019 14:57:56,R_1GUjURHBIVvZcEc,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,8
+11/11/2019 14:57:28,11/11/2019 14:58:04,18,36,False,11/18/2019 14:58:24,R_T0NlsMPJNyTyWaJ,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0,3,,,36
+11/11/2019 14:57:50,11/11/2019 14:58:11,1,21,False,11/18/2019 14:58:11,R_2UVEYuYsHvZ8KyO,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,21
+11/11/2019 14:58:34,11/11/2019 14:58:48,5,13,False,11/18/2019 14:59:04,R_2q2a7b0l7vUvYiU,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,13
+11/11/2019 14:47:20,11/11/2019 14:58:54,100,693,True,11/11/2019 14:58:54,R_26mwIMj1AHesQsf,anonymous,EN,6.546,44.348,45.201,4,9,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.039,6.991,7.428,2,,,,,,,,,0.947,58.06,58.852,5,10,No,,,,,,,2.133,57.955,59.042,7,false,No,3.46,38.643,41.311,4,,,,,,,,,0.905,45.876,46.716,9,"****
+***
+**
+*",No,,,,,,,5.979,179.199,180.12,37,A,D,C,D,B,E,Not Sure,Not Sure,Not Sure,D,3.318,108.845,109.557,,26,C,B,A,E,Not Sure,A,E,Not Sure,Not Sure,D,Man,"Caucasian,Pacific Islander",5,ENGIN 101,No,Two or more,Twice,No,More than two,Moderately well,94070,nlincke,3,3,3,,,693
+11/11/2019 14:58:43,11/11/2019 14:58:55,11,12,False,11/18/2019 14:58:59,R_3Jf2OrnwGiGQzgb,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,12
+11/11/2019 14:52:51,11/11/2019 14:59:33,50,402,False,11/18/2019 14:59:49,R_QcDgQI6cJjBgIcp,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,1.284,119.289,120.975,5,1,Yes,,,,,,,,,,,,,,,,,,,,,,,,,13.8,49.365,50.559,6,false,Yes,,,,,,,2.691,169.416,170.933,4,3,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,3,,,402
+11/11/2019 14:59:05,11/11/2019 14:59:35,27,29,False,11/18/2019 14:59:54,R_1hGqRsUaHsA2zDU,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,3,,,29
+11/11/2019 14:54:38,11/11/2019 15:00:22,59,344,False,11/18/2019 15:00:23,R_2Cm45Ywa4lWz3RD,anonymous,EN,,,,,,,,,,,,,,,,,,,10.983,10.983,11.877,1,,No,,,,,,,32.712,79.97,82.838,2,-1,No,,,,,,,,,,,,,,,,,,,,,,,,,37.123,71.74,72.678,4,false,No,35.432,123.092,123.897,2,9 7 2 3 1 6 4,No,,,,,,,5.23,32.899,33.731,3,"****
+***
+**
+*",No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,3,,,344
+11/11/2019 14:56:01,11/11/2019 15:00:39,43,278,False,11/18/2019 15:00:59,R_1intdpNhGBsfSYi,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,39.883,59.785,62.796,2,"func(70, 100 % 70)",Yes,,,,,,,31.716,68.634,70.46,2,"func({6, 2, 4, 3, 10, 4, 2, 6}, 6)",Yes,,,,,,,,,,,,,,,,,,,30.822,78.056,79.74,2,"*
+*
+*
+*
+func(3)",Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,3,,,278
+11/11/2019 14:58:42,11/11/2019 15:00:48,100,125,True,11/11/2019 15:00:48,R_3rHCRKX0kDAjPRQ,anonymous,EN,0.361,3.653,4.676,3,W,Yes,,,,,,,,,,,,,0.356,2.922,3.632,4,X,Yes,,,,,,,,,,,,,1.038,4.161,4.792,5,B,Yes,,,,,,,,,,,,,,,,,,,0.52,3.046,3.539,3,,Yes,0.61,1.378,2.113,2,,Yes,,,,,,,,,,,,,0.374,1.99,2.883,3,X,Yes,1.158,13.51,14.286,21,B,B,E,B,B,B,B,B,B,B,0.14,12.25,12.826,,20,C,C,C,C,C,C,C,C,C,C,Man,Caucasian,0,ENGIN 101,No,Two or more,Never,Yes,More than two,Slightly well,10562,Kevinkur,3,3,3,,,125
+11/11/2019 14:56:40,11/11/2019 15:00:52,5,252,False,11/18/2019 15:01:12,R_32Pb6I6lJftuINe,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,252
+11/11/2019 15:01:00,11/11/2019 15:01:16,1,15,False,11/18/2019 15:01:36,R_1WSXSCkA9DWoSCl,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,15
+11/11/2019 15:01:15,11/11/2019 15:01:32,27,16,False,11/18/2019 15:02:01,R_10x7M16h3TYqUxC,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,16
+11/11/2019 15:01:11,11/11/2019 15:01:38,1,27,False,11/18/2019 15:01:54,R_D7Tl5pg8Ve74KR3,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,27
+11/11/2019 15:01:29,11/11/2019 15:01:47,5,18,False,11/18/2019 15:02:05,R_2uEfNWQaC5WONAO,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,18
+11/11/2019 14:51:56,11/11/2019 15:02:43,100,646,True,11/11/2019 15:02:44,R_2Cgk9qQIg3OSQhb,anonymous,EN,,,,,,,,,,,,,19.233,139.959,140.46,13,"4
+1.4
+3.14
+1.314",No,20.377,92.432,92.992,7,"2
+8",No,7.146,14.609,15.084,4,3,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.308,50.495,51.141,11,True,Yes,,,,,,,5.602,80.727,81.171,10,No return/cout ,Yes,14.872,48.841,49.205,6,"*
+3",No,,,,,,,7.559,90.805,91.863,25,A,C,B,D,B,E,A,C,B,C,3.041,13.575,14.092,,20,B,B,C,D,D,C,A,B,E,Not Sure,Man,"Black/African,Hispanic/Latinx",1,ENGIN 101,No,No,Never,No,Two,Not well at all,10456,mattpz@umich.edu,3,3,3,,,646
+11/11/2019 15:02:34,11/11/2019 15:02:56,5,22,False,11/18/2019 15:03:00,R_2yjgCxQ84zy8H5j,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,22
+11/11/2019 14:52:36,11/11/2019 15:03:05,100,629,True,11/11/2019 15:03:06,R_271d0oe0MA5PC87,anonymous,EN,,,,,,,,,,,,,0.959,28.959,31.839,12,9,No,2.601,45.463,47.957,4,16,No,,,,,,,,,,,,,,,,,,,,,,,,,1.453,45.152,46.196,12,10,No,3.192,21.434,28.048,4,false,No,,,,,,,3.115,51.808,57.916,9,9 6 7 3 2 1 4,No,,,,,,,,,,,,,1.843,43.671,46.587,4,"****
+***
+**
+*",No,5.109,140.371,141.61,10,A,D,B,D,B,E,A,C,Not Sure,E,4.249,112.398,113.243,,11,C,B,A,E,B,A,D,Not Sure,D,D,Man,Asian,3,"EECS 280,EECS 281,Two or more upper level EECS electives",No,Two or more,Twice,Yes,More than two,Very well,48331,genemc,3,3,3,,,629
+11/11/2019 14:50:27,11/11/2019 15:04:07,87,820,False,11/18/2019 15:04:32,R_29uMdyR5VnmHjny,anonymous,EN,,,,,,,2.24,15.432,46.883,3,,Yes,,,,,,,,,,,,,1.179,83.646,84.692,3,2,Yes,,,,,,,,,,,,,,,,,,,31.517,33.172,34.781,2,70,Yes,,,,,,,,,,,,,2.081,170.919,172.909,11,7,Yes,,,,,,,,,,,,,7.626,90.058,93.511,3,**,Yes,9.373,173.733,174.291,10,A,D,B,D,B,E,A,C,D,Not Sure,7.801,150.479,158.911,,11,C,B,A,E,E,A,E,C,D,Not Sure,,,,,,,,,,,,,3,3,3,,,820
+11/11/2019 15:04:24,11/11/2019 15:04:38,1,14,False,11/18/2019 15:04:43,R_tF0AvqBWbtsQcJb,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,14
+11/11/2019 15:03:33,11/11/2019 15:04:56,36,83,False,11/18/2019 15:05:13,R_26mpRosHVR3iDxa,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.808,72.069,73.052,16,,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,3,,,83
+11/11/2019 15:02:37,11/11/2019 15:04:59,100,141,True,11/11/2019 15:04:59,R_T0ojXxjrfPdSULv,anonymous,EN,0.391,2.841,3.205,3,a,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.559,2.335,3.332,2,a,Yes,,,,,,,0.898,1.984,2.84,2,a,Yes,0.562,1.943,2.964,2,a,Yes,,,,,,,,,,,,,0.559,1.661,2.379,2,a,Yes,0.754,2.579,3.591,2,a,Yes,,,,,,,0.862,9.616,10.442,12,A,A,A,A,A,A,A,A,A,A,0.751,10.452,11.492,,15,A,A,A,A,A,A,A,A,A,A,Not Listed,Caucasian,1,"ENGIN 101,EECS 280",Yes,Two or more,Never,Yes,More than two,Very well,32547,mhelmich,3,3,3,,,141
+11/11/2019 15:03:45,11/11/2019 15:05:56,100,130,True,11/11/2019 15:05:57,R_2QXSBhS3UDnKET4,anonymous,EN,,,,,,,,,,,,,0.331,0.331,0.791,1,,Yes,0.409,1.801,2.852,3,,Yes,,,,,,,,,,,,,,,,,,,1.79,5.033,6.035,3,,Yes,,,,,,,0.279,0.279,0.79,1,,Yes,,,,,,,,,,,,,7.499,8.214,9.35,2,,Yes,,,,,,,0.253,0.578,1.149,2,,Yes,1.229,32.122,32.732,28,A,D,B,D,B,D,E,C,B,D,0.703,8.529,9.124,,15,B,E,C,B,D,C,C,D,C,D,Man,Caucasian,1,ENGIN 101,No,Two or more,Once,Yes,More than two,Moderately well,48178,Rdilg,3,3,3,,,130
+11/11/2019 15:05:30,11/11/2019 15:05:57,15,27,False,11/18/2019 15:06:01,R_2SCS9jvTPjmI8VX,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0,3,,,27
+11/11/2019 14:55:26,11/11/2019 15:06:05,100,639,True,11/11/2019 15:06:05,R_3k7hZbKOR19pH6y,anonymous,EN,,,,,,,,,,,,,,,,,,,2.792,94.047,94.51,7,0,,,,,,,,,,,,,,1.103,76.535,79.521,2,-1,,,,,,,,1.291,31.201,31.752,3,70,,,,,,,,4.72,5.709,6.147,3,,Yes,2.945,5.504,6.03,3,,Yes,,,,,,,1.298,54,54.4,5,"****
+***
+**
+*",,21.938,29.014,29.454,2,"****
+***
+**
+*",,2.975,122.423,122.844,23,A,D,B,D,B,E,A,C,E,E,3.084,86.877,87.344,,25,C,B,A,E,B,A,E,C,D,C,Man,Other,1,ENGIN 101,No,Two or more,Once,Yes,More than two,Slightly well,11756,jramlall,4,3,3,,,639
+11/11/2019 14:54:26,11/11/2019 15:06:21,100,715,True,11/11/2019 15:06:22,R_6yewvmNAZB2ABG1,anonymous,EN,,,,,,,,,,,,,3.152,28.431,29.127,3,9,No,,,,,,,,,,,,,4.194,99.751,100.485,4,-1,No,,,,,,,,,,,,,9.617,62.562,63.083,9,10,No,4.415,68.113,68.862,5,false,No,5.016,32.139,34.145,5,false,No,,,,,,,11.601,133.259,203.076,3,,,4.212,78.677,82.233,3,"****                                                       
+***                                                        
+**                                                         
+*      ",No,,,,,,,1.909,15.028,16.153,14,E,C,D,C,E,Not Sure,C,E,C,D,0.562,10.782,11.427,,11,D,D,C,D,E,B,A,D,C,E,Man,Asian,2,"EECS 281,EECS 370,Two or more upper level EECS electives",No,"Yes, one",Never,Yes,Two,Very well,48105,felixwqp,4,3,3,,,715
+11/11/2019 14:54:46,11/11/2019 15:07:22,100,755,True,11/11/2019 15:07:22,R_Uipf1hvAoqfX7Lb,anonymous,EN,2.135,11.098,24.503,3,135,No,,,,,,,,,,,,,8.154,23.265,34.071,3,2,No,1.368,23.955,42.038,6,0,No,,,,,,,,,,,,,,,,,,,3.964,30.083,31.479,2,70,No,,,,,,,,,,,,,,,,,,,5.041,81.07,82.627,4,9 6 7 3 2 1 4,No,,,,,,,1.92,38.876,42.921,4,"****
+***
+**
+*",No,2.916,161.976,180.044,8,A,D,B,D,B,E,B,C,,,7.04,171.065,175.264,,13,C,B,B,E,B,A,E,Not Sure,D,Not Sure,Man,Caucasian,4,"ENGIN 101,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,Two or more,Twice,Yes,More than two,Very well,49064,lglista,3,3,3,,,755
+11/11/2019 14:49:07,11/11/2019 15:08:29,100,1162,True,11/11/2019 15:08:30,R_a3o31RXyTLk1qg1,anonymous,EN,,,,,,,3.256,90.008,91.137,14,"131.4
+131",No,,,,,,,5.906,116.479,117.811,11,0,No,,,,,,,12.623,63.273,65.389,13,"3, 2, 0, -2",No,,,,,,,,,,,,,60.89,69.901,70.942,4,10,No,,,,,,,,,,,,,,,,,,,10.658,93.598,93.922,11,5 3 4 8,No,18.43,53.529,54.835,9,"****
+***
+**
+*",No,,,,,,,3.56,175.183,175.97,31,A,D,B,D,B,E,A,C,E,E,4.6,173.579,174.169,,38,C,B,A,E,B,A,E,E,D,D,Man,Caucasian,2,ENGIN 101,No,Two or more,Three or more times,Yes,More than two,Extremely well,48187,majoma,3,3,3,,,1162
+11/11/2019 15:08:41,11/11/2019 15:08:53,15,11,False,11/18/2019 15:08:58,R_1pGVZE27VXLzqrW,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0,3,,,11
+11/11/2019 14:52:22,11/11/2019 15:09:00,100,997,True,11/11/2019 15:09:00,R_1osZEnTs0CZ6tzH,anonymous,EN,,,,,,,3.786,89.987,90.934,4,9,No,,,,,,,7.678,61.625,62.848,4,4,No,,,,,,,8.179,102.364,103.634,5,-1,No,,,,,,,,,,,,,4.06,50.223,51.392,4,10,No,,,,,,,,,,,,,8.121,178.486,180.024,3,"9 1 2 3 7 6 4
+6 1 2 3 7 9
+3 ",,,,,,,,,,,,,,3.88,12.984,42.169,3,"****
+***
+**
+*",No,6.432,168.764,180.065,9,A,D,B,D,B,E,A,C,Not Sure,,4.851,171.235,172.294,,10,C,B,A,E,B,A,E,D,D,C,Woman,Asian,4,"ENGIN 101,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,Two or more,Twice,Yes,More than two,Very well,20878,enyac,3,3,3,,,997
+11/11/2019 14:50:27,11/11/2019 15:09:14,100,1127,True,11/11/2019 15:09:15,R_1i3ESnpNMNT5IwY,anonymous,EN,,,,,,,,,,,,,,,,,,,116.776,119,119.901,3,8,No,1.878,94.924,95.738,3,-2,No,,,,,,,,,,,,,,,,,,,67.182,70.358,71.205,2,10,No,,,,,,,3.802,64.016,64.83,4,false ,No,,,,,,,35.455,35.455,180.09,1,9 7 2 3 1 6 4,,2.279,30.685,31.794,4,"****
+***
+**
+*",No,,,,,,,3.968,176.782,178.488,14,A,D,B,D,B,E,A,C,Not Sure,Not Sure,4.245,146.456,147.839,,11,C,B,A,E,E,A,E,D,D,D,Man,Asian,2,"EECS 183,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,Two or more,Once,Yes,More than two,Moderately well,48374,noo,3,3,3,,,1127
+11/11/2019 15:09:42,11/11/2019 15:09:48,22,6,False,11/18/2019 15:09:49,R_2zUtCD2689NFIhw,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,6
+11/11/2019 14:58:25,11/11/2019 15:10:04,100,699,True,11/11/2019 15:10:05,R_5p3F3QLISbO7skh,anonymous,EN,,,,,,,,,,,,,45.385,90.757,94.917,2,0,Yes,52.894,55.795,56.409,3,2,Yes,,,,,,,11.953,120.943,123.319,3,0,Yes,,,,,,,,,,,,,,,,,,,61.424,69.489,70.524,3,false,Yes,,,,,,,61.069,75.755,76.545,2,9 6 7 3 7 6 9,Yes,,,,,,,,,,,,,25.319,25.319,26.028,1,,No,12.268,99.426,100.595,12,A,D,D,C,B,Not Sure,D,C,B,C,7.566,54.993,56.172,,11,C,B,A,E,E,A,B,B,B,D,Man,Hispanic/Latinx,2,"ENGIN 101,EECS 280",No,"Yes, one",Never,Yes,One,Not well at all,19082,cbravo,3,3,3,,,699
+11/11/2019 14:53:59,11/11/2019 15:10:05,100,965,True,11/11/2019 15:10:05,R_23fpc7CXC2jJsk8,anonymous,EN,,,,,,,,,,,,,82.259,95.054,96.443,2,14,Yes,,,,,,,,,,,,,,,,,,,48.864,60.714,62.566,2,1,No,1.41,55.223,56.547,4,"(70,4)",No,,,,,,,21.455,109.94,112.604,4,"({6,2,4,3,10,4,2,6},6)",Yes,,,,,,,,,,,,,56.822,60.93,74.186,3,5,Yes,28.645,29.531,107.569,2,"****
+3",No,,,,,,,8.614,168.012,180.009,13,A,A,B,D,B,E,,C,B,D,4.457,169.28,180.218,,10,C,B,A,E,E,A,E,,D,D,Woman,"Black/African,Caucasian",0,ENGIN 101,No,Two or more,Twice,Yes,More than two,Moderately well,42701,jazmineb,3,3,3,,,965
+11/11/2019 15:03:14,11/11/2019 15:11:04,100,470,True,11/11/2019 15:11:11,R_simah6VVgwamZgt,anonymous,EN,,,,,,,9.763,21.603,22.844,2,0,Yes,,,,,,,40.4,46.845,54.482,3,4,Yes,,,,,,,,,,,,,0.936,1.606,2.505,2,1,Yes,,,,,,,5.5,6.673,7.421,2,1,Yes,,,,,,,,,,,,,,,,,,,1.092,2.765,3.655,2,1,Yes,1.702,3.195,4.363,2,1,Yes,,,,,,,9.271,169.566,170.321,14,A,D,Not Sure,D,B,E,Not Sure,C,B,E,8.268,119.167,119.999,,13,C,B,A,E,B,A,E,D,D,C,Woman,Caucasian,0,ENGIN 101,No,Two or more,Once,Yes,More than two,Very well,19072,mrapuano,3,3,3,,,470
+11/11/2019 14:59:50,11/11/2019 15:11:40,100,709,True,11/11/2019 15:11:40,R_3j8SKwd0peer3If,anonymous,EN,,,,,,,,,,,,,16.969,43.628,44.554,6,9,Yes,0.9,91.035,91.437,10,64,Yes,,,,,,,,,,,,,,,,,,,2.41,44.794,45.395,5,10,Yes,,,,,,,1.575,45.6,46.264,5,false,Yes,1.196,47.481,48.237,6,false,Yes,,,,,,,1.03,72.372,72.994,14,9 6 7 3 2 1 4,Yes,,,,,,,2.611,49.138,50.57,10,"****
+***
+**
+*",Yes,2.444,103.12,103.661,24,A,D,B,D,B,E,A,C,Not Sure,E,2.277,107.287,109.07,,26,C,B,A,E,B,A,E,D,D,D,Man,Asian,4,"ENGIN 101,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,Two or more,Once,Yes,More than two,Very well,15237,Umdchen,4,3,3,,,709
+11/11/2019 15:03:40,11/11/2019 15:11:42,100,481,True,11/11/2019 15:11:42,R_2s5vgWutRFeRjuB,anonymous,EN,,,,,,,,,,,,,1.196,27.41,37.647,5,144.54,Yes,1.548,2.957,4.174,2,,Yes,,,,,,,,,,,,,,,,,,,,,,,,,1.524,2.453,3.326,2,,Yes,,,,,,,2.173,10.967,11.633,2,-2,Yes,1.266,13.04,13.858,2,"1,4,5",Yes,,,,,,,1.833,2.386,18.036,2,4,Yes,1.154,11.31,12.386,2,0,Yes,14.185,161.003,161.705,16,A,C,B,D,B,E,A,C,B,E,9.883,134.425,134.732,,16,C,B,A,E,Not Sure,A,E,C,D,Not Sure,Man,Prefer not to answer,0,ENGIN 101,No,Two or more,Twice,Yes,More than two,Extremely well,49504,npullen,4,3,3,,,481
+11/11/2019 15:02:29,11/11/2019 15:11:44,100,555,True,11/11/2019 15:11:44,R_1MPWoFirzQqMWCC,anonymous,EN,,,,,,,,,,,,,,,,,,,25.122,28.593,29.534,2,4,No,,,,,,,,,,,,,4.436,78.3,82.181,2,-3,No,11.702,17.665,34.848,2,0,No,,,,,,,38.029,51.38,56.301,3,false,No,,,,,,,,,,,,,45.54,54.194,54.898,2,9 6 7 3 2 1 4,No,40.483,47.499,48.41,2,**********,Yes,,,,,,,6.801,70.555,79.82,13,A,D,Not Sure,D,B,A,Not Sure,Not Sure,Not Sure,Not Sure,8.116,48.56,49.089,,11,C,B,A,Not Sure,Not Sure,A,Not Sure,Not Sure,Not Sure,Not Sure,Man,Other,5,"EECS 280,EECS 281,EECS 370,One upper level EECS elective",No,"Yes, one",Never,No,More than two,Slightly well,48126,mmelghou,3,3,3,,,555
+11/11/2019 14:51:34,11/11/2019 15:12:22,100,1248,True,11/11/2019 15:12:22,R_3flQPZQKQEuVQPi,anonymous,EN,,,,,,,1.13,90.676,91.367,4,9,No,,,,,,,1.731,77.764,78.347,3,4,No,,,,,,,,,,,,,0.851,97.68,98.397,8,-1,No,0.919,106.948,110.678,4,10,No,,,,,,,,,,,,,,,,,,,,,,,,,1.173,141.344,142.752,8,9 6 7 3 2 1 4,No,,,,,,,1.736,64.915,66.338,9,"****
+***
+**
+*",No,5.17,169.854,170.813,35,A,D,B,C,B,E,A,C,C,E,1.766,179.061,179.094,,36,C,B,A,E,E,A,E,C,D,A,Man,Asian,4,EECS 280,Yes,Two or more,Three or more times,No,More than two,Extremely well,49024,saakethm ,3,3,3,,,1248
+11/11/2019 15:12:35,11/11/2019 15:12:54,1,18,False,11/18/2019 15:12:56,R_3LYk5hC4CDlDckw,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,18
+11/11/2019 14:57:18,11/11/2019 15:12:57,100,939,True,11/11/2019 15:12:57,R_12RWnsp3MsMxLLk,anonymous,EN,,,,,,,27.735,81.971,92.851,4,4,No,2.594,74.17,74.967,30,9,No,49.017,70.258,70.908,4,2,No,6.791,43.424,44.122,4,2,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30.865,41.136,42.526,2,false,No,,,,,,,12.158,65.638,66.375,5,9 6 7 3 2 1 4,No,,,,,,,4.849,57.343,57.894,6,"****
+***
+**
+*
+",No,6.827,171.077,172.034,12,A,D,B,D,B,E,A,C,D,E,0.789,156.869,180.023,,13,C,B,A,E,B,A,E,B,D,,Man,Caucasian,3,"ENGIN 101,EECS 280",No,Two or more,Never,Yes,More than two,Very well,48855,owaink,4,3,3,,,939
+11/11/2019 15:10:54,11/11/2019 15:13:20,14,145,False,11/18/2019 15:13:54,R_1gNNLMQlSZHSpCq,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.832,123.939,127.18,26,A,D,Not Sure,D,B,Not Sure,D,Not Sure,Not Sure,Not Sure,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,145
+11/11/2019 15:13:21,11/11/2019 15:13:26,1,4,False,11/18/2019 15:13:26,R_2flj52ofsqU9l0s,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,4
+11/11/2019 14:57:12,11/11/2019 15:13:32,100,980,True,11/11/2019 15:13:32,R_1IfJMTk4EeRmClN,anonymous,EN,,,,,,,51.269,74.683,76.059,2,9,No,,,,,,,,,,,,,,,,,,,98.985,102.476,102.658,3,-1,No,,,,,,,,,,,,,41.571,43.377,43.814,2,10,No,40.804,77.414,80.035,3,true,No,,,,,,,,,,,,,74.119,111.123,111.373,5,9 1 2 3 7 6 4,No,,,,,,,20.769,59.215,59.706,2,"****
+***
+**
+*",No,5.978,170.33,180.071,8,A,D,B,D,B,E,A,C,,,7.177,163.481,180.01,,10,C,B,A,E,B,A,E,D,,,Man,Asian,4,ENGIN 101,No,Two or more,Once,Yes,More than two,Moderately well,48439,adzhang,3,3,3,,,980
+11/11/2019 15:13:38,11/11/2019 15:13:44,18,6,False,11/18/2019 15:13:56,R_a5D5aPYjPnc51Tj,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,6
+11/11/2019 14:57:45,11/11/2019 15:13:49,100,964,True,11/11/2019 15:13:50,R_1oAqDUQb2JjYXLI,anonymous,EN,1.437,39.744,40.61,4,9,No,,,,,,,,,,,,,28.374,142.062,143.717,3,16,No,,,,,,,,,,,,,,,,,,,2.062,34.905,79.289,3,30,No,,,,,,,34.49,40.235,43.215,2,false,No,,,,,,,,,,,,,22.718,37.495,43.931,3,9 6 7 3 2 1 4,No,,,,,,,27.364,62.857,63.666,2,"****
+***
+**
+*
+",No,6.561,159.304,180.011,9,A,D,B,D,B,E,A,C,,,9.413,159.628,160.625,,12,C,B,A,E,B,A,E,Not Sure,D,C,Man,Caucasian,8,"EECS 183,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,"Yes, one",Never,Yes,More than two,Very well,97756,travigd,3,3,3,,,964
+11/11/2019 15:00:31,11/11/2019 15:13:58,100,806,True,11/11/2019 15:13:59,R_1JPhrkaNePM7CQe,anonymous,EN,29.302,38.031,38.482,3,16,No,,,,,,,,,,,,,2.752,127.212,129.369,4,16,No,,,,,,,,,,,,,110.684,112.976,113.734,2,-1,No,,,,,,,0.974,55.895,56.681,3,5,No,,,,,,,,,,,,,57.028,85.914,86.77,2,9 6 7 3 2 1 4,No,1.59,31.689,32.304,2,9 7 2 4,No,,,,,,,1.623,62.45,63.835,4,"****
+***
+**
+*",No,88.086,145.362,146.096,11,A,A,B,B,C,B,D,C,B,C,0.89,10.844,11.649,,13,C,B,D,C,B,C,D,C,B,A,Man,Caucasian,6,"EECS 183,EECS 280,EECS 281,EECS 370",No,Two or more,Once,No,More than two,Moderately well,48126,alihh,4,3,3,,,806
+11/11/2019 14:58:46,11/11/2019 15:15:01,100,975,True,11/11/2019 15:15:02,R_OxHQfQHXzkqO3ex,anonymous,EN,106.722,110.898,111.337,2,7,No,,,,,,,,,,,,,65.337,69.253,69.858,3,8,No,,,,,,,,,,,,,75.332,77.288,77.738,2,-1,No,,,,,,,90.484,92.752,93.278,2,10,No,,,,,,,,,,,,,,,,,,,67.643,88.636,89.456,4,7 9 8 7 3 2 1 4,No,26.639,56.507,61.536,3,"****
+***
+**
+*",No,,,,,,,3.997,166.911,180.111,15,A,C,B,D,B,E,D,,,,12.007,162.542,163.238,,10,C,B,A,E,B,A,E,C,D,C,Man,Hispanic/Latinx,5,ENGIN 101,No,Two or more,Twice,Yes,More than two,Very well,48187,dsanabri,3,3,3,,,975
+11/11/2019 14:57:52,11/11/2019 15:15:08,100,1035,True,11/11/2019 15:15:08,R_2tPJfTWvI1x7ZOp,anonymous,EN,,,,,,,49.946,52.309,53.225,2,1,No,,,,,,,39.518,41.839,42.773,2,4,No,,,,,,,,,,,,,,,,,,,,,,,,,18.042,131.437,136.893,5,0,No,,,,,,,55.624,68.459,69.884,2,false,No,,,,,,,23.816,167.265,174.176,9,"6 3 1 2 3 6 4
+wrong but I'm out of time",No,27.569,46.674,48.079,3,"****
+***
+**
+*",No,,,,,,,3.904,174.226,180.01,11,A,D,B,D,B,E,A,C,,E,5.354,161.162,180.113,,9,C,B,A,E,B,A,E,,D,,Woman,Other,4,"ENGIN 101,EECS 280",No,Two or more,Once,Yes,More than two,Very well,78681,mtkurk,3,3,3,,,1035
+11/11/2019 15:12:13,11/11/2019 15:16:20,44,246,False,11/18/2019 15:16:21,R_2cwlgTAjRCca8kl,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.558,142.171,142.844,17,A,D,B,D,B,E,A,C,B,E,5.053,13.535,14.354,,10,B,C,D,B,B,C,C,C,D,E,,,,,,,,,,,,,1,0,3,,,246
+11/11/2019 14:59:30,11/11/2019 15:16:23,100,1012,True,11/11/2019 15:16:23,R_2B5oVjwFxwsLNya,anonymous,EN,,,,,,,,,,,,,2.135,125.97,127.241,13,9,No,1.546,62.314,63.481,22,4,No,,,,,,,,,,,,,1.823,66.969,68.201,25,-3,No,1.428,55.855,56.915,38,10,No,,,,,,,,,,,,,,,,,,,,,,,,,3.716,153.238,153.969,63,6 4 2 3 2 1 4,No,7.076,38.945,40.327,2,"*
+*
+*
+*
+*
+*
+*
+*
+*
+*",No,,,,,,,1.412,160.5,163.656,14,A,D,B,D,B,E,C,C,B,E,6.125,110.927,180.013,,7,C,B,A,E,B,A,B,,,,Man,Asian,3,EECS 280,Yes,Two or more,Once,Yes,More than two,Very well,48105,niharj,3,3,3,,,1012
+11/11/2019 15:00:50,11/11/2019 15:18:08,100,1038,True,11/11/2019 15:18:09,R_1lcmhQmi2Bkifqr,anonymous,EN,,,,,,,,,,,,,,,,,,,49.202,96.947,97.967,3,"4,4",No,,,,,,,58.46,108.963,109.465,2,"3,  2, 1, -1",No,,,,,,,,,,,,,2.458,29.49,29.903,3,1,No,4.865,14.034,17.215,3,"false
+",Yes,2.364,19.172,19.425,4,"true
+",Yes,,,,,,,2.059,71.882,108.391,4,"4,1,2,3,7,6",Yes,,,,,,,1.473,58.537,162.014,5,"*
+**
+",No,6.875,173.297,173.816,14,A,D,B,D,B,E,A,C,E,E,5.221,153.42,154.33,,14,C,C,A,E,B,A,E,D,D,C,Man,Caucasian,0.5,ENGIN 101,No,Two or more,Never,Yes,More than two,Moderately well,48602,jjradke,4,3,3,,,1038
+11/11/2019 15:00:34,11/11/2019 15:18:26,100,1071,True,11/11/2019 15:18:27,R_1HcwM3YQLBxS4mK,anonymous,EN,,,,,,,1.993,81.756,84.682,6,9,,,,,,,,5.267,90.975,97.657,8,64,No,1.781,79.713,80.704,6,-1,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.239,98.882,99.297,11,false,No,,,,,,,3.226,116.461,117.515,10,9 6 7 3 2 1 4,No,,,,,,,1.04,76.326,76.84,10,"****
+***
+**
+*",No,1.714,176.178,180.122,24,A,D,B,D,B,E,A,C,E,,14.459,180.008,180.108,,24,C,B,A,E,B,A,E,D,,,Woman,Caucasian,2,"ENGIN 101,EECS 280,EECS 281",No,Two or more,Twice,Yes,More than two,Very well,20171,lsrose,3,3,3,,,1071
+11/11/2019 15:02:16,11/11/2019 15:18:39,100,982,True,11/11/2019 15:18:39,R_3EfDIntQmdRuPU2,anonymous,EN,,,,,,,,,,,,,23.399,25.02,25.862,2,9,No,22.905,98.375,99.176,4,16,No,8.14,72.304,72.981,4,-1,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.697,96.281,98.744,6,false,No,12.574,155.787,156.528,7,9 6 7 3 2 1 4,No,,,,,,,,,,,,,5.11,56.217,57.101,3,"****
+***
+**
+*",No,7.622,173.79,174.401,11,A,D,B,D,B,E,A,C,Not Sure,E,7.441,175.345,176.358,,12,C,B,A,E,Not Sure,A,E,D,D,C,Man,Caucasian,3,"ENGIN 101,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,Two or more,Once,No,More than two,Not well at all,48101,aalawy,3,3,3,,,982
+11/11/2019 15:15:04,11/11/2019 15:18:42,52,218,False,11/18/2019 15:18:50,R_0rNtN1ly3xuqzcZ,anonymous,EN,,,,,,,14.68,18.065,18.858,3,0,No,,,,,,,52.011,54.172,55.437,2,4,No,,,,,,,,,,,,,9.17,42.105,42.786,3,1,No,1.001,44.514,45.32,3,1,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,3,,,218
+11/11/2019 14:56:51,11/11/2019 15:19:39,100,1368,True,11/11/2019 15:19:40,R_22RJfvTFAOGVjtI,anonymous,EN,46.958,57.028,59.144,2,9,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,89.059,94.007,96.202,2,-1,No,93.472,96.698,106.028,2,10,No,,,,,,,,,,,,,80.04,97.347,115.446,2,false,No,0,0,180.117,0,,,134.182,155.86,159.384,2,"{4,1,2,3,7,6,9}",No,,,,,,,38.231,56.209,58.076,2,"****
+****
+****
+****",No,4.526,151.55,180.011,8,A,D,B,D,B,E,A,C,,,4.673,175.047,180.012,,11,C,B,A,E,B,A,E,Not Sure,D,Not Sure,Man,Caucasian,1.5,ENGIN 101,Yes,Two or more,Once,No,More than two,Moderately well,48154,psab,4,3,3,,,1368
+11/11/2019 15:12:20,11/11/2019 15:19:40,100,440,True,11/11/2019 15:19:40,R_31WofwJY3Ocp3bd,anonymous,EN,11.916,16.569,17.078,2,131.4,Yes,,,,,,,10.814,15.795,16.347,3,13.1,No,4.367,5.75,6.406,3,,Yes,,,,,,,,,,,,,2.146,3.074,3.715,3,,Yes,,,,,,,,,,,,,,,,,,,2.613,7.164,7.9,3,,Yes,,,,,,,2.317,4.325,5.355,4,,Yes,5.064,12.708,13.32,3,0,Yes,,,,,,,5.177,148.66,149.608,24,A,B,C,D,B,E,A,C,B,E,4.284,94.072,95.333,,24,C,B,A,E,B,A,E,C,D,B,Woman,Caucasian,1,ENGIN 101,No,No,Once,Yes,More than two,Moderately well,49287,aelwart,4,3,3,,,440
+11/11/2019 15:03:49,11/11/2019 15:20:22,100,992,True,11/11/2019 15:20:22,R_9slzsqdPyDjf4mB,anonymous,EN,4.193,36.224,36.81,2,9,No,,,,,,,,,,,,,20.184,92.665,94.264,3,16,No,,,,,,,,,,,,,,,,,,,,,,,,,1.199,85.045,85.751,2,10,No,,,,,,,1.324,77.627,78.744,2,false,No,3.224,84.308,89.981,4,9 6 7 3 2 1 4,No,,,,,,,,,,,,,1.81,76.287,77.101,2,"****
+***
+**
+*
+",No,9.56,169.282,178.692,10,A,D,B,D,C,E,A,C,E,E,12.046,175.941,177.245,,11,C,B,A,E,B,A,E,D,D,C,Man,Caucasian,6,"ENGIN 101,EECS 280,EECS 281",Yes,Two or more,Once,Yes,More than two,Very well,48374,macekj,3,3,3,,,992
+11/11/2019 15:09:25,11/11/2019 15:21:04,100,698,True,11/11/2019 15:21:04,R_269CkDo9nYMu9Wy,anonymous,EN,,,,,,,44.514,66.548,67.825,2,"131.4, 131.4",Yes,,,,,,,27.629,27.629,28.649,1,,Yes,,,,,,,,,,,,,,,,,,,33.111,49.485,51.563,2,"70, 100/70",No,,,,,,,,,,,,,13.331,13.331,14.35,1,,Yes,38.851,38.851,42.233,1,,Yes,,,,,,,,,,,,,31.277,31.277,33.264,1,,Yes,10.653,164.449,180.009,9,A,D,B,D,B,Not Sure,A,Not Sure,,,7.006,161.859,166.57,,10,C,B,A,A,E,A,B,Not Sure,Not Sure,A,Man,Caucasian,1,ENGIN 101,No,"Yes, one",Three or more times,No,Two,Slightly well,48073,tpeaslee,3,3,3,,,698
+11/11/2019 15:05:59,11/11/2019 15:21:31,100,932,True,11/11/2019 15:21:32,R_3MQ1vEOl9Rt5NIU,anonymous,EN,6.637,143.913,144.678,15,131.4+ 131,Yes,,,,,,,,,,,,,4.171,84.335,85.854,11,,Yes,,,,,,,,,,,,,,,,,,,,,,,,,0.869,34.712,35.414,5,70,Yes,,,,,,,4.799,74.67,75.046,12,,Yes,1.594,49.653,50.34,11,,No,,,,,,,0.883,26.37,26.913,10,,No,,,,,,,9.481,171.245,180.029,34,A,D,B,C,B,E,D,,,,4.487,179.475,180.008,,35,C,B,A,E,B,A,E,Not Sure,D,A,Woman,Caucasian,1,ENGIN 101,No,Two or more,Once,No,More than two,Moderately well,49333,Mrobirds,3,3,3,,,932
+11/11/2019 15:06:50,11/11/2019 15:22:04,100,914,True,11/11/2019 15:22:04,R_2PzfEw2IQpPjLVw,anonymous,EN,,,,,,,,,,,,,41.982,48.745,51.051,3,9,No,103.539,106.025,107.14,2,8,No,49.627,52.043,53.845,2,-1,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,49.539,52.286,58.431,2,false,No,,,,,,,84.937,166.281,167.369,3,2 1 7 3 9 6 4,No,24.407,50.708,52.367,3,"****
+***
+**
+*",No,,,,,,,8.784,180.073,180.118,8,A,D,,B,,,B,C,D,E,5.567,119.812,123.274,,20,C,B,A,C,B,E,E,B,C,A,Man,Caucasian,4,"EECS 280,EECS 281",No,Two or more,Never,Yes,More than two,Very well,19348,rjbx,3,3,3,,,914
+11/11/2019 15:07:32,11/11/2019 15:22:07,100,874,True,11/11/2019 15:22:08,R_RLwBoWGtS2HdnZT,anonymous,EN,,,,,,,31.996,86.652,87.394,2,"131.4, 0",Yes,,,,,,,10.688,69.416,70.096,6,"0
+0",No,0.876,69.915,70.366,3,n,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.679,6.06,7.172,3,true,Yes,,,,,,,4.477,4.477,5.252,1,,No,,,,,,,0,0,126.681,0,,,6.701,179.025,180.122,11,A,D,B,A,C,E,C,C,,,5.784,175.243,180.011,,13,C,B,A,E,B,A,E,B,D,,Woman,Asian,1,ENGIN 101,No,Two or more,Once,Yes,More than two,Very well,48335,jahnavin,3,3,3,,,874
+11/11/2019 15:22:43,11/11/2019 15:22:51,5,8,False,11/18/2019 15:23:09,R_OkywHZ9kRYC5TPP,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,8
+11/11/2019 15:11:52,11/11/2019 15:23:13,100,680,True,11/11/2019 15:23:13,R_STSHoev3GJWtSuJ,anonymous,EN,,,,,,,,,,,,,1.488,25.541,26.065,4,0,No,2.474,28.429,28.924,5,"****
+***
+**
+*",No,,,,,,,1.657,73.547,73.931,8,-2,No,,,,,,,,,,,,,,,,,,,,,,,,,64.153,69.168,69.888,5,false,No,7.602,174.67,181.5,2,12 9 ,,,,,,,,,,,,,,10.015,39.596,40.114,6,"****
+***
+**
+*",No,1.584,83.766,84.138,20,A,D,B,D,B,E,A,C,E,E,3.621,77.009,78.118,,27,C,B,A,E,B,A,E,D,D,C,Man,Asian,2,ENGIN 101,No,Two or more,Once,Yes,More than two,Moderately well,11354,lyuzhou,3,3,3,,,680
+11/11/2019 15:05:33,11/11/2019 15:24:16,100,1123,True,11/11/2019 15:24:16,R_x5XtHXOZh0LvaLv,anonymous,EN,,,,,,,,,,,,,,,,,,,120.486,125.464,126.603,2,4,Yes,,,,,,,9.614,81.678,84.135,2,0,No,,,,,,,,,,,,,88.572,90.561,91.122,2,40,No,,,,,,,76.3,78.978,80.69,2,false,No,,,,,,,26.897,49.758,107.073,2,9 7 3 2 1 4,No,20.334,70.484,71.501,3,"****
+***
+**
+*",Yes,14.966,30.879,31.815,2,"****
+***
+**
+*",No,4.003,178.136,180.013,11,A,D,B,D,B,E,A,B,D,D,2.577,164.464,165.325,,12,C,B,A,E,B,A,E,E,D,A,Woman,Caucasian,0.75,ENGIN 101,No,Two or more,Never,Yes,More than two,Very well,48757,melodell,4,3,3,,,1123
+11/11/2019 15:24:12,11/11/2019 15:24:22,1,9,False,11/18/2019 15:24:51,R_ymOazARUb1lkDPr,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,9
+11/11/2019 15:16:15,11/11/2019 15:24:24,55,489,False,11/18/2019 15:24:30,R_2c6Mplq1whuEgC1,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31.565,31.565,57.804,1,true,,,,,,,,,,,,,,,,,,,,,,,,,,31.028,31.028,45.192,1,*,,6.771,159.464,180.137,7,A,D,B,D,C,E,D,,,,8.352,128.539,130.031,,10,B,B,A,B,B,D,B,Not Sure,D,B,,,,,,,,,,,,,1,2,3,,,489
+11/11/2019 15:04:53,11/11/2019 15:24:44,100,1191,True,11/11/2019 15:24:44,R_3iOSgw28npaQWU2,anonymous,EN,,,,,,,11.067,148.009,149.222,18,9,No,,,,,,,1.584,89.855,92.701,12,2,No,41.757,114.345,118.474,5,-24,No,,,,,,,,,,,,,66.746,74.062,75.094,6,10,No,,,,,,,,,,,,,,,,,,,,,,,,,12.638,173.447,180.12,23,14 6 10 11 10 14,No,,,,,,,9.855,54.974,68.002,13,"****
+****
+****
+****",No,7.05,113.34,114.401,22,A,D,C,D,B,E,A,C,D,E,3.437,120.376,122.689,,29,C,B,A,E,B,A,E,D,D,D,Man,Caucasian,4,ENGIN 101,No,"Yes, one",Never,Yes,One,Not well at all,49037,bripper,3,3,3,,,1191
+11/11/2019 15:02:52,11/11/2019 15:24:59,94,1327,False,11/18/2019 15:25:33,R_1IyirQFgRehHy7j,anonymous,EN,1.163,156.789,180.008,6,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.481,103.615,104.63,6,-1,No,,,,,,,1.876,152.849,158.503,6,10,No,1.177,121.218,124.676,7,false,No,,,,,,,,,,,,,3.104,113.313,114.267,4,"[9,7,2,4]",No,8.119,119.932,121.377,6,**********,No,,,,,,,8.592,177.554,180.056,17,A,B,B,D,B,E,,,,,1.232,178.376,180.108,,27,C,B,A,E,Not Sure,A,E,,,,Man,Caucasian,5,ENGIN 101,No,,,,,,,,3,3,3,,,1327
+11/11/2019 15:05:52,11/11/2019 15:25:05,100,1153,True,11/11/2019 15:25:06,R_BGlDeXMVEvu2G1b,anonymous,EN,,,,,,,,,,,,,,,,,,,44.087,135.185,138.146,18,16,No,,,,,,,,,,,,,56.605,118.971,119.688,20,-1,No,,,,,,,22.362,68.504,69.324,16,10,No,27.261,66.008,66.699,27,false,No,11.627,40.201,41.245,23,false,No,42.709,143.655,144.691,7,9 6 7 3 2 1 4,No,,,,,,,,,,,,,4.422,59.33,60.299,4,"****
+***
+**
+*",No,5.137,161.811,164.415,13,A,D,B,D,B,E,A,C,E,E,4.849,154.552,180.012,,10,C,B,A,E,B,A,E,Not Sure,D,,Man,"Asian,Caucasian",5,"ENGIN 101,EECS 280,EECS 281,EECS 370,One upper level EECS elective,Two or more upper level EECS electives",No,Two or more,Twice,Yes,More than two,Very well,02421,eshiple,4,3,3,,,1153
+11/11/2019 15:11:48,11/11/2019 15:25:18,100,809,True,11/11/2019 15:25:18,R_2wzR7xg9j4avYSh,anonymous,EN,,,,,,,,,,,,,43.41,53.169,61.171,2,9,No,27.944,72.695,73.325,3,16,No,94.717,97.473,98.398,3,-1,No,,,,,,,,,,,,,1.878,55.547,55.853,6,10,No,,,,,,,,,,,,,,,,,,,,,,,,,23.984,63.598,70.161,4,"[9, 6, 7, 3, 2, 1, 4]",No,7.82,28.537,30.654,2,"****
+***
+**
+*
+",No,,,,,,,3.823,171.975,172.778,11,A,D,B,C,B,E,A,C,E,E,8.009,151.006,151.82,,10,C,B,A,A,B,A,E,Not Sure,D,C,Man,Caucasian,6,"EECS 280,EECS 281,EECS 370,One upper level EECS elective,Two or more upper level EECS electives",No,Two or more,Three or more times,Yes,More than two,Very well,48642,njbillov@umich.edu,3,3,3,,,809
+11/11/2019 15:24:47,11/11/2019 15:25:23,22,36,False,11/18/2019 15:25:33,R_2B8mYVq4XCNI2zG,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,36
+11/11/2019 15:13:51,11/11/2019 15:25:56,100,724,True,11/11/2019 15:25:56,R_1cZ0Sz3zEqxkg1d,anonymous,EN,,,,,,,,,,,,,,,,,,,3.658,41.92,43.522,4,4,No,1.446,98.637,100.101,4,7,Yes,,,,,,,,,,,,,,,,,,,1.584,39.686,60.068,5,10,No,1.718,37.684,38.926,5,false,No,,,,,,,,,,,,,41.669,144.619,145.971,3,6 5 4 3 6 6 4,Yes,,,,,,,15.442,57.508,62.986,3,"****
+***
+**
+*",No,6.794,91.45,93.431,11,A,D,B,D,B,E,A,C,E,E,5.258,78.966,80.057,,10,C,B,A,E,B,A,E,D,D,C,Woman,Asian,1,EECS 280,No,Two or more,Once,Yes,More than two,Moderately well,,wangml,3,3,3,,,724
+11/11/2019 15:08:36,11/11/2019 15:26:32,100,1076,True,11/11/2019 15:26:32,R_2sRTa3knHguMvYQ,anonymous,EN,,,,,,,,,,,,,13.645,85.298,86.302,10,9,No,,,,,,,,,,,,,6.209,100.991,102.052,3,0,No,,,,,,,,,,,,,6.903,57.223,57.885,3,10,No,,,,,,,129.324,134.973,136.556,4,false,Yes,93.396,101.421,101.769,3,9 6 7 3 2 1 4,No,13.012,39.641,40.648,2,9 6 7 3 2 1 4,No,19.666,33.645,34.582,2,"****
+***
+**
+*",No,,,,,,,3.988,146.67,180.01,10,A,D,B,D,B,,,C,D,,5.133,160.13,161.358,,10,C,B,A,E,E,A,E,D,D,C,Woman,Asian,4,"ENGIN 101,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",Yes,Two or more,Twice,Yes,More than two,Very well,60521,carissak,4,3,3,,,1076
+11/11/2019 15:11:50,11/11/2019 15:26:45,100,894,True,11/11/2019 15:26:45,R_3JzlYSmKkI3pnQS,anonymous,EN,,,,,,,,,,,,,,,,,,,2.049,115.338,116.045,2,16,No,,,,,,,82.687,85.527,86.276,3,-1,No,,,,,,,58.624,60.551,61.224,2,10,No,,,,,,,,,,,,,30.52,32.702,33.716,2,false,No,,,,,,,69.085,88.119,89.123,2,"{9, 6, 7, 3, 2, 1, 4}",No,,,,,,,3.427,63.125,65.714,5,"****
+***
+**
+*",No,3.582,170.066,180.115,10,A,D,B,D,B,E,A,C,E,,3.727,137.317,138.32,,12,C,B,A,E,B,A,E,C,D,C,Man,Caucasian,4,"ENGIN 101,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",Yes,Two or more,Twice,Yes,More than two,Moderately well,48439,brendjac,3,3,3,,,894
+11/11/2019 15:07:42,11/11/2019 15:26:49,100,1147,True,11/11/2019 15:26:50,R_3O86QOk0gYaQOSW,anonymous,EN,,,,,,,,,,,,,3.855,39.906,40.526,4,9,No,3.206,17.884,24.804,3,16,No,,,,,,,,,,,,,11.752,108.008,110.171,3,-1,No,,,,,,,,,,,,,5.401,48.055,48.97,5,false,No,,,,,,,29.118,106.763,180.171,4,1 2 3 4 5 9 4,No,,,,,,,,,,,,,3.244,38.462,38.775,9,"****
+***
+**
+*
+",No,6.625,175.623,180.008,10,A,E,B,D,B,E,B,,D,E,6.537,104.737,107.914,,11,C,B,A,E,B,A,E,C,D,A,Woman,Asian,2,"ENGIN 101,EECS 183,EECS 280,EECS 281,EECS 370",Yes,"Yes, one",Three or more times,Yes,More than two,Moderately well,48105,alicezou,3,3,3,,,1147
+11/11/2019 15:14:31,11/11/2019 15:27:20,100,768,True,11/11/2019 15:27:20,R_bgh0ljPLyFqmfCx,anonymous,EN,4.68,55.038,55.679,13,9,No,,,,,,,1.283,14.104,28.02,4,9,No,6.381,103.565,105.371,5,16,No,,,,,,,,,,,,,18.275,59.436,76.39,7,-1,No,,,,,,,6.885,40.384,42.285,3,10,No,,,,,,,,,,,,,,,,,,,42.016,89.051,93.859,7,9 6 7 3 2 1 4,No,9.276,38.364,39.363,2,"****
+***
+**
+*
+",No,,,,,,,2.189,106.414,113.268,10,A,D,B,D,B,E,A,C,E,E,4.145,94.695,97.493,,10,C,B,A,E,B,A,E,D,D,C,Man,Asian,2,"EECS 280,EECS 281,EECS 370,One upper level EECS elective",No,Two or more,Once,Yes,More than two,Moderately well,48105,bait,4,3,3,,,768
+11/11/2019 15:19:29,11/11/2019 15:27:27,53,478,False,11/18/2019 15:27:56,R_9HX6ajmjNMbhmh3,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.053,68.378,69.6,13,-4,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.98,177.309,178.675,47,A,D,A,E,B,B,E,D,Not Sure,E,3.951,174.831,177.951,,38,C,B,A,E,B,B,B,Not Sure,D,D,,,,,,,,,,,,,0,1,3,,,478
+11/11/2019 15:13:39,11/11/2019 15:27:34,55,834,False,11/18/2019 15:27:40,R_1q8n6CL0tRxer1n,anonymous,EN,,,,,,,,,,,,,,,,,,,0.716,72.241,72.763,7,4,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.904,42.889,43.705,8,False,Yes,,,,,,,,,,,,,,,,,,,,,,,,,7.225,88.362,89.842,27,A,E,C,D,B,A,C,C,B,C,4.646,57.063,58.757,,26,C,B,C,E,E,A,B,B,C,B,,,,,,,,,,,,,1,1,3,,,834
+11/11/2019 15:15:10,11/11/2019 15:28:24,52,794,False,11/18/2019 15:28:45,R_3EutM8Hzd3APOxP,anonymous,EN,4.399,43.016,43.359,10,4131,No,,,,,,,,,,,,,,,,,,,,,,,,,1.189,113.779,117.059,27,1,No,,,,,,,,,,,,,,,,,,,0.687,62.991,63.466,23,0,No,,,,,,,,,,,,,41.905,178.328,179.547,32,9 3 ,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,3,,,794
+11/11/2019 15:12:04,11/11/2019 15:28:39,100,994,True,11/11/2019 15:28:39,R_30i7pc0NrNOR8rP,anonymous,EN,,,,,,,,,,,,,53.053,54.487,55.623,2,4,Yes,,,,,,,37.484,40.882,44.139,3,-1,No,,,,,,,,,,,,,70.823,72.657,73.512,2,0,Yes,,,,,,,,,,,,,108.19,113.733,115.192,2,false,Yes,,,,,,,4.15,157.702,162.491,2,9 7 2 1 3 6 4,No,15.481,51.871,74.788,2,"****
+***
+**
+*",No,,,,,,,8.127,132.174,132.648,10,A,D,Not Sure,D,Not Sure,Not Sure,Not Sure,,,Not Sure,13.517,164.608,180.017,,9,C,E,A,E,B,A,E,,,,Woman,Caucasian,2,EECS 280,No,Two or more,Three or more times,Yes,More than two,Very well,11554,clarksam,3,3,3,,,994
+11/11/2019 15:25:06,11/11/2019 15:31:19,37,373,False,11/18/2019 15:31:33,R_3HH95w4gMxnV1At,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.488,135.384,136.201,12,A,D,B,D,B,E,A,C,E,E,6.487,133.659,134.842,,10,C,B,A,E,B,A,E,D,D,C,,,,,,,,,,,,,1,0,3,,,373
+11/11/2019 15:13:08,11/11/2019 15:31:21,100,1093,True,11/11/2019 15:31:21,R_3L1ONIYTXLzB4bp,anonymous,EN,51.439,54.775,56.012,2,135.4,No,,,,,,,,,,,,,2.967,107.472,111.405,3,"func(4,4)",Yes,,,,,,,,,,,,,102.091,105.035,106.049,2,-3,No,,,,,,,2.165,88.612,108.409,4,10,Yes,,,,,,,,,,,,,98.937,128.993,129.518,2,0 0 ,Yes,23.521,42.049,42.591,2,1 1,Yes,,,,,,,1.642,75.346,76.544,3,"****
+***
+**
+*",No,54.183,160.295,180.01,11,D,D,B,D,B,E,A,,,,6.877,120.765,180.008,,9,C,B,A,E,E,A,E,Not Sure,E,,Woman,Asian,1.5,ENGIN 101,Yes,Two or more,Twice,Yes,More than two,Slightly well,,pmarisa,4,3,3,,,1093
+11/11/2019 15:19:17,11/11/2019 15:34:01,100,883,True,11/11/2019 15:34:01,R_1K0ImKlBrjxme5W,anonymous,EN,,,,,,,,,,,,,2.443,75.143,75.879,8,9,No,,,,,,,,,,,,,5.06,88.597,90.115,8,0,No,,,,,,,1.106,10.856,35.56,7,10,No,,,,,,,,,,,,,3.147,78.051,79.111,7,false,Yes,,,,,,,3.204,97.23,98.408,7,"{9,3,2,7,1,6,4}",No,2.09,48.334,49.217,7,"****
+***
+**
+*
+",No,,,,,,,3.646,163.266,163.962,27,A,D,B,D,B,E,A,C,Not Sure,D,3.189,151.476,152.211,,24,C,B,A,E,Not Sure,A,E,Not Sure,D,Not Sure,Man,Asian,2,"ENGIN 101,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,Two or more,Once,Yes,More than two,Very well,48098,kenhlu,3,3,3,,,883
+11/11/2019 15:11:03,11/11/2019 15:34:09,100,1385,True,11/11/2019 15:34:09,R_2zApiMIEsQfrY0C,anonymous,EN,,,,,,,,,,,,,,,,,,,1.123,103.831,105.569,23,4,Yes,0.859,157.478,158.255,5,-4,Yes,,,,,,,,,,,,,,,,,,,1.331,93.879,94.334,5,40,Yes,0.837,140.08,140.786,10,false,No,,,,,,,,,,,,,5.527,148.227,149.006,7,2 1 7 3 9 6 4,No,,,,,,,0.74,137.349,138.101,12,"****
+***
+**
+*",No,1.466,168.554,180.12,29,A,D,B,D,B,E,A,D,B,,4.058,161.874,180.111,,27,C,B,A,E,B,A,E,A,D,B,Woman,"Asian,Caucasian",1.5,"ENGIN 101,EECS 280",No,Two or more,Never,Yes,More than two,Moderately well,48118,lpifer,3,3,3,,,1385
+11/11/2019 15:24:21,11/11/2019 15:34:38,99,617,False,11/18/2019 15:34:49,R_2rMIkk5LgIgo8or,anonymous,EN,,,,,,,,,,,,,,,,,,,0,0,23.552,0,,,,,,,,,0,0,3.446,0,,,0,0,0.934,0,,,,,,,,,18.381,18.381,69.307,1,10,,,,,,,,75.929,75.929,85.791,1,false,,2.484,56.214,58.171,2,,Yes,,,,,,,,,,,,,10.708,10.708,45.098,1,"****
+***
+**
+*",,3.517,74.303,75.38,10,A,D,B,D,B,E,A,C,E,E,4.195,125.716,126.569,,10,C,B,A,E,B,A,E,D,D,C,Woman,Caucasian,1,ENGIN 101,No,"Yes, one",Never,No,More than two,Slightly well,80014,,4,3,3,,,617
+11/11/2019 15:16:34,11/11/2019 15:35:50,1,1156,False,11/18/2019 15:36:02,R_1n70Tr79jqJhGfR,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,1156
+11/11/2019 15:30:22,11/11/2019 15:36:51,39,388,False,11/18/2019 15:37:11,R_pz6NJ9o3fIz7N3H,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16.283,180.057,180.116,40,A,D,B,D,B,E,A,,,,5.959,174.482,174.684,,31,C,B,A,E,B,A,E,Not Sure,A,Not Sure,,,,,,,,,,,,,0,0,3,,,388
+11/11/2019 15:34:16,11/11/2019 15:37:03,5,166,False,11/18/2019 15:37:09,R_1DUA7x3SaKCFJ0y,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,166
+11/11/2019 15:22:17,11/11/2019 15:38:03,100,945,True,11/11/2019 15:38:03,R_tXmh73SGlxyzFzr,anonymous,EN,,,,,,,,,,,,,58.97,105.399,107.982,2,9,No,52.983,56.919,61.592,2,2,No,,,,,,,,,,,,,,,,,,,,,,,,,135.773,140.698,141.351,2,70,No,2.711,80.855,81.976,3,false,No,,,,,,,36.475,38.872,141.004,3,2 1 7 3 9 6 4,Yes,,,,,,,,,,,,,19.103,54.122,56.692,2,"****
+***
+**
+*
+",No,4.109,106.45,110.848,10,A,D,B,D,B,E,A,C,E,E,6.345,108.295,108.847,,11,C,B,A,E,B,A,E,D,D,C,Man,Caucasian,3,ENGIN 101,No,Two or more,Never,Yes,More than two,Moderately well,48185,ceonei,3,3,3,,,945
+11/11/2019 15:39:00,11/11/2019 15:39:08,5,7,False,11/18/2019 15:39:16,R_3NP8rMowQdjQUNG,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,7
+11/11/2019 15:36:38,11/11/2019 15:39:10,14,152,False,11/18/2019 15:39:16,R_ODXq8KiIGXcTxMl,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.657,123.766,124.606,29,A,D,Not Sure,D,B,E,A,C,D,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,152
+11/11/2019 15:20:00,11/11/2019 15:40:05,100,1204,True,11/11/2019 15:40:05,R_2czudMrhCDUMYI7,anonymous,EN,,,,,,,24.879,69.933,72.87,2,8,No,25.837,40.782,41.549,4,9,No,,,,,,,,,,,,,8.275,94.428,97.987,2,-1,No,,,,,,,,,,,,,7.83,70.058,85.494,2,30,No,,,,,,,3.474,134.535,136.099,4,false,No,,,,,,,18.926,169.004,169.707,4,9 6 7 3 2 1 4,No,9.705,51.851,53.271,5,"****
+***
+**
+*",No,,,,,,,7.376,177.44,180.122,9,A,D,B,D,B,E,A,C,E,,5.184,172.518,180.125,,10,C,B,A,E,B,A,E,A,,C,Man,Asian,4,ENGIN 101,No,Two or more,Once,No,More than two,Moderately well,11362,brileung,4,3,3,,,1204
+11/11/2019 15:23:40,11/11/2019 15:40:06,100,985,True,11/11/2019 15:40:07,R_3kLIcM3rsHpKFgZ,anonymous,EN,,,,,,,1.157,94.719,95.592,9,9,No,,,,,,,4.469,86.293,87.071,14,4,No,,,,,,,,,,,,,1.821,55.834,56.625,7,-2,No,20.236,46.353,52.947,4,1,No,,,,,,,,,,,,,,,,,,,3.298,140.341,140.967,19,4 1 2 3 7 6 9,No,,,,,,,,,,,,,2.027,44.261,45.117,16,"****
+***
+**
+*",No,7.536,148.064,148.804,29,A,D,B,D,B,E,A,C,A,E,6.692,169.495,170.692,,29,C,B,A,E,B,A,E,D,D,C,Man,Asian,5,"ENGIN 101,EECS 280",No,Two or more,Twice,Yes,More than two,Moderately well,48104,htrebmal,3,3,3,,,985
+11/11/2019 15:27:06,11/11/2019 15:40:34,100,808,True,11/11/2019 15:40:34,R_RQ6z7L20vLlLSAp,anonymous,EN,,,,,,,,,,,,,56.856,75.14,75.814,4,9,No,93.45,95.362,96.616,3,16,Yes,,,,,,,,,,,,,35.687,98.402,99.597,3,-3,Yes,,,,,,,,,,,,,4.052,45.495,46.462,3,false,No,,,,,,,,,,,,,64.277,65.434,66.037,2,3,No,20.113,38.452,39.45,2,"****
+***
+**
+*",No,,,,,,,3.49,156.81,157.32,13,A,D,B,D,B,E,A,C,A,D,7.129,114.184,114.478,,12,C,B,A,E,B,A,E,C,D,C,Man,Asian,2,"ENGIN 101,EECS 280",Yes,Two or more,Never,Yes,More than two,Very well,44124,mattzhu@umich.edu,3,3,3,,,808
+11/11/2019 15:41:29,11/11/2019 15:42:15,13,46,False,11/18/2019 15:42:35,R_CldepStcZC6YKvD,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.112,12.249,13.565,10,C,C,C,D,D,C,,B,A,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,46
+11/11/2019 15:28:40,11/11/2019 15:43:22,100,882,True,11/11/2019 15:43:23,R_0q66sYG2bnxaev7,anonymous,EN,38.424,40.942,42.907,3,9,,,,,,,,,,,,,,142.458,142.458,144.731,1,16,,,,,,,,,,,,,,105.057,105.057,106.948,1,-3,,,,,,,,,,,,,,,,,,,,87.434,87.434,90.09,1,false,,,,,,,,93.113,93.113,102.462,1,9 7 2 3 1 6 4,,32.241,32.241,38.994,1,"***
+**
+*",,,,,,,,50.904,177.266,180.017,9,A,A,A,A,B,C,C,D,,B,13.813,55.492,57.811,,5,C,A,A,C,B,,,,,,,Asian,3,Two or more upper level EECS electives,Yes,Two or more,Once,Yes,More than two,Moderately well,23449,tawei,3,4,3,,,882
+11/11/2019 15:31:00,11/11/2019 15:43:56,100,776,True,11/11/2019 15:43:56,R_3exZY3MxzkJHrVQ,anonymous,EN,,,,,,,,,,,,,,,,,,,20.342,56.945,61.941,3,4,No,19.788,26.081,45.854,2,8,No,,,,,,,,,,,,,1.592,61.168,63.956,3,30,No,,,,,,,,,,,,,80.826,84.609,85.057,3,true,No,,,,,,,33.056,118.862,133.712,5,2 1 7 3 9 6 4,No,12.086,28.375,29.451,2,"****
+***
+**
+*",No,,,,,,,8.309,153.455,154.612,11,A,D,B,D,B,E,A,C,E,E,4.862,127.79,128.53,,10,C,B,A,E,B,A,E,C,A,C,Man,Caucasian,1,"ENGIN 101,EECS 280",No,Two or more,Three or more times,Yes,More than two,Very well,49428,kolaug,3,3,3,,,776
+11/11/2019 15:43:22,11/11/2019 15:44:50,45,87,False,11/18/2019 15:44:51,R_1mFcJSjcoEzZuTg,anonymous,EN,8.441,33.896,35.764,2,262.8,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30.616,30.616,31.845,1,,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,3,,,87
+11/11/2019 15:44:42,11/11/2019 15:44:53,18,10,False,11/18/2019 15:45:17,R_3CKH7mVMEgMbOJb,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,10
+11/11/2019 15:27:57,11/11/2019 15:49:43,100,1305,True,11/11/2019 15:49:43,R_1LLm98Nf6gbLCRp,anonymous,EN,,,,,,,23.596,129.009,132.913,4,9,No,,,,,,,,,,,,,46.196,55.735,87.847,2,0,No,,,,,,,71.655,75.481,90.707,2,-1,No,,,,,,,38.293,85.149,116.077,4,10,No,59.071,61.719,66.353,2,false,No,,,,,,,,,,,,,35.373,95.957,134.85,3,9 6 7 3 2 1 4,No,,,,,,,29.823,85.258,88.114,2,"**********
+",No,14.955,161.33,180.012,9,A,D,B,D,B,E,A,C,,E,8.082,73.021,180.108,,7,C,B,A,E,B,A,E,,,,Man,Caucasian,5,"EECS 280,EECS 281",No,Two or more,Once,Yes,More than two,Very well,85284,lajohnst,4,3,3,,,1305
+11/11/2019 15:39:15,11/11/2019 15:50:33,100,677,True,11/11/2019 15:50:33,R_2YqTX4Sy4ILQG7x,anonymous,EN,1.16,17.378,18.142,3,131.4,No,,,,,,,,,,,,,,,,,,,1.163,33.634,34.148,7,1,No,,,,,,,3.04,58.11,59.131,7,1,No,24.112,49.614,50.111,6,70 7,No,,,,,,,,,,,,,4.305,55.243,55.942,8,false,No,,,,,,,21.311,62.017,63.328,9,4 1 2 3,No,,,,,,,1.357,65.076,66.142,13,"*
+*
+*",No,5.326,128.795,129.975,35,A,B,D,B,A,A,D,C,B,C,0.51,50.927,53.212,,22,C,E,A,E,C,B,D,E,A,C,Man,"Asian,Caucasian",0.5,ENGIN 101,No,Two or more,Twice,Yes,More than two,Very well,48100,basheerm,4,3,3,,,677
+11/11/2019 15:30:42,11/11/2019 15:53:12,100,1350,True,11/11/2019 15:53:13,R_1JVYnP0sEGd08A4,anonymous,EN,,,,,,,,,,,,,12.624,143.781,144.484,6,8,No,6.49,129.549,130.516,5,1,No,,,,,,,,,,,,,,,,,,,,,,,,,7.699,167.05,167.982,4,30,No,10.539,159.636,160.757,9,false,Yes,,,,,,,,,,,,,12.835,12.835,180.009,1,,,22.015,66.792,67.861,5,"****
+***
+**
+*
+***
+**
+*
+**
+*
+*",No,,,,,,,2.772,174.167,180.009,17,A,D,B,D,B,E,Not Sure,,,,5.628,133.29,180.108,,15,D,B,A,E,E,A,E,,,,Woman,Asian,3,"ENGIN 101,EECS 280,EECS 281",Yes,Two or more,Three or more times,Yes,More than two,Moderately well,48124,tranjenn,3,3,3,,,1350
+11/11/2019 15:45:37,11/11/2019 15:53:49,57,491,False,11/18/2019 15:54:15,R_1LbqGNrIbSYvq42,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.489,53.12,62.039,3,30,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.538,120.971,122.171,11,A,D,B,D,B,E,A,C,B,E,4.863,135.879,137.419,,10,C,B,A,E,B,A,E,Not Sure,D,D,,,,,,,,,,,,,1,1,3,,,491
+11/11/2019 15:33:23,11/11/2019 15:55:13,89,1309,False,11/18/2019 15:55:44,R_1JLsYewE6V6wxhz,anonymous,EN,,,,,,,,,,,,,0.627,61.311,62.514,9,,,3.899,162.657,162.694,26,Error ,No,,,,,,,,,,,,,,,,,,,,,,,,,0.977,144.583,145.145,28,30,,,,,,,,0.662,53.121,53.536,16,false,No,0.422,179.953,180.008,32,,Yes,,,,,,,2.731,94.66,112.797,19,"****
+***
+**
+*",,,,,,,,2.415,179.688,180.019,80,A,B,,B,,,,,,,2.576,166.567,180.022,,99,C,Not Sure,A,D,,,,,,,,,,,,,,,,,,,3,3,3,,,1309
+11/11/2019 15:34:32,11/11/2019 15:55:21,100,1248,True,11/11/2019 15:55:21,R_9tLJ9f4d0HDX9Lz,anonymous,EN,,,,,,,,,,,,,73.189,74.78,76.912,2,9,No,120.141,124.207,126.154,2,4,No,,,,,,,,,,,,,138.706,141.761,145.916,2,-3,No,1.459,142.577,146.165,6,10,Yes,,,,,,,,,,,,,,,,,,,,,,,,,141.683,159.716,160.914,3,9 1 2 3 7 6 4,No,48.625,59.382,60.322,2,"****
+***
+**
+*",No,57.871,65.097,66.122,3,"****
+***
+**
+*",No,5.489,131.774,132.653,11,A,D,B,D,B,E,A,C,E,E,5.268,154.871,180.108,,9,C,B,A,E,B,A,E,D,D,,Man,Caucasian,3,EECS 280,Yes,Two or more,Once,Yes,More than two,Slightly well,48602,ajschltz,4,3,3,,,1248
+11/11/2019 15:53:34,11/11/2019 16:02:03,100,509,True,11/11/2019 16:02:04,R_BzjeF1DnQstmIvf,anonymous,EN,,,,,,,34.775,39.037,39.91,4,9,No,,,,,,,21.766,37.805,38.656,4,16,No,,,,,,,,,,,,,,,,,,,,,,,,,20.056,25.199,26.077,4,10,No,,,,,,,14.619,32.738,33.596,2,Error? As initialization lists don't typecast to arrays?,No,,,,,,,11.876,42.857,43.357,4,"Again, I don't think that's syntactically correct, as initialization lists, if I remember right, do not typecast that way.",No,9.401,25.437,26.051,3,"****
+***
+**
+*",No,,,,,,,2.539,98.904,99.722,10,A,D,B,D,B,E,A,C,E,E,5.311,106.741,107.6,,10,B,B,B,E,E,A,E,D,D,C,Prefer not to answer,Other,4,"ENGIN 101,EECS 280,EECS 281,Two or more upper level EECS electives",No,Two or more,Never,Yes,More than two,Moderately well,48305,aravagar,3,3,3,,,509
+11/11/2019 15:11:30,11/11/2019 16:07:30,100,3359,True,11/11/2019 16:07:31,R_2ea61P85gtxmB0t,anonymous,EN,,,,,,,,,,,,,10.2,44.5,51,6,9,No,59.9,165.7,180,7,,Yes,6.5,54.5,57.3,4,-1,No,,,,,,,,,,,,,0.9,83.2,85,2,10,No,,,,,,,,,,,,,,,,,,,40.5,112.3,140.5,3,9 6 7 3 2 1 4,No,,,,,,,,,,,,,12.7,78.1,85.3,6,"****
+***
+**
+*",No,4.6,174.5,180.2,7,A,D,B,D,B,,,,E,,6.6,178.8,180.3,,17,C,B,A,E,E,A,A,,Not Sure,C,Man,Caucasian,6,EECS 280,No,Two or more,Never,Yes,More than two,Moderately well,48084,ndrasov,3,3,3,,,3359
+11/11/2019 15:47:13,11/11/2019 16:15:25,100,1692,True,11/11/2019 16:15:25,R_1jwE3MK5KclqCOZ,anonymous,EN,132.485,153.801,165.617,2,8,No,,,,,,,,,,,,,0,0,181.94,0,,,,,,,,,,,,,,,81.921,85.527,86.195,2,-1,No,,,,,,,,,,,,,79.079,82.514,167.264,2,false,No,92.487,98.823,100.047,2,true,No,,,,,,,128.761,145.173,147.421,2,9 6 7 3 2 1 4,No,,,,,,,17.821,65.553,67.995,2,"****
+***
+**
+*",No,10.317,179.678,180.011,14,A,D,B,E,B,E,D,C,,,7.482,174.49,180.011,,11,C,B,A,E,B,A,E,C,D,B,Man,Asian,2,"EECS 183,EECS 280",No,Two or more,Never,No,Two,Very well,48184,daveyash,4,3,3,,,1692
+11/11/2019 16:07:02,11/11/2019 16:26:13,100,1151,True,11/11/2019 16:26:13,R_23VlocTQWG1sGQM,anonymous,EN,,,,,,,,,,,,,,,,,,,2.342,134.644,135.382,29,0,No,,,,,,,0.314,91.099,91.931,12,-1,Yes,,,,,,,,,,,,,0.613,162.522,163.293,27,10,No,,,,,,,3.213,74.16,74.525,16,0,Yes,1.132,104.656,105.767,37,9 1 2 3 7 6 9,No,,,,,,,,,,,,,0.787,91.307,92.197,19,"****
+***
+**
+*",No,0.809,173.144,180.035,28,A,D,B,D,B,E,A,C,A,,10.988,153.736,157.301,,33,C,B,A,E,B,A,E,Not Sure,D,B,Man,Caucasian,1,ENGIN 101,No,Two or more,Never,Yes,Two,Slightly well,48433,msiglin,3,4,3,,,1151
+11/11/2019 16:13:44,11/11/2019 16:29:02,100,918,True,11/11/2019 16:29:03,R_1QEjXaGnq7oy5zJ,anonymous,EN,,,,,,,,,,,,,1.358,27.145,27.88,2,9,No,2.348,120.285,121.012,4,16,No,,,,,,,,,,,,,66.551,68.467,69.52,2,-1,No,1.334,53.276,54.22,4,10,No,,,,,,,,,,,,,,,,,,,,,,,,,1.968,70.601,71.151,4,9 6 7 3 2 1 4,No,3.78,37.894,38.876,2,"****
+***
+**
+*",No,,,,,,,12.446,179.075,180.012,22,A,D,B,D,B,E,A,E,Not Sure,,7.967,178.923,180.009,,17,C,B,A,E,E,A,E,,D,B,Man,Asian,6,"EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,Two or more,Once,Yes,More than two,Very well,48176,adim,3,3,3,,,918
+11/11/2019 16:39:59,11/11/2019 16:41:19,1,80,False,11/18/2019 16:41:24,R_3J30fuhEfVp9Pki,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,80
+11/11/2019 16:41:34,11/11/2019 16:42:36,31,62,False,11/18/2019 16:43:09,R_2q7prCsYX9TTZXF,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45.154,48.785,50.757,2,****,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,,,62
+11/11/2019 16:47:57,11/11/2019 16:48:12,1,14,False,11/18/2019 16:48:18,R_UuUKTwWRGhQ1ILT,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,14
+11/11/2019 16:36:35,11/11/2019 16:54:01,81,1045,False,11/18/2019 16:54:16,R_1IEFyT2FfeA2kXi,anonymous,EN,,,,,,,,,,,,,27.703,112.865,113.71,3,9,No,,,,,,,17.264,114.107,159.476,6,-1,No,,,,,,,,,,,,,,,,,,,64.211,88.737,99.048,3,10,No,20.093,94.284,129.803,4,false,No,,,,,,,9.49,99.61,180.05,4,,No,,,,,,,,,,,,,11.316,86.428,87.017,6,"****
+***
+**
+*",No,16.642,176.607,180.11,10,A,C,Not Sure,D,B,E,Not Sure,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,3,,,1045
+11/11/2019 16:30:07,11/11/2019 16:55:31,100,1524,True,11/11/2019 16:55:32,R_1dL9gIuwWnRlZr1,anonymous,EN,,,,,,,,,,,,,2.673,98.558,99.522,7,"8.18
+",No,129.142,155.774,180.016,2,4,No,,,,,,,64.449,131.651,157.077,7,-2,No,,,,,,,,,,,,,12.123,101.728,102.618,3,10,No,,,,,,,,,,,,,,,,,,,26.829,174.16,180.106,15,"9 6 7 3 2 1 4
+",,26.998,93.101,94.011,2,"****
+***
+**
+*",No,,,,,,,8.477,163.931,180.145,7,A,D,B,D,B,E,D,,,,6.737,153.713,180.021,,7,C,B,A,E,B,A,E,,,,Woman,Caucasian,4,"ENGIN 101,EECS 280,EECS 281,One upper level EECS elective",No,Two or more,Three or more times,Yes,More than two,Moderately well,48640,lathersm,3,3,3,,,1524
+11/11/2019 16:56:20,11/11/2019 16:57:47,11,87,False,11/18/2019 16:57:57,R_1F9RF5kV9uJAkjk,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,3,,,87
+11/11/2019 15:34:40,11/11/2019 16:57:51,100,4991,True,11/11/2019 16:57:52,R_2e5a9OxQUDNYNNM,anonymous,EN,,,,,,,1.458,60.005,60.576,15,1,No,,,,,,,6.183,47.769,59.108,6,2,No,,,,,,,,,,,,,,,,,,,,,,,,,0.911,44.466,45.264,11,70,No,,,,,,,3.797,31.771,35.299,3,False,No,,,,,,,11.009,113.945,114.309,24,9 6 7 3 2 1 4,No,8.418,72.981,74.415,11,"* * * * 
+* * *
+* *
+*",No,4.446,73.617,81.101,6,"****
+***
+**
+*
+",No,1.807,104.274,106.54,25,A,D,D,D,B,Not Sure,D,C,B,C,0.832,79.875,81.102,,32,C,B,A,E,B,A,A,D,Not Sure,A,Woman,"Caucasian,Hispanic/Latinx",3,"ENGIN 101,EECS 183,EECS 280,EECS 281,EECS 370",No,Two or more,Twice,Yes,More than two,Very well,91361,kdbird,4,3,3,,,4991
+11/11/2019 17:06:16,11/11/2019 17:09:23,11,186,False,11/18/2019 17:09:47,R_3O3q1RIUfceNhTC,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,3,,,186
+11/11/2019 16:56:25,11/11/2019 17:10:07,53,821,False,11/18/2019 17:10:37,R_wSnQf4cA7JBnkm5,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,66.288,87.268,180.052,4,8 3 4 5 11 8 6,No,,,,,,,,,,,,,,,,,,,12.485,160.711,180.143,11,A,D,B,D,B,E,A,C,,,11.629,154.271,180.025,,9,C,B,A,E,B,A,E,,A,D,,,,,,,,,,,,,0,2,3,,,821
+11/11/2019 16:58:24,11/11/2019 17:11:38,100,794,True,11/11/2019 17:11:39,R_OPtIysjUQogQCuB,anonymous,EN,0.647,22.007,23.65,15,9,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.043,66.993,67.934,5,-2,Yes,,,,,,,1.889,49.462,50.032,11,10,Yes,8.198,63.924,64.485,29,false,No,0.247,29.326,31.595,17,false,No,,,,,,,0.305,42,42.773,16,9 6 7 3 2 1 4,Yes,0.337,34.863,35.897,13,"****
+***
+**
+*",Yes,,,,,,,0.777,159.322,161.16,29,A,D,B,D,B,E,A,C,D,E,0.54,164.21,164.661,,19,C,B,A,A,B,A,E,C,D,Not Sure,Man,Asian,3,EECS 280,No,Two or more,Never,Yes,More than two,Moderately well,48168,hoal,4,3,3,,,794
+11/11/2019 17:15:58,11/11/2019 17:18:07,100,129,True,11/11/2019 17:18:08,R_2w5ka7CDyRVKIbe,anonymous,EN,,,,,,,0.711,4.554,5.364,4,,No,,,,,,,,,,,,,,,,,,,,,,,,,0.331,1.234,1.7,3,,No,1.194,5.717,5.942,5,,No,,,,,,,,,,,,,0.413,1.73,2.55,3,,No,0.543,2.276,3.017,4,,No,,,,,,,,,,,,,0.605,1.848,2.211,3,,No,0.265,11.964,12.484,21,A,A,B,B,A,C,D,A,B,B,0.282,9.182,9.87,,19,B,Not Sure,C,Not Sure,B,D,A,A,Not Sure,C,Woman,Caucasian,3,"ENGIN 101,EECS 280,EECS 281,EECS 370",Yes,No,Never,Yes,More than two,Extremely well,,opheelia@umich.edu,3,3,3,,,129
+11/11/2019 17:06:11,11/11/2019 17:21:18,100,907,True,11/11/2019 17:21:18,R_2AKb0QmuhUv5ZrN,anonymous,EN,,,,,,,,,,,,,136.054,141.171,142.239,4,131.4,Yes,6.082,48.035,48.595,8,"4, 4",Yes,,,,,,,0.714,64.782,65.544,8,"3, 2, 1, -5",No,,,,,,,17.5,27.956,28.471,6,"70, .70",Yes,,,,,,,,,,,,,,,,,,,9.6,95.82,96.83,9,"4, 1, 2, 3, 7, 6, 9, 1",Yes,,,,,,,,,,,,,8.997,52.509,53.175,5,"3, 1",Yes,2.206,179.051,179.531,28,A,D,B,D,B,E,A,C,B,E,5.302,126.412,127.089,,24,C,B,A,E,B,A,E,E,D,A,Woman,"Asian,Caucasian",0,ENGIN 101,No,Two or more,Twice,Yes,More than two,Very well,98074,cgoto,3,3,3,,,907
+11/11/2019 17:16:16,11/11/2019 17:24:47,100,511,True,11/11/2019 17:24:48,R_3fMJVGPsHQXfrAr,anonymous,EN,,,,,,,,,,,,,26.296,31.39,32.118,2,,No,26.526,34.693,36.349,3,,Yes,,,,,,,,,,,,,,,,,,,,,,,,,2.02,19.509,20.681,2,0,No,,,,,,,0,0,3.53,0,,,1.301,17.022,18.074,3,,No,,,,,,,13.669,21.029,24.059,2,"****
+***
+**
+*",No,,,,,,,5.266,122.439,123.135,12,A,D,B,D,B,E,E,C,,E,4.112,121.45,122.262,,12,C,B,A,E,B,A,B,C,B,D,Woman,Caucasian,4,ENGIN 101,No,Two or more,Twice,Yes,More than two,Very well,02874,thibeaum,3,3,3,,,511
+11/11/2019 17:26:04,11/11/2019 17:27:22,5,77,False,11/18/2019 17:27:48,R_rjyGs5SqByhFBgB,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,77
+11/11/2019 17:09:06,11/11/2019 17:27:31,100,1105,True,11/11/2019 17:27:32,R_1rN8GVKCF69xmgk,anonymous,EN,22.083,76.296,78.036,2,5,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30.548,140.762,144.989,6,-3,No,8.239,67.201,68.275,2,40,No,,,,,,,,,,,,,14.056,46.422,106.58,7,0,Yes,,,,,,,12.762,151.223,153.336,9,6 4 6 4 6 4,Yes,11.723,34.646,36.291,2,"****
+***
+**
+*",No,3.438,66.6,67.761,2,"****
+***
+**
+*
+***
+**
+*
+**
+*
+*",No,4.481,144.489,155.974,10,A,D,B,C,B,E,A,C,E,E,2.401,139.005,149.838,,11,C,B,A,E,B,A,E,D,D,D,Woman,Caucasian,2.5,ENGIN 101,No,Two or more,Once,Yes,More than two,Very well,48439,stonekat,4,3,3,,,1105
+11/11/2019 17:19:52,11/11/2019 17:27:42,54,469,False,11/18/2019 17:27:49,R_0PacU4uelWqJhbX,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,70.441,70.441,72.86,1,0,,,,,,,,,,,,,,52.619,57.072,58.358,2,70,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15.557,55.143,56.758,2,"****
+***
+**
+*",No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,3,,,469
+11/11/2019 17:26:48,11/11/2019 17:27:56,24,67,False,11/18/2019 17:28:25,R_3EM7YZNMWpCVmyi,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.586,54.088,55.057,2,"****
+***
+**
+*",No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,,,67
+11/11/2019 17:11:38,11/11/2019 17:31:40,100,1201,True,11/11/2019 17:31:40,R_BS2vNvvjoZ4vS5H,anonymous,EN,,,,,,,,,,,,,,,,,,,162.887,170.271,171.1,3,2,No,1.341,75.34,78.415,2,-2,No,,,,,,,,,,,,,,,,,,,68.742,70.642,71.812,2,10,No,80.724,91.257,91.982,3,false,No,,,,,,,,,,,,,116.22,139.577,141.847,3,"{9, 6, 7, 3, 2, 1, 4}",No,,,,,,,61.941,68.668,70.248,2,"****
+***
+**
+*",No,0.601,167.728,168.423,9,A,D,B,D,B,E,D,Not Sure,Not Sure,Not Sure,3.556,170.129,170.7,,10,C,B,A,E,B,A,Not Sure,Not Sure,Not Sure,Not Sure,Man,"Caucasian,Other",4,"EECS 183,EECS 280,EECS 281,EECS 370,One upper level EECS elective",Yes,Two or more,Once,No,Two,Very well,48083,kkpezesh,3,3,3,,,1201
+11/11/2019 17:34:06,11/11/2019 17:34:38,1,32,False,11/18/2019 17:34:58,R_3rJ9en9zskJYVHC,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,32
+11/11/2019 17:13:28,11/11/2019 17:36:34,100,1386,True,11/11/2019 17:36:34,R_1Hkvhj0MxLX9aOm,anonymous,EN,,,,,,,,,,,,,4.062,18.248,20.342,6,9,No,1.698,125.875,126.82,33,4,No,0.909,62.203,65.202,7,-1,No,,,,,,,1.758,44.88,45.495,9,-1,No,,,,,,,,,,,,,,,,,,,4.756,57.825,58.774,11,False,No,,,,,,,10.376,114.972,115.91,28,9 6 7 3 2 1 4,No,0.787,47.135,47.724,9,"****
+***
+**
+*",No,,,,,,,3.425,159.835,180.19,37,A,D,B,D,B,E,A,C,,,0.681,168.896,170.317,,53,C,B,A,E,B,A,E,D,D,D,Man,Caucasian,3,EECS 280,No,Two or more,Twice,Yes,More than two,Very well,49301,danric,4,3,3,,,1386
+11/11/2019 17:20:08,11/11/2019 17:40:00,100,1191,True,11/11/2019 17:40:00,R_12Rt3Rq63V8dtTM,anonymous,EN,,,,,,,,,,,,,20.507,22.682,24.211,2,9,No,77.331,135.991,137.787,6,16,No,,,,,,,,,,,,,76.4,78.467,79.746,2,-1,No,136.342,139.399,140.695,2,3,No,,,,,,,,,,,,,,,,,,,99.301,118.305,119.879,2,9 6 7 3 2 1 4,No,,,,,,,,,,,,,26.928,81.467,83.312,2,"****
+***
+**
+*
+",No,7.288,157.017,180.026,9,A,D,B,D,B,E,A,C,,,7.115,166.907,168.449,,10,C,B,A,E,B,A,E,D,D,C,Woman,Caucasian,6,"ENGIN 101,EECS 280,EECS 281,EECS 370,One upper level EECS elective,Two or more upper level EECS electives",No,Two or more,Twice,No,More than two,Extremely well,48640,klineama,3,3,3,,,1191
+11/11/2019 17:01:55,11/11/2019 17:49:21,52,2845,False,11/18/2019 17:49:38,R_yI43Edh7iFHjl4t,anonymous,EN,24.405,35.058,35.63,2,135,No,,,,,,,,,,,,,99.852,102.002,102.707,2,4,No,74.135,114.258,159.988,2,0,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24.952,71.568,72.202,2,"****
+***
+**
+*",No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,3,,,2845
+11/11/2019 17:42:47,11/11/2019 17:49:48,47,420,False,11/18/2019 17:49:54,R_ZyHnjrB2rkmV7ih,anonymous,EN,,,,,,,2.449,99.094,100.158,5,9,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.258,95.874,96.916,4,10,No,,,,,,,,,,,,,,,,,,,,,,,,,1.14,174.912,180.049,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,3,,,420
+11/11/2019 17:50:33,11/11/2019 17:50:44,1,10,False,11/18/2019 17:50:44,R_3KvX7ZBZjeQq3uZ,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,10
+11/11/2019 18:00:20,11/11/2019 18:00:39,1,19,False,11/18/2019 18:00:50,R_2YVvaNg6Ld6Mk7E,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,19
+11/11/2019 18:05:57,11/11/2019 18:06:15,18,18,False,11/18/2019 18:06:29,R_1pWnJqczjmG5VmA,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0,3,,,18
+11/11/2019 17:07:18,11/11/2019 18:10:48,1,3810,False,11/18/2019 18:11:16,R_2WYk1ScFsEbsHjx,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,3810
+11/11/2019 18:00:02,11/11/2019 18:17:19,100,1036,True,11/11/2019 18:17:19,R_33qKyebtmc3ZqM8,anonymous,EN,,,,,,,,,,,,,21.191,22.359,79.944,2,131.4 13.14 1.314 .1314,Yes,26.246,37.742,40.494,2,2,Yes,,,,,,,,,,,,,58.921,94.884,96.308,2,1 -1 3,No,,,,,,,14.125,31.703,41.02,4,70,Yes,7.014,148.926,151.673,5,"6, 2, 4, 3, 10, 4, 2, 6, 6",No,,,,,,,7.373,124.845,126.652,3,6 4 2 ,No,,,,,,,,,,,,,,,,,,,6.983,179.976,180.117,11,A,D,B,C,E,E,B,B,,,8.832,177.285,179.276,,11,C,A,A,E,A,A,E,Not Sure,B,E,Man,Caucasian,0.5,ENGIN 101,No,Two or more,Three or more times,Yes,More than two,Very well,49534,jtpointe,3,3,3,,,1036
+11/11/2019 18:20:19,11/11/2019 18:30:32,100,612,True,11/11/2019 18:30:32,R_3MDNX5dZGpPdTnc,anonymous,EN,25.469,74.984,75.897,7,1,Yes,,,,,,,,,,,,,1.991,5.995,6.879,3,4,Yes,,,,,,,,,,,,,1.631,10.092,10.004,4,1,Yes,50.705,92.674,93.26,3,3,Yes,,,,,,,44.38,46.704,47.406,3,False,Yes,,,,,,,,,,,,,,,,,,,,,,,,,5.381,42.901,43.701,5,"*
+**
+***
+****
+",Yes,13.457,143.194,180.044,20,A,D,B,D,E,E,A,A,,,3.501,45.927,46.434,,22,C,B,A,E,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,Man,Caucasian,1.5,ENGIN 101,No,"Yes, one",Once,Yes,One,Slightly well,48423,bweld,3,3,3,,,612
+11/11/2019 18:15:54,11/11/2019 18:35:08,100,1153,True,11/11/2019 18:35:08,R_1GyjSduKl5Ywx9V,anonymous,EN,,,,,,,,,,,,,,,,,,,113.664,113.664,117.919,1,4,,,,,,,,,,,,,,81.338,84.763,85.989,2,-1,No,28.083,31.224,33.068,2,10,No,41.078,44.535,45.611,3,10,No,,,,,,,78.884,111.685,113.322,2,false. I'm not sure what it's saying by ++array,Yes,106.563,130.906,131.285,4,9 6 7 3 2 1 4,No,,,,,,,,,,,,,13.127,82.349,82.862,4,"*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+",No,4.113,134.689,135.407,12,A,D,B,D,B,E,A,C,E,E,4.293,144.716,149.037,,10,C,B,A,E,E,A,E,C,D,C,Non-Binary / Non-Conforming,Prefer not to answer,4,ENGIN 101,No,Two or more,Never,Yes,More than two,Very well,62549,beepboop,4,3,3,,,1153
+11/11/2019 18:32:21,11/11/2019 18:49:52,100,1051,True,11/11/2019 18:49:53,R_Q9xC6HOlio2e72p,anonymous,EN,,,,,,,13.224,72.61,73.411,5,0,No,,,,,,,31.64,128.88,130.083,6,null,Yes,,,,,,,59.153,129.254,129.642,5,-1,No,,,,,,,,,,,,,5.342,47.286,48.157,2,1,No,,,,,,,,,,,,,,,,,,,5.785,143.683,144.411,4,"[-1, 1, 4, 3, 9, 4, 9]",No,,,,,,,5.78,43.609,44.314,3,"****
+***
+**
+*",No,11.98,157.429,158.23,11,A,D,B,D,B,E,D,C,D,B,4.373,134.454,134.848,,13,C,B,A,E,B,A,E,Not Sure,D,A,Man,Caucasian,3,ENGIN 101,No,Two or more,Once,No,Two,Moderately well,48109,cscheman,3,3,3,,,1051
+11/11/2019 18:34:28,11/11/2019 18:50:39,100,970,True,11/11/2019 18:50:40,R_2wNQUIITRkECh5F,anonymous,EN,,,,,,,,,,,,,,,,,,,2.735,52.063,53.144,4,4,No,,,,,,,,,,,,,2.39,84.421,89.764,6,-1,No,0.933,47.863,48.509,7,0,No,,,,,,,,,,,,,1.156,63.988,84.077,4,false,No,0.745,70.246,76.806,8,doesn't compile,No,,,,,,,,,,,,,27.401,31.37,51.361,5,"***
+**
+*
+",No,10.97,176.799,180.111,10,A,D,B,D,B,E,A,C,,E,4.451,179.911,180.109,,14,C,B,A,E,E,A,C,C,A,,Man,Caucasian,,ENGIN 101,No,"Yes, one",Twice,Yes,More than two,Moderately well,49202,wrzian,3,3,3,,,970
+11/11/2019 18:48:41,11/11/2019 19:05:30,80,1008,False,11/18/2019 19:05:47,R_3ey5Q9Ax0DjgnIg,anonymous,EN,,,,,,,,,,,,,95.968,97.843,98.868,2,9,No,,,,,,,,,,,,,76.614,156.082,157.286,4,0,No,,,,,,,76.51,79.451,80.499,2,30,No,,,,,,,,,,,,,87.495,92.362,95.043,3,false,No,,,,,,,139.504,156.656,157.688,9,2 1 7 3  9 6 4,No,44.407,51.952,52.68,2,**********,No,,,,,,,4.813,150.918,180.114,8,A,A,B,D,B,E,A,C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,3,,,1008
+11/11/2019 18:50:06,11/11/2019 19:06:08,100,961,True,11/11/2019 19:06:08,R_1FP62tWU9uIWYe3,anonymous,EN,,,,,,,1.287,145.133,154.227,9,"If value = 0, return result
+If value is anything else, return equation",No,,,,,,,4.094,120.527,121.189,16,"2
+Tmp = 4",No,14.067,35.067,35.706,2,(3-1)-2*(3-2),No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6.32,7.905,11.823,2,,No,,,,,,,73.284,74.824,76.904,4,,No,6.234,23.744,26.163,5,I don’t remember,No,,,,,,,4.422,164.024,180.122,20,A,D,B,A,B,E,D,C,,,1.474,146.653,147.48,,22,C,B,A,E,B,A,E,C,D,C,Woman,Caucasian,2,ENGIN 101,No,Two or more,Never,Yes,Two,Slightly well,49509,Tiesmaj,3,3,3,,,961
+11/11/2019 18:59:08,11/11/2019 19:10:29,100,680,True,11/11/2019 19:10:29,R_OJ5abAERW3Ph3xf,anonymous,EN,,,,,,,10.71,11.702,14.099,2,,Yes,,,,,,,58.81,62.674,63.655,2,tmp,Yes,,,,,,,,,,,,,1.527,83.317,84.306,3,-3,No,,,,,,,30.64,41.392,42.581,2,70,No,,,,,,,30.998,30.998,32.251,1,,Yes,2.342,2.678,3.675,2,,Yes,0.71,0.71,1.546,1,,Yes,,,,,,,,,,,,,4.164,168.833,180.012,9,A,D,B,D,B,E,A,C,,,5.585,142.998,143.815,,10,C,B,A,E,B,A,E,D,D,D,Woman,Caucasian,1,ENGIN 101,No,Two or more,Once,No,More than two,Not well at all,48127,zalsaedy,4,3,3,,,680
+11/11/2019 18:53:25,11/11/2019 19:12:23,100,1137,True,11/11/2019 19:12:23,R_1IF47b8nR45IGsn,anonymous,EN,9.095,58.096,59.007,4,9,Yes,,,,,,,,,,,,,127.149,129.404,131.44,2,64,Yes,39.614,42.892,46.589,3,-1,Yes,,,,,,,,,,,,,,,,,,,2.468,100.14,101.255,4,10,Yes,4.929,152.313,153.547,4,false,Yes,,,,,,,,,,,,,,,,,,,,,,,,,46.783,61.543,62.586,2,"****
+***
+**
+*",Yes,6.848,178.2,179.789,11,A,D,B,D,B,E,A,C,B,C,2.838,164.965,180.034,,11,C,B,A,E,B,A,E,D,D,,Man,Asian,4,EECS 280,Yes,"Yes, one",Twice,Yes,More than two,Moderately well,33331,kyuhyunp,3,3,3,,,1137
+11/11/2019 19:14:41,11/11/2019 19:16:00,5,78,False,11/18/2019 19:16:02,R_08U6jGe3jvFB9Tz,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,78
+11/11/2019 19:39:40,11/11/2019 19:46:58,100,437,True,11/11/2019 19:46:58,R_pFxRQuBAoILs2bv,anonymous,EN,1.145,2.034,9.645,2,,Yes,,,,,,,1.307,1.307,2.63,1,,Yes,16.545,16.545,19.45,1,,Yes,,,,,,,,,,,,,,,,,,,21.393,28.428,29.372,2,,Yes,,,,,,,,,,,,,2.337,2.76,4.466,2,,Yes,,,,,,,7.264,7.264,8.724,1,,Yes,,,,,,,19.933,19.933,21.024,1,,Yes,3.931,90.644,93.65,11,A,D,B,D,B,E,A,C,E,E,5.274,98.765,99.702,,10,C,B,A,E,B,A,E,D,D,C,Woman,Caucasian,1,ENGIN 101,No,"Yes, one",Twice,Yes,More than two,Very well,07834,owene,4,3,3,,,437
+11/11/2019 19:39:50,11/11/2019 19:55:02,100,912,True,11/11/2019 19:55:02,R_dikccrbPVm6Xz9v,anonymous,EN,,,,,,,,,,,,,34.768,37.55,38.018,3,11,No,,,,,,,,,,,,,,,,,,,29.801,51.098,51.576,3,-1,No,,,,,,,3.585,120.333,139.435,8,10,No,46.092,72.999,73.889,3,false,No,,,,,,,103.633,111.32,112.318,2,9  7 2 3 1 6 4,No,,,,,,,4.515,23.332,28.045,3,"****
+***
+**
+*",No,,,,,,,8.83,155.148,180.015,10,A,D,B,D,B,E,E,C,,,5.731,159.554,165.071,,11,C,B,A,E,B,A,E,C,D,D,Man,Asian,1,"EECS 280,EECS 281,EECS 370",No,"Yes, one",Never,Yes,Two,Slightly well,11220,skychen,3,3,3,,,912
+11/11/2019 19:46:39,11/11/2019 19:59:02,53,743,False,11/18/2019 19:59:07,R_5A1WZAY1WfMTjI5,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11.65,72.759,74.624,2,"***
+**
+*
+",No,3.725,174.592,179.296,12,A,D,B,D,B,E,E,C,D,D,4.163,169.144,180.016,,9,C,B,A,E,B,A,B,,D,C,,,,,,,,,,,,,1,1,3,,,743
+11/11/2019 19:49:33,11/11/2019 20:01:06,100,693,True,11/11/2019 20:01:07,R_babwNsDRKZbARYl,anonymous,EN,,,,,,,,,,,,,8.121,21.36,22.071,4,9,No,21.43,109.446,109.846,5,16,No,,,,,,,5.061,62.169,63.26,2,-1,No,11.429,57.057,58.504,2,-1,No,,,,,,,8.479,9.129,72.074,2,30,No,16.61,25.856,30.742,2,false,No,,,,,,,,,,,,,,,,,,,,,,,,,4.176,23.684,31.974,5,"****
+***
+**
+*",No,2.781,90.254,91,11,A,D,B,D,B,E,A,C,E,E,5.246,95.345,96.176,,13,C,B,A,E,B,A,E,D,D,C,Man,Caucasian,10,"ENGIN 101,EECS 280,EECS 281,EECS 370,One upper level EECS elective",No,Two or more,Three or more times,Yes,More than two,Extremely well,48103,cohnt,4,3,3,,,693
+11/11/2019 19:41:59,11/11/2019 20:01:44,100,1184,True,11/11/2019 20:01:44,R_U9DyHVpI4gHFawh,anonymous,EN,,,,,,,,,,,,,3.342,72.418,88.443,5,7.5,Yes,119.138,122.45,123.353,2,4,No,,,,,,,125.72,128.481,129.604,2,-1,No,,,,,,,,,,,,,124.468,128.736,129.854,2,infinite loop,No,57.863,100.834,103.055,5,false,No,,,,,,,,,,,,,108.144,114.337,115.581,2,4 1 2 3 7 6 9,No,,,,,,,,,,,,,5.319,174.712,176.134,10,A,D,B,D,A,E,A,C,Not Sure,E,5.902,165.051,180.012,,9,C,B,A,E,B,A,E,D,D,,Man,Caucasian,1,ENGIN 101,Yes,"Yes, one",Never,Yes,Two,Moderately well,48611,ctacey,3,3,3,,,1184
+11/11/2019 19:50:21,11/11/2019 20:05:06,100,884,True,11/11/2019 20:05:06,R_41IEsIcFLvJxCeZ,anonymous,EN,10.347,102.659,103,15,9,,,,,,,,,,,,,,9.703,151.224,151.589,13,16,,,,,,,,,,,,,,,,,,,,,,,,,,62.426,70.916,71.422,8,10,,,,,,,,29.277,49.041,49.75,3,False,,,,,,,,0.969,87.923,88.399,13,9673214,,2.275,52.517,53.001,11,"****
+***
+**
+*
+",,,,,,,,2.438,126.006,126.461,35,A,D,B,D,B,E,A,C,E,E,4.494,128.651,129.313,,41,C,B,A,E,E,A,E,D,D,C,Man,Caucasian,1,"ENGIN 101,EECS 280",No,Two or more,Once,Yes,More than two,Very well,94061,Babinet,3,3,3,,,884
+11/11/2019 19:53:41,11/11/2019 20:12:16,100,1114,True,11/11/2019 20:12:16,R_2v7lsZlwx2C2wrP,anonymous,EN,,,,,,,,,,,,,,,,,,,6.893,56.796,59.249,5,0,No,47.373,81.822,82.331,2,-1,No,,,,,,,,,,,,,1.485,130.94,131.793,7,10,No,,,,,,,,,,,,,1.235,93.939,94.8,4,,Yes,,,,,,,2.118,38.854,181.432,3,,,,,,,,,0.953,119.184,120.141,5,"*
+*
+
+",No,7.997,152.476,153.171,13,A,D,B,D,A,E,D,C,E,E,3.169,161.721,180.109,,12,C,B,A,E,B,A,E,D,D,A,Man,Asian,1,ENGIN 101,No,"Yes, one",Never,No,More than two,Moderately well,11362,rlshi,3,3,3,,,1114
+11/11/2019 19:51:30,11/11/2019 20:13:41,100,1331,True,11/11/2019 20:13:42,R_3fviLkS9Wy7tykv,anonymous,EN,,,,,,,11.434,78.839,79.609,12,9,No,,,,,,,4.986,116.072,116.823,21,16,No,18.096,109.519,110.746,6,-1,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.593,163.71,165.404,25,false,Yes,,,,,,,5.082,136.069,139.593,31,9 6 7 3 2 1 4,No,,,,,,,6.658,120.472,121.284,2,"****
+***
+**
+*
+",No,8.902,175.571,180.01,11,A,D,B,D,A,E,A,C,,,11.732,165.122,180.122,,9,C,B,A,E,E,A,E,,D,,Woman,Asian,4.5,"EECS 280,EECS 281,EECS 370,One upper level EECS elective,Two or more upper level EECS electives",No,Two or more,Three or more times,Yes,More than two,Moderately well,,vmanisha,3,3,3,,,1331
+11/11/2019 20:03:19,11/11/2019 20:19:22,100,963,True,11/11/2019 20:19:23,R_RmAEgMbH6fv4iBP,anonymous,EN,,,,,,,131.319,136.953,138.066,2,45,No,,,,,,,49.557,51.203,52.213,2,8,No,,,,,,,,,,,,,70.932,74.385,74.753,3,-1,No,,,,,,,,,,,,,,,,,,,38.376,93.284,94.54,4,false,Yes,,,,,,,100.266,140.203,149.58,3,9723164,Yes,32.989,40.217,41.049,2,"****
+***
+**
+*",No,,,,,,,5.645,119.355,120.73,10,A,E,B,E,B,E,A,C,E,E,4.942,158.67,159.618,,10,C,B,A,E,B,A,E,D,D,C,Woman,Asian,3,"ENGIN 101,EECS 280",Yes,Two or more,Once,Yes,More than two,Very well,48105,,3,3,3,,,963
+11/11/2019 20:24:35,11/11/2019 20:34:44,100,608,True,11/11/2019 20:34:45,R_2Vaa9AOU5EIYmeB,anonymous,EN,,,,,,,,,,,,,2.974,29.836,30.875,2,2,Yes,59.003,60.651,61.583,2,1,Yes,,,,,,,,,,,,,,,,,,,1.663,18.452,19.908,2,"70, 3",Yes,,,,,,,,,,,,,33.162,38.644,39.748,3,0,No,5.522,67.787,69.146,2,3 1 2,No,,,,,,,,,,,,,1.932,60.738,61.84,3,"****
+***
+**
+*",Yes,5.945,149.768,152.801,15,A,D,B,D,B,E,A,C,Not Sure,E,2.176,79.045,84.131,,9,C,B,A,E,E,A,A,C,,Not Sure,Man,Caucasian,,"ENGIN 101,EECS 280",Yes,Two or more,Once,No,More than two,Very well,60659,jmrey,3,3,3,,,608
+11/11/2019 20:29:39,11/11/2019 20:42:52,100,792,True,11/11/2019 20:42:52,R_3oTISptn9jTGIe2,anonymous,EN,22.71,24.85,25.929,2,9,No,,,,,,,,,,,,,,,,,,,39.137,44.8,45.095,7,-1,No,,,,,,,,,,,,,,,,,,,68.982,90.29,91.274,3,10,No,53.697,58.553,59.412,2,false,No,,,,,,,,,,,,,41.073,48.347,49.412,2,9673214,No,,,,,,,33.892,48.783,49.6,2,"****
+***
+**
+*",No,5.65,170.997,180.111,9,A,E,B,D,B,E,A,C,D,,4.846,115.631,116.101,,12,C,B,A,E,E,A,E,C,D,D,Man,Asian,1,"ENGIN 101,EECS 280,EECS 281,EECS 370,One upper level EECS elective",No,No,Twice,No,More than two,Moderately well,,yuanping,3,3,3,,,792
+11/11/2019 20:38:16,11/11/2019 20:51:30,100,794,True,11/11/2019 20:51:30,R_2w680D7NBfPZjAv,anonymous,EN,,,,,,,,,,,,,,,,,,,0.942,80.457,80.937,16,compiler error,No,,,,,,,6.061,19.171,19.693,5,,No,1.103,1.92,2.575,2,,,0.496,61.73,62.389,9,1 remainder 30,No,,,,,,,,,,,,,3.91,80.227,83.113,7,true,No,,,,,,,1.392,76.888,77.598,5,,No,,,,,,,1.746,33.274,33.823,7,*,No,0.738,163.554,165.545,23,A,D,B,D,A,E,B,C,Not Sure,C,15.334,133.902,134.351,,40,C,B,A,E,B,A,E,Not Sure,D,Not Sure,Man,Black/African,1.5,"ENGIN 101,EECS 280",No,Two or more,Three or more times,Yes,More than two,Very well,48197,akinbola,4,3,3,,,794
+11/11/2019 20:51:27,11/11/2019 20:51:32,1,5,False,11/18/2019 20:51:35,R_3EGQ1N0N3w4ncvQ,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,5
+11/11/2019 19:00:00,11/11/2019 20:52:43,100,6762,True,11/11/2019 20:52:43,R_3Gp7a40ywddbS1Y,anonymous,EN,,,,,,,118.585,120.198,121.525,2,9,No,,,,,,,115.029,119.991,121.963,2,4,No,,,,,,,,,,,,,83.328,85.901,88.428,2,-3,No,,,,,,,39.395,41.142,43.738,2,10,No,,,,,,,,,,,,,,,,,,,22.132,165.217,167.001,2,,Yes,6.483,42.476,42.901,3,"****
+***
+**
+*",No,,,,,,,4.863,153.782,154.138,12,A,D,B,D,B,E,A,C,B,E,5.357,103.192,103.94,,12,C,B,A,E,E,A,E,D,D,C,Man,Caucasian,2,ENGIN 101,No,Two or more,Once,Yes,More than two,Moderately well,,shuale,3,3,3,,,6762
+11/11/2019 20:42:12,11/11/2019 20:58:25,100,973,True,11/11/2019 20:58:25,R_UxOSbUSvifKHMFb,anonymous,EN,,,,,,,,,,,,,1.811,16.587,39.411,5,9,No,96.909,144.065,147.895,3,16,No,,,,,,,,,,,,,2.621,93.125,94.066,5,-1,No,1.286,23.413,46.042,3,10,No,,,,,,,69.476,73.775,74.782,2,false,No,,,,,,,,,,,,,,,,,,,,,,,,,1.901,68.724,69.972,2,"****
+***
+**
+*",No,5.56,162.86,163.817,13,A,D,B,D,B,E,A,D,E,E,6.321,143.048,144.012,,12,C,B,A,E,E,A,E,D,D,C,Man,Caucasian,2,"ENGIN 101,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,Two or more,Once,Yes,More than two,Very well,48178,speerwil,3,3,3,,,973
+11/11/2019 21:07:51,11/11/2019 21:19:34,100,703,True,11/11/2019 21:19:35,R_aVOiQ3T0XeZt8Xf,anonymous,EN,,,,,,,,,,,,,21.361,21.361,25.696,1,9,,44.163,44.163,47.781,1,2,,,,,,,,34.336,34.336,36.874,1,1,,,,,,,,,,,,,,63.564,63.564,65.728,1,10,,,,,,,,,,,,,,57.963,57.963,111.618,1,9 6 7 3 2 1 4,,,,,,,,13.441,13.441,24.138,1,"****
+***
+**
+*",,,,,,,,6.927,125.579,126.215,11,A,D,B,D,B,E,A,C,E,E,5.596,150.652,151.298,,12,C,B,A,E,B,A,E,D,D,C,Man,Caucasian,3,"EECS 280,EECS 281",No,Two or more,Twice,Yes,More than two,Very well,48105,akaipain,3,3,3,,,703
+11/11/2019 20:10:18,11/11/2019 21:21:34,5,4276,False,11/18/2019 21:22:11,R_YRIzAPtRkYXz5UB,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,4276
+11/11/2019 21:08:42,11/11/2019 21:22:03,100,801,True,11/11/2019 21:22:04,R_22xkq6MqHmmAFWh,anonymous,EN,1.967,32.694,34.736,3,"1314
+",No,,,,,,,,,,,,,55.291,63.336,63.909,2,16,No,,,,,,,26.122,66.456,83.874,3,1,No,,,,,,,,,,,,,,,,,,,,,,,,,39.634,49.957,64.739,5,false,Yes,,,,,,,11.219,41.137,54.304,3,9 6 7 3 2 1 4,Yes,,,,,,,29.174,57.897,58.356,2,"****
+***
+**
+*",No,6.218,136.131,136.743,10,A,D,B,D,A,E,A,C,D,D,3.665,157.571,159.779,,11,C,B,A,E,A,A,B,C,D,A,Man,Caucasian,4,,No,"Yes, one",Never,Yes,Two,Not well at all,48060,mcculley,3,3,3,,,801
+11/11/2019 21:07:21,11/11/2019 21:25:24,100,1083,True,11/11/2019 21:25:25,R_3PKYazwOEjVzMJq,anonymous,EN,,,,,,,,,,,,,52.015,79.961,80.613,3,9,No,37.927,61.733,63.869,3,2,No,,,,,,,,,,,,,59.226,91.074,101.567,4,-1,No,,,,,,,2.904,171.567,176.259,4,10,No,4.729,66.265,66.555,5,false,No,,,,,,,1.258,82.833,84.273,3,10 6,No,0.898,49.397,50.588,3,10 6,No,,,,,,,,,,,,,7.228,171.49,172.093,12,A,D,B,D,B,E,A,C,E,E,5.716,151.819,152.188,,12,C,B,A,E,B,A,E,D,D,C,Man,Asian,3,ENGIN 101,Yes,Two or more,Twice,Yes,More than two,Moderately well,92620,anchris,4,3,3,,,1083
+11/11/2019 16:09:24,11/11/2019 21:32:37,46,19393,False,11/18/2019 21:32:43,R_1PTAhXsJDiS4dog,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.836,17.632,34.972,3,,Yes,,,,,,,,,,,,,,,,,,,,,,,,,6.148,179.15,180.008,9,A,B,B,A,A,E,B,,,,8.225,137.236,180.012,,7,C,B,C,E,,,E,,D,,,,,,,,,,,,,,1,1,3,,,19393
+11/11/2019 21:18:23,11/11/2019 21:35:24,100,1021,True,11/11/2019 21:35:25,R_1pmNS8ZqUlD5fIi,anonymous,EN,,,,,,,118.231,121.663,122.524,2,1,No,,,,,,,97.414,98.782,99.468,2,4,No,36.626,39.498,39.967,3,-1,No,,,,,,,,,,,,,,,,,,,47.718,49.854,50.476,2,10,No,4.719,94.582,95.323,11,false,No,,,,,,,,,,,,,4.566,99.342,99.954,2,12 4 5 6 10 9 7,No,,,,,,,,,,,,,2.895,177.08,178.134,11,A,D,B,D,B,E,A,C,E,E,7.005,161.997,180.112,,9,C,B,A,E,B,A,E,D,D,,Man,Asian,4,ENGIN 101,No,"Yes, one",Never,Yes,More than two,Slightly well,11358,kbao,3,3,3,,,1021
+11/11/2019 21:15:27,11/11/2019 21:37:52,100,1344,True,11/11/2019 21:37:52,R_qPfBxOyW0oLw2Pf,anonymous,EN,0.677,41.664,42.547,6,0,No,,,,,,,,,,,,,2.803,161.307,162.348,8,4,No,,,,,,,,,,,,,1.493,129.498,130.747,20,0,No,70.616,105.13,105.684,6,10,No,,,,,,,,,,,,,2.377,107.267,107.748,12,false,No,,,,,,,,,,,,,,,,,,,1.099,91.135,91.971,11,"****
+***
+**
+*
+",No,2.28,162.537,180.019,28,A,D,B,D,B,E,A,C,E,,1.311,162.847,163.712,,27,C,B,A,E,E,A,E,D,D,C,Woman,Caucasian,3,"ENGIN 101,EECS 280,EECS 281",No,"Yes, one",Never,Yes,Two,Not well at all,49765,vdletts,3,3,3,,,1344
+11/11/2019 21:48:24,11/11/2019 22:08:18,100,1193,True,11/11/2019 22:08:18,R_3Goyo48oPfXkwAI,anonymous,EN,,,,,,,,,,,,,69.221,71.311,72.491,2,9,No,,,,,,,84.606,87.549,149.1,2,-1,No,,,,,,,,,,,,,76.761,79.508,80.307,2,10,No,,,,,,,,,,,,,106.004,107.986,108.796,2,false,No,,,,,,,151.465,163.695,164.739,2,3 1 8 3 10 6 4,No,23.748,39.839,40.811,2,"****
+***
+**
+*",No,,,,,,,3.735,178.117,180.008,9,A,D,B,D,B,E,A,C,E,,4.417,161.391,164.389,,11,C,B,A,E,B,A,E,D,D,C,Woman,Caucasian,3,"EECS 280,EECS 281",Yes,Two or more,Three or more times,Yes,More than two,Extremely well,48025,apawlik,3,3,3,,,1193
+11/11/2019 22:04:38,11/11/2019 22:16:42,100,723,True,11/11/2019 22:16:43,R_OpA6wS5PTZ2xsWJ,anonymous,EN,,,,,,,,,,,,,1.059,18.657,19.801,5,9,No,4.285,65.262,66.385,7,16,No,,,,,,,,,,,,,,,,,,,,,,,,,1.044,58.979,59.953,6,10,No,0.966,38.601,39.866,7,false,No,,,,,,,2.643,67.513,68.94,4,9 6 7 3 2 1,No,,,,,,,1.108,22.766,23.549,5,"****
+***
+**
+*",No,,,,,,,1.187,143.606,144.481,21,A,D,B,D,B,E,A,C,Not Sure,E,0.746,73.988,75.3,,20,C,B,A,E,Not Sure,A,D,Not Sure,Not Sure,C,Man,Caucasian,9,"EECS 280,EECS 281,EECS 370,One upper level EECS elective",No,Two or more,Once,Yes,More than two,Moderately well,48823,snoliver,3,3,3,,,723
+11/11/2019 22:20:35,11/11/2019 22:37:49,100,1034,True,11/11/2019 22:37:49,R_2eXBCqqKTjrUT7H,anonymous,EN,2.33,58.572,59.202,21,135,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.336,54.525,55.777,5,0,No,,,,,,,1.285,58.849,59.404,11,10,No,,,,,,,1.397,77.301,78.094,8,false,No,1.629,60.963,61.654,8,9 6 7 3 2 1 4,No,2.659,153.051,154.106,27,3 7 2 9 1 6 4,No,0.815,54.371,54.874,14,"****
+***
+**
+*",No,,,,,,,5.971,153.168,180.147,26,A,D,B,D,B,E,,,,,1.557,165.592,167.066,,36,C,B,A,E,B,A,E,Not Sure,D,A,Man,Black/African,2,"EECS 183,EECS 280",No,Two or more,Twice,Yes,Two,Very well,48823,lanejul,4,3,3,,,1034
+11/11/2019 22:32:03,11/11/2019 22:45:06,100,783,True,11/11/2019 22:45:07,R_WpLjgEXxv5fBfA5,anonymous,EN,,,,,,,6.5,43.969,44.722,3,9,No,,,,,,,3.142,3.142,59.332,1,,,,,,,,,,,,,,,,,,,,,1.659,44.105,45.235,3,10,No,,,,,,,,,,,,,65.665,69.19,70.775,2,false,No,,,,,,,2.318,48.612,49.972,4,9 1 2 3,No,,,,,,,4.302,40.311,41.449,3,"****
+***
+**
+*",No,55.201,178.619,180.031,12,A,D,C,,,,,,,,2.723,155.625,156.33,,23,C,B,A,E,Not Sure,A,E,Not Sure,D,Not Sure,Man,Asian,1,"ENGIN 101,EECS 280",No,Two or more,Once,Yes,More than two,Moderately well,08852,brianwan,3,3,3,,,783
+11/11/2019 22:49:52,11/11/2019 23:02:06,100,734,True,11/11/2019 23:02:06,R_1onDqYXpbSecJca,anonymous,EN,36.067,39.555,40.004,3,8,No,,,,,,,,,,,,,1.013,49.523,56.372,7,No return?,Yes,,,,,,,1.36,66.905,67.339,6,1,No,,,,,,,,,,,,,51.868,54.797,55.234,2,10,No,1.742,67.188,68.131,6,False,No,,,,,,,,,,,,,,,,,,,,,,,,,4.989,63.68,64.206,10,"****
+***
+**
+*",No,4.978,138.187,139.08,26,A,D,B,D,B,E,A,C,E,E,2.144,147.804,147.854,,25,C,B,A,E,B,A,E,D,D,C,Woman,Asian,2,ENGIN 101,No,Two or more,Twice,Yes,More than two,Extremely well,47906,rwzhang,3,3,3,,,734
+11/11/2019 22:58:35,11/11/2019 23:23:54,43,1519,False,11/18/2019 23:24:51,R_RPnbd7gL2HqPDWh,anonymous,EN,,,,,,,22.443,174.609,180.036,4,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.089,35.241,180.01,4,,No,7.445,65.007,70.409,2,false,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,3,,,1519
+11/11/2019 20:16:23,11/12/2019 0:48:11,13,16308,False,11/19/2019 0:48:24,R_2TuTTX2tX0kaplK,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20.122,37.565,181.984,3,A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,16308
+11/12/2019 1:19:32,11/12/2019 1:22:34,100,182,True,11/12/2019 1:22:34,R_O9F7mbCeMWcCPCh,anonymous,EN,,,,,,,,,,,,,0.785,13.576,13.816,4,1,Yes,0.779,6.515,7.244,3,8,Yes,,,,,,,,,,,,,1.769,9.089,9.85,3,0,Yes,,,,,,,,,,,,,,,,,,,9.663,11.711,12.368,2,1,Yes,0.512,1.663,1.905,4,1,Yes,0.575,1.422,1.758,3,1,Yes,1.091,5.019,5.644,2,-1,Yes,,,,,,,0.573,12.444,13.03,15,B,E,B,C,D,D,C,D,C,D,0.749,6.821,7.513,,13,D,D,D,D,D,D,D,B,B,C,Man,Prefer not to answer,0,ENGIN 101,Yes,No,Once,Yes,One,Slightly well,,sjeehoon,4,3,3,,,182
+11/12/2019 3:50:25,11/12/2019 4:09:20,100,1135,True,11/12/2019 4:09:20,R_RgBcLUFmzRrexLr,anonymous,EN,,,,,,,,,,,,,1.296,83.146,83.673,4,13.4,Yes,1.79,81.441,83.923,10,2,Yes,1.831,66.586,67.072,10,0,Yes,,,,,,,,,,,,,,,,,,,3.278,55.083,55.579,5,70,Yes,,,,,,,,,,,,,1.233,74.465,80.283,12,"4,1,2,3,7,6,9
+7",Yes,,,,,,,,,,,,,1.271,43.626,43.972,8,"****
+Endl",Yes,3.436,175.811,180.053,32,A,D,B,D,B,E,D,D,D,D,2.038,178.553,180.051,,30,C,B,A,E,B,A,E,E,C,B,Man,"Asian,Caucasian,Other",1,ENGIN 101,No,Two or more,Never,No,One,Moderately well,48073,feganp,3,3,3,,,1135
+11/12/2019 3:57:42,11/12/2019 4:17:33,100,1191,True,11/12/2019 4:17:33,R_2V9JU1wvDH5aCz7,anonymous,EN,,,,,,,,,,,,,,,,,,,73.323,86.977,87.639,3,2,Yes,,,,,,,171.278,173.885,175.227,3,-1,Yes,,,,,,,2.448,122.696,123.638,5,30,No,,,,,,,,,,,,,4.604,136.023,139.675,6,false,Yes,,,,,,,79.134,103.705,104.513,2,9 6 7 3 2 1 4,Yes,34.458,58.206,58.87,3,"****
+***
+**
+*
+",No,,,,,,,9,149.635,180.014,11,A,D,B,A,A,E,B,C,,,11.476,169.77,180.009,,11,C,B,E,B,C,Not Sure,E,C,D,,Man,Caucasian,2,"ENGIN 101,EECS 280",No,Two or more,Once,Yes,More than two,Slightly well,49426,khenkel,3,3,3,,,1191
+11/12/2019 5:52:36,11/12/2019 6:11:25,100,1129,True,11/12/2019 6:11:26,R_1oBalfuIR64esBh,anonymous,EN,,,,,,,,,,,,,12.209,45.037,148.668,10,4+.314 ~ 4.5?,No,,,,,,,,,,,,,27.888,104.555,106.478,3,1,No,,,,,,,,,,,,,11.655,29.14,30.639,3,No return,Yes,6.141,61.472,64.977,10,false,No,,,,,,,5.654,35.727,74.306,9,nothing,Yes,,,,,,,,,,,,,6.184,29.669,36.588,5,nothing ,No,4.843,141.484,180.02,13,A,E,B,E,B,E,A,C,,,6.784,158.115,180.012,,17,C,B,A,E,B,A,E,E,,C,Woman,Caucasian,1,ENGIN 101,No,Two or more,Never,No,More than two,Moderately well,88317,dbizyaev,3,3,3,,,1129
+11/11/2019 15:16:44,11/12/2019 6:53:29,100,56204,True,11/12/2019 6:53:29,R_2D77dQ7xXXHJi3W,anonymous,EN,,,,,,,63.158,63.158,65.327,1,9,,,,,,,,56.546,56.546,58.69,1,4,,,,,,,,,,,,,,95.305,95.305,122.563,1,-1,,,,,,,,174.716,174.716,177.6,1,10,,6.175,45.684,71.911,3,true,Yes,,,,,,,,,,,,,10.212,73.895,180.011,2,,Yes,,,,,,,,,,,,,5.17,177.026,180.009,8,A,D,Not Sure,D,B,E,,,Not Sure,,5.376,172.38,180.007,,11,C,B,A,E,Not Sure,A,E,Not Sure,C,Not Sure,Woman,Hispanic/Latinx,3,ENGIN 101,No,Two or more,Twice,Yes,More than two,Very well,08550,rmariana,3,3,3,,,56204
+11/12/2019 8:06:43,11/12/2019 8:23:51,100,1027,True,11/12/2019 8:23:52,R_2scnPOV849rvH6M,anonymous,EN,51.447,56.116,57.68,3,4,No,,,,,,,,,,,,,6.434,149.823,150.809,5,1,No,,,,,,,,,,,,,100.634,103.3,104.685,3,2,No,,,,,,,67.656,71.918,73.101,3,20,No,,,,,,,63.399,75.41,76.026,9,True,No,,,,,,,,,,,,,3.618,77.017,78.187,15,"****
+***
+**
+*",No,,,,,,,3.511,139.163,139.601,38,A,D,B,D,B,E,A,C,E,E,6.659,122.3,122.73,,32,C,B,A,E,B,A,E,Not Sure,Not Sure,Not Sure,Man,Caucasian,6,"ENGIN 101,EECS 280",No,Two or more,Twice,Yes,More than two,Very well,49770,Kromm,3,3,3,,,1027
+11/12/2019 9:20:03,11/12/2019 9:37:01,100,1018,True,11/12/2019 9:37:02,R_1q8Nw4m46kfmr6Y,anonymous,EN,,,,,,,0.594,84.115,84.684,6,20,Yes,,,,,,,0.568,167.029,167.919,24,2*1,Yes,,,,,,,,,,,,,,,,,,,1.076,41.525,42.322,8,"70, 70",No,0.555,92.932,93.649,8,70,No,,,,,,,0.979,55.131,55.634,7,0,Yes,,,,,,,3.549,124.441,125.316,20,6 1 2 3 7 4 9,Yes,,,,,,,1.093,112.81,113.39,3,"*
+*",Yes,22.254,138.262,138.828,27,A,C,B,D,B,C,C,C,E,D,0.772,85.015,85.688,,23,C,D,C,C,A,B,E,D,D,C,Man,Asian,0,ENGIN 101,No,"Yes, one",Once,Yes,One,Slightly well,08812,changea@umich.edu,4,3,3,,,1018
+11/11/2019 14:59:05,11/12/2019 12:03:06,100,75841,True,11/12/2019 12:03:07,R_2sMmIZvIvot0rL3,anonymous,EN,,,,,,,,,,,,,,,,,,,3.426,77.767,79.295,2,16,No,,,,,,,,,,,,,3.089,57.293,58.262,4,-1,No,0.99,10.376,180.02,3,10,No,,,,,,,1.232,118.144,122.014,3,false,No,,,,,,,,,,,,,6.533,53.97,180.012,4,2 1 2 3 7 6 7,No,2.454,31.44,41.122,2,"****
+***
+**
+*",No,,,,,,,6.037,174.575,180.109,11,A,D,B,D,B,E,A,C,B,C,5.364,179.711,180.122,,10,C,B,A,E,E,A,E,C,D,A,Man,Asian,4,"EECS 183,EECS 280",No,"Yes, one",Once,Yes,More than two,Very well,48236,govinds,3,3,3,,,75841
+11/12/2019 12:18:11,11/12/2019 12:33:35,100,923,True,11/12/2019 12:33:36,R_3r03ZL31EOz1Mrd,anonymous,EN,,,,,,,30.707,48.206,48.721,4,"131.4, 0",Yes,45.989,49.828,53.059,2,1314,No,46.777,56.558,57.575,5,4,No,,,,,,,,,,,,,73.684,75.41,76.113,2,0,Yes,,,,,,,,,,,,,,,,,,,13.408,22.344,26.105,4,true,No,15.046,15.672,20.514,2,,No,,,,,,,,,,,,,8.24,14.158,14.809,3,none,Yes,6.17,161.502,162.527,13,A,D,Not Sure,D,B,E,A,C,D,E,3.301,174.521,180.115,,9,C,B,A,E,B,A,E,D,D,,Woman,Caucasian,0,ENGIN 101,No,Two or more,Once,Yes,Two,Very well,49026,lopezem,4,3,3,,,923
+11/12/2019 12:34:10,11/12/2019 12:48:25,100,854,True,11/12/2019 12:48:25,R_Y4XkfJFfuRoZot3,anonymous,EN,0.688,18.986,28.691,3,135,No,,,,,,,,,,,,,5.151,99.002,126.327,6,16,No,4.443,26.949,28.014,3,255,No,,,,,,,3.242,16.25,17.016,3,255,No,,,,,,,2.977,24.833,25.586,3,10,No,,,,,,,,,,,,,,,,,,,9.409,130.463,133.892,4,9 7 2 3 1 6 4,No,,,,,,,0.929,61.287,66.111,3,"****
+***
+**
+*",No,6.401,158.735,159.68,12,A,D,B,D,B,E,A,C,Not Sure,E,5.842,153.864,154.193,,11,C,B,A,E,B,A,E,D,D,C,Man,Caucasian,1.5,EECS 280,Yes,Two or more,Twice,Yes,More than two,Extremely well,19426,gamcp,4,3,3,,,854
+11/12/2019 12:38:42,11/12/2019 12:55:54,100,1032,True,11/12/2019 12:55:55,R_bjir1EWAUaeb4xb,anonymous,EN,,,,,,,,,,,,,40.805,47.397,48.769,3,infinite loop,No,12.983,83.72,88.451,4,Not sure,No,,,,,,,,,,,,,61.201,65.499,66.733,3,-3,No,71.65,99.128,150.871,3,40,No,,,,,,,39.004,73.581,76.724,5,false,No,,,,,,,,,,,,,,,,,,,20.649,52.362,53.736,2,"****
+***
+**
+*",No,,,,,,,5.837,161.246,180.12,9,A,A,B,D,B,E,A,C,Not Sure,,6.651,164.465,180.11,,10,C,C,A,E,B,A,E,Not Sure,D,,Man,"Asian,Caucasian",2,ENGIN 101,No,"Yes, one",Twice,Yes,More than two,Moderately well,48105,rgudal,3,3,3,,,1032
+11/12/2019 14:12:06,11/12/2019 14:30:32,100,1106,True,11/12/2019 14:30:33,R_sQZ9NgYRFosFxYt,anonymous,EN,,,,,,,,,,,,,0.896,13.835,50.926,3,9,No,4.036,130.533,155.846,2,4096,No,9.527,10.092,58.301,2,-1,No,,,,,,,,,,,,,,,,,,,35.858,37.05,67.375,3,10,No,,,,,,,,,,,,,16.561,122.467,140.573,3,9 6 7 3 2 1 4,No,,,,,,,,,,,,,3.199,15.168,47.569,2,"****
+***
+**
+*",No,5.344,175.981,180.015,13,A,D,B,D,B,E,A,C,C,B,4.407,156.545,159,,13,C,B,A,E,E,A,E,D,D,C,Man,Caucasian,7,"ENGIN 101,EECS 280,EECS 281,EECS 370,One upper level EECS elective",Yes,Two or more,Once,Yes,More than two,Very well,90046,mhenriks,3,3,3,,,1106
+11/12/2019 14:30:48,11/12/2019 14:36:23,14,334,False,11/19/2019 14:36:26,R_3GdHZ8113Dwbu2d,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.724,176.942,180.11,15,A,D,B,D,B,E,A,,,E,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,334
+11/12/2019 15:05:27,11/12/2019 15:20:10,100,883,True,11/12/2019 15:20:11,R_8e19GJDDtmskYq5,anonymous,EN,,,,,,,,,,,,,1.772,62.225,62.619,4,0,No,99.79,101.918,103.13,2,16,No,,,,,,,,,,,,,,,,,,,3.386,55.547,58.815,3,10,No,,,,,,,,,,,,,21.826,55.051,55.799,4,false,No,,,,,,,102.259,106.913,108.484,2,673214,No,48.17,55.32,55.973,2,"****
+***
+**
+*",No,,,,,,,6.006,110.893,112.81,12,A,D,B,D,B,E,A,C,E,E,3.43,98.841,99.622,,11,C,B,A,E,E,A,E,D,D,C,Woman,Caucasian,3,"ENGIN 101,EECS 280",Yes,Two or more,Twice,Yes,More than two,Very well,60521,aebruns,3,3,3,,,883
+11/12/2019 16:50:49,11/12/2019 16:51:02,1,13,False,11/19/2019 16:51:31,R_3iKWwMHgtzfcDIs,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,13
+11/12/2019 16:57:18,11/12/2019 16:57:37,11,19,False,11/19/2019 16:58:03,R_1S6TeWFw8aXsAlH,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,3,,,19
+11/12/2019 17:55:01,11/12/2019 18:10:02,100,901,True,11/12/2019 18:10:03,R_1GQeXi0tvpCu57T,anonymous,EN,,,,,,,,,,,,,,,,,,,21.131,24.165,84.25,3,16,No,,,,,,,,,,,,,24.236,155.664,158.972,17,-3,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.039,127.551,130.58,10,A,D,B,D,B,E,D,C,B,E,2.74,110.306,111.6,,10,C,B,A,E,B,A,E,D,D,D,Woman,"Caucasian,Other",4,"ENGIN 101,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,Two or more,Once,Yes,More than two,Moderately well,48085,mkhalaf,5,1,3,,,901
+11/12/2019 19:01:16,11/12/2019 19:01:29,1,12,False,11/19/2019 19:04:45,R_1CruT49LoZQlDWz,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,12
+11/12/2019 19:12:30,11/12/2019 19:27:51,100,921,True,11/12/2019 19:27:52,R_yO8dKsAMbnKbkYx,anonymous,EN,17.667,19.71,37.561,2,9,No,,,,,,,,,,,,,,,,,,,42.324,44.844,45.854,2,-3,No,,,,,,,82.85,84.709,85.732,2,-3,No,,,,,,,60.951,63.318,64.291,2,10,No,,,,,,,69.651,74.551,75.643,2,true,No,78.154,154.532,155.474,2,"9, 7, 2, 3, 6, 1, 4",No,,,,,,,,,,,,,16.349,53.357,54.326,2,"****
+***
+**
+*",No,7.605,163.785,164.683,13,A,D,B,D,B,E,A,C,E,C,9.651,90.964,91.958,,14,C,B,A,E,E,A,B,A,B,D,Man,Asian,3,"EECS 280,EECS 281,EECS 370",No,"Yes, one",Once,Yes,More than two,Slightly well,48105,eltonlin,4,3,3,,,921
+11/12/2019 21:03:29,11/12/2019 21:03:59,11,29,False,11/19/2019 21:04:08,R_1IFTdan3OqU14gY,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,29
+11/13/2019 8:00:34,11/13/2019 8:20:28,100,1194,True,11/13/2019 8:20:28,R_26fNK1wrkMc1ZUA,anonymous,EN,,,,,,,3.726,72.355,73.137,9,"131, 1440",No,,,,,,,1.692,179.59,180.12,21,"2, 4",,,,,,,,0.913,52.137,52.698,13,"3, 2, 1, 0 ",No,,,,,,,,,,,,,15.092,40.465,42.991,5,70,Yes,,,,,,,2.331,81.512,83.789,7,0,Yes,,,,,,,3.141,130.377,134.511,12,4,Yes,,,,,,,,,,,,,0.804,179.873,180.01,29,A,D,B,D,B,E,A,C,E,E,1.006,130.026,131.059,,27,C,B,A,E,B,A,E,Not Sure,D,D,Man,Hispanic/Latinx,0,ENGIN 101,No,Two or more,Never,No,One,Slightly well,60638,anieto,3,3,3,,,1194
+11/13/2019 16:12:37,11/13/2019 16:29:33,100,1015,True,11/13/2019 16:29:34,R_2cuRNJt6EYMiOWk,anonymous,EN,1.1,41,49.6,10,9,No,,,,,,,,,,,,,3,92.6,93.5,8,16,No,,,,,,,,,,,,,1.4,68.3,105.7,6,-1,No,,,,,,,19.2,121.5,130.4,18,10,No,,,,,,,,,,,,,18,80.4,81.1,5,9 6 7 3 2 1 4,No,,,,,,,,,,,,,7.3,58.4,59.2,3,"****
+***
+**
+*
+",No,4.5,177.9,178.5,12,A,D,B,D,B,E,A,C,Not Sure,E,2.5,137.6,138.3,,12,C,B,A,E,B,A,E,D,D,C,Prefer not to answer,Prefer not to answer,5,"EECS 280,EECS 281",No,,,,,,,thsm,3,3,3,,,1015
+11/13/2019 18:42:47,11/13/2019 19:00:05,100,1038,True,11/13/2019 19:00:06,R_2785ZYG0WYPNEJS,anonymous,EN,,,,,,,,,,,,,2.389,79.664,81.841,2,4,No,11.866,103.716,104.804,6,error,No,,,,,,,30.601,58.663,60.086,3,"3,2,1,1",No,,,,,,,,,,,,,,,,,,,,,,,,,45.684,78.6,80.717,3,"6 2 4 3 10 4 2 6
+true",No,2.646,177.58,178.547,8,"6 1 2 3 7 6 4
+7 2 3 4 8 7 5",No,,,,,,,2.488,44.639,47.035,2,****,No,,,,,,,7.716,145.294,146.736,14,A,D,B,D,B,E,A,Not Sure,Not Sure,Not Sure,6.503,117.905,119.008,,12,C,B,A,E,E,A,E,Not Sure,D,Not Sure,Man,Caucasian,1,ENGIN 101,No,Two or more,Once,Yes,More than two,Very well,48730,bcmoon,3,3,3,,,1038
+11/13/2019 19:35:59,11/13/2019 20:02:07,100,1568,True,11/13/2019 20:02:08,R_3NyM0FKYH1q72uF,anonymous,EN,,,,,,,,,,,,,1.34,102.232,103.179,3,9,No,25.647,120.987,165.218,4,16,No,,,,,,,,,,,,,,,,,,,1.701,175.498,180.007,6,10,No,,,,,,,4.405,91.741,180.118,11,,Yes,,,,,,,,,,,,,1.714,162.383,180.108,4,,,,,,,,,1.821,119.402,120.491,6,"****
+***
+**
+*
+",No,5.088,178.995,180.113,9,A,D,B,D,B,E,A,C,,E,2.147,149.272,180.012,,13,C,B,A,E,B,A,E,D,D,,Non-Binary / Non-Conforming,Asian,5,,No,"Yes, one",Three or more times,No,More than two,Very well,,tlkb,3,3,3,,,1568
+11/13/2019 20:19:35,11/13/2019 20:39:07,100,1171,True,11/13/2019 20:39:08,R_1NegRBgGhbxxrBn,anonymous,EN,,,,,,,140.821,148.021,150.171,3,100000,No,,,,,,,10.098,68.564,69.67,5,16,No,102.447,104.687,105.675,2,-1,No,,,,,,,,,,,,,,,,,,,64.313,66.887,68.574,2,10,No,,,,,,,44.221,46.372,47.291,2,false,No,,,,,,,,,,,,,,,,,,,4.763,50.847,52.32,3,"****
+***
+**
+*
+",No,4.945,148.261,149.028,20,A,D,B,D,B,E,D,C,B,D,6.59,175.629,176.437,,22,C,B,A,E,B,A,E,C,D,D,Man,Caucasian,4,"ENGIN 101,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,Two or more,Once,Yes,More than two,Moderately well,48867,csvrcek,3,3,3,,,1171
+11/14/2019 6:38:23,11/14/2019 6:58:44,100,1221,True,11/14/2019 6:58:45,R_1CJegLzY0e1ep4V,anonymous,EN,14.81,47.59,49.076,2,135,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.809,152.565,156.18,5,0,No,,,,,,,47.038,109.446,110.239,4,10,No,,,,,,,82.037,102.494,177.358,2,false false false false,No,28.309,91.476,93.325,5,,No,,,,,,,11.604,52.587,64.239,2,****,No,,,,,,,5.427,134.386,180.036,6,A,D,B,D,B,E,,,,,6.288,176.484,180.131,,11,C,B,A,E,B,A,E,,D,,Man,Caucasian,2,ENGIN 101,No,"Yes, one",Once,Yes,More than two,Moderately well,89149,matthiew,3,3,3,,,1221
+11/14/2019 12:31:48,11/14/2019 12:46:09,100,861,True,11/14/2019 12:46:10,R_3HAmi3Xm5I3Dt8n,anonymous,EN,,,,,,,,,,,,,,,,,,,45.019,48.731,50.185,2,4,No,,,,,,,,,,,,,1.207,111.814,142.912,3,"
+-1",No,5.419,47.122,52.23,3,10,No,,,,,,,,,,,,,0.822,41.348,42.479,2,true,No,50.74,81.757,82.828,2,9 6 7 3 2 1 4,No,,,,,,,,,,,,,0.752,49.955,58.593,2,"****
+***
+**
+*",No,3.362,127.314,130.504,10,A,D,D,D,B,E,A,C,E,E,8.033,149.401,151.092,,11,C,B,A,E,B,A,E,D,D,C,Man,Caucasian,3,One upper level EECS elective,No,Two or more,Once,Yes,More than two,Moderately well,48079,wbostick,3,3,3,,,861
+11/14/2019 19:06:28,11/14/2019 19:09:16,100,168,True,11/14/2019 19:09:16,R_1EaqbXBuHh0VupL,anonymous,EN,,,,,,,,,,,,,1.501,6.229,6.541,4,5,No,0.49,1.425,1.686,2,3,No,,,,,,,1.092,2.604,2.849,2,7,No,,,,,,,,,,,,,0.55,1.166,1.941,2,3,No,0.469,1.733,2.083,3,5,Yes,0.088,4.424,4.726,7,true,Yes,,,,,,,0.334,1.958,2.405,3,2,Yes,,,,,,,,,,,,,10.226,19.393,19.823,15,C,C,D,D,C,B,D,C,D,C,0.778,7.961,8.272,,11,B,E,B,E,C,E,B,Not Sure,B,C,Man,Asian,0,,No,"Yes, one",Never,Yes,More than two,Slightly well,48092,taifr,4,3,3,,,168
+11/14/2019 21:16:46,11/14/2019 21:29:48,100,781,True,11/14/2019 21:29:48,R_1PRSlwBRLqcKvHC,anonymous,EN,,,,,,,,,,,,,2.119,23.922,25.111,2,9,No,,,,,,,,,,,,,,,,,,,39.336,78.853,80.067,3,-3,No,2.891,15.912,40.447,2,10,No,,,,,,,6.181,52.946,53.825,2,false,No,,,,,,,,,,,,,2.11,64.397,65.869,2,9 6 7 3 2 1 4,No,1.805,20.161,21.579,2,"****
+***
+**
+*",No,,,,,,,5.283,133.785,136.301,10,A,D,B,D,B,E,A,C,E,E,9.949,149.699,150.607,,11,C,B,A,E,B,A,E,D,D,C,Man,Caucasian,10,"EECS 280,EECS 281,EECS 370,One upper level EECS elective,Two or more upper level EECS electives",No,Two or more,Twice,Yes,More than two,Very well,48104,alanst,3,3,3,,,781
+11/17/2019 12:15:46,11/17/2019 12:28:52,72,785,False,11/24/2019 12:29:08,R_1rx19wa7WUANzd2,anonymous,EN,,,,,,,,,,,,,2.3,2.3,36.643,1,"0
+",,0,0,181.351,0,,,,,,,,,,,,,,,,,,,,,15.717,79.701,80.394,4,"100, 1",No,,,,,,,,,,,,,0,0,181.722,0,,,15.254,15.254,16.096,1,,Yes,,,,,,,,,,,,,12.73,30.755,96.964,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,3,3,,,785
+11/17/2019 17:36:45,11/17/2019 17:38:12,31,86,False,11/24/2019 17:38:21,R_3ozu5JieCZMOrgY,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9.575,37.587,38.438,3,70,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,3,,,86
+11/13/2019 8:32:14,11/17/2019 22:29:29,1,395834,False,11/24/2019 22:29:57,R_XCeYhi0Dfx96Pp7,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,395834
+11/17/2019 22:56:24,11/17/2019 23:32:39,100,2174,True,11/17/2019 23:32:40,R_3OryKXCweT441lD,anonymous,EN,65.315,66.599,67.573,2,9,No,,,,,,,,,,,,,80.842,84.299,85.124,2,16,No,,,,,,,49.391,90.507,94.165,2,-1,Yes,,,,,,,,,,,,,,,,,,,,,,,,,41.477,46.14,46.952,2,false,No,,,,,,,55.722,64.506,65.199,2,9 6 7 3 2 1 4,No,,,,,,,20.221,54.738,55.828,2,"****
+***
+**
+*
+",No,8.578,135.475,136.51,10,A,D,B,D,B,E,A,B,E,E,8.237,103.194,104.281,,10,C,B,A,E,B,A,E,D,D,C,Man,Asian,3.5,"EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",Yes,"Yes, one",Once,Yes,More than two,Moderately well,48105,jerrysun,3,3,3,,,2174
+11/22/2019 9:46:03,11/22/2019 9:47:38,40,94,False,11/25/2019 22:24:02,R_3efD11IARcxdMSM,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.882,50.881,52.071,4,2 3 4,No,,,,,,,18.986,26.179,26.883,2,****,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,0,3,,,94
+11/22/2019 9:47:58,11/22/2019 9:48:06,18,7,False,11/25/2019 22:24:18,R_0SYkpyITdlSAPSx,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,7
+11/22/2019 9:55:41,11/22/2019 9:56:28,36,47,False,11/25/2019 22:24:20,R_21Bd5grLFV5jqD1,anonymous,EN,3.353,27.97,27.987,6,1314,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,3,,,47
+11/22/2019 9:58:25,11/22/2019 9:58:39,22,13,False,11/25/2019 22:24:34,R_2YrkGNVzc6lqigl,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,13
+11/22/2019 9:44:40,11/22/2019 10:00:20,100,939,True,11/22/2019 10:00:21,R_OHCnz2eN9gWIZXz,anonymous,EN,,,,,,,3.779,110.987,112.036,16,9,No,,,,,,,15.227,67.435,68.035,8,,Yes,,,,,,,,,,,,,0.906,55.979,56.481,10,-1,Yes,,,,,,,0.796,47.433,47.996,5,40,No,,,,,,,3.302,84.675,85.201,7,False,No,,,,,,,,,,,,,3.214,38.362,39.142,8,"****
+***
+**
+*",No,,,,,,,1.402,131.724,180.025,19,A,D,B,D,B,E,,,,,0.696,126.752,180.025,,23,C,B,A,E,E,A,E,,,,Man,"Asian,Caucasian,Hispanic/Latinx",1,ENGIN 101,No,Two or more,Once,No,More than two,Moderately well,49546,ctkrug,3,3,3,,,939
+11/22/2019 10:05:11,11/22/2019 10:05:24,1,12,False,11/25/2019 22:24:11,R_ekSVfBeejUioRLb,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,12
+11/22/2019 9:48:05,11/22/2019 10:06:07,100,1081,True,11/22/2019 10:06:07,R_dorZejvxEeak3PX,anonymous,EN,,,,,,,35.683,103.237,104.911,9,9,No,23.31,24.455,25.742,2,9,No,,,,,,,0.675,68.282,72.3,6,-1,No,,,,,,,,,,,,,,,,,,,4.427,131.265,141.432,22,10,No,,,,,,,1.209,69.859,74.541,3,false,No,67.245,94.897,95.581,6,9 7 2 3 1 6 4,No,,,,,,,,,,,,,1.17,44.274,47.75,2,"****
+***
+**
+*",No,14.976,150.018,180.011,8,A,D,B,D,B,E,A,C,,,6.641,118.396,119.47,,10,C,B,A,E,E,A,E,D,D,C,Man,Asian,5,"ENGIN 101,EECS 280,EECS 281,EECS 370,One upper level EECS elective",No,"Yes, one",Never,Yes,More than two,Moderately well,95127,whsiao,4,3,3,,,1081
+11/22/2019 10:08:49,11/22/2019 10:09:00,11,11,False,11/25/2019 22:24:14,R_3pnBLlH4FcvEsYd,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,3,,,11
+11/22/2019 10:08:51,11/22/2019 10:09:05,5,13,False,11/25/2019 22:24:34,R_3D89kICMl1wUS4A,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,13
+11/22/2019 10:11:41,11/22/2019 10:11:46,1,4,False,11/25/2019 22:24:15,R_7OHWh8pz8jkh8L7,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,4
+11/22/2019 10:00:00,11/22/2019 10:14:21,100,860,True,11/22/2019 10:14:21,R_2DLBSaVJcQBKPYn,anonymous,EN,,,,,,,,,,,,,,,,,,,61.654,63.49,64.44,2,16,No,,,,,,,,,,,,,2.42,69.392,70.515,5,-1,No,,,,,,,3.274,73.903,74.961,2,10,No,25.884,44.718,45.869,7,false,No,,,,,,,24.534,36.646,37.851,2,9 6 7 3 2 1 4,No,,,,,,,,,,,,,27.782,47.549,50.073,3,"****
+***
+**
+*",No,5.071,147.884,149.525,10,A,D,D,D,B,E,A,C,Not Sure,E,5.31,160.263,180.015,,10,C,B,A,E,B,A,E,D,D,,Man,Caucasian,7,EECS 280,No,Two or more,Twice,Yes,More than two,Moderately well,07946,palinder,3,3,3,,,860
+11/22/2019 9:55:15,11/22/2019 10:17:53,100,1358,True,11/22/2019 10:17:54,R_1l9ppHjoSzNvAZg,anonymous,EN,,,,,,,,,,,,,115.946,117.799,118.993,2,8,No,71.899,143.387,144.305,3,4,No,,,,,,,3.357,147.487,148.349,5,-1,No,,,,,,,,,,,,,1.823,48.72,51.196,4,70,No,,,,,,,5.892,45.068,47.087,3,true,No,149.606,172.541,174.057,2,6 1 2 3 7 6 11,No,1.403,150.931,152.497,2,6 3 4 5 9 8 11,No,,,,,,,,,,,,,3.734,164.952,180.167,9,A,D,B,D,B,E,A,C,Not Sure,,2.381,135.601,137.326,,12,C,B,A,E,B,A,E,D,D,C,Man,Caucasian,0.5,ENGIN 101,Yes,Two or more,Once,Yes,More than two,Moderately well,49240,hicsea,4,3,3,,,1358
+11/22/2019 10:04:58,11/22/2019 10:18:47,100,829,True,11/22/2019 10:18:48,R_2tneCePnwwygJAq,anonymous,EN,,,,,,,,,,,,,14.247,28.708,30.269,4,131.4,Yes,,,,,,,,,,,,,,,,,,,28.576,96.724,97.956,2,"1
+-1
+1",Yes,9.616,19.605,21.066,3,"(70, 0.7)",No,,,,,,,7.019,52.575,53.673,3,"({6, 2, 4, 3, 10, 4, 2, 6}, 6)",Yes,,,,,,,,,,,,,5.237,25.728,80.252,4,"7
+7
+7
+7",Yes,26.926,29.105,49.848,2,*,Yes,,,,,,,5.878,148.603,150.295,15,A,D,B,D,B,E,A,C,E,E,4.921,113.149,114.834,,11,C,B,A,E,B,A,E,D,D,C,Woman,Caucasian,1,ENGIN 101,No,Two or more,Once,Yes,More than two,Moderately well,49686,tmello,3,3,3,,,829
+11/22/2019 10:18:12,11/22/2019 10:19:54,100,101,True,11/22/2019 10:19:55,R_1DvZBaTWrmp4rkQ,anonymous,EN,0.494,1.312,1.538,2,,Yes,,,,,,,,,,,,,0.091,1.107,1.517,3,,Yes,,,,,,,,,,,,,,,,,,,1.103,2.111,2.714,2,,Yes,,,,,,,,,,,,,0.897,0.897,1.342,1,,Yes,,,,,,,0.099,1.275,1.536,4,,Yes,,,,,,,0.277,1.144,1.473,3,,Yes,0.39,8.375,9.241,21,A,A,A,A,A,A,A,A,A,A,0.168,7.785,8.32,,22,A,A,A,A,A,A,A,A,A,A,Man,Asian,2,EECS 280,Yes,No,Never,Yes,None,Extremely well,48105,asasa ,3,3,3,,,101
+11/22/2019 10:20:30,11/22/2019 10:20:39,1,9,False,11/25/2019 22:24:19,R_2ffFooDF4dmFS5s,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,9
+11/22/2019 10:13:22,11/22/2019 10:21:05,53,463,False,11/25/2019 22:24:17,R_3qQzQmCAGbqKsSJ,anonymous,EN,,,,,,,2.364,74.579,76.309,10,10,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.158,161.476,180.015,27,A,A,B,D,B,E,A,C,,,2.178,133.448,134.384,,32,C,B,B,E,D,A,E,D,D,A,,,,,,,,,,,,,0,1,3,,,463
+11/22/2019 10:09:32,11/22/2019 10:21:56,100,743,True,11/22/2019 10:21:56,R_21hzDFnpYv5CN7S,anonymous,EN,,,,,,,0.835,44.473,44.863,6,9,No,,,,,,,4.675,47.55,48.217,13,4,No,,,,,,,,,,,,,,,,,,,,,,,,,1.349,60.528,60.989,3,10,No,,,,,,,12.149,129.54,130.133,13,false,No,12.156,108.614,109.135,13,9 6 7 3 2 1 4,No,,,,,,,,,,,,,1.387,63.225,64.41,15,"****
+***
+**
+*",No,3.302,102.036,102.771,28,A,D,B,D,B,E,A,C,E,E,2.85,106.498,107.561,,27,C,B,A,E,B,A,E,D,D,C,Man,Asian,4,"ENGIN 101,EECS 280",No,Two or more,Twice,Yes,More than two,Moderately well,11427,htrebmal,3,3,3,,,743
+11/22/2019 10:04:39,11/22/2019 10:23:32,100,1132,True,11/22/2019 10:23:32,R_3MS9T77rWiBhuTH,anonymous,EN,,,,,,,,,,,,,10.253,42.723,43.128,5,9,No,7.151,149.928,150.243,8,4,Yes,,,,,,,,,,,,,9.094,73.996,74.946,8,-1,Yes,85.363,89.048,89.562,3,30,No,,,,,,,9.769,117.854,118.323,14,False,No,,,,,,,,,,,,,,,,,,,,,,,,,13.251,168.605,169.488,15,"****
+****
+****
+****
+***
+***
+***
+**
+**
+",No,7.716,165.241,180.019,13,A,D,B,D,B,E,,,,,9.75,154.241,180.016,,17,C,B,,,,,,C,D,B,Man,Asian,1,"EECS 183,EECS 280",No,Two or more,Three or more times,Yes,More than two,Very well,40222,srikharp,3,3,3,,,1132
+11/22/2019 10:08:41,11/22/2019 10:27:29,100,1127,True,11/22/2019 10:27:29,R_XoEkcY6dpaAYERb,anonymous,EN,40.555,46.239,47.431,4,9,No,,,,,,,,,,,,,5.335,111.632,112.627,12,16,No,,,,,,,1.221,105.784,106.658,11,-1,No,,,,,,,,,,,,,132.899,136.302,137.059,3,30,No,,,,,,,152.247,156.234,157.995,4,False,No,,,,,,,7.108,69.284,70.211,13,9 6 7 3 2 1 4,No,,,,,,,,,,,,,4.383,164.233,180.016,26,A,D,B,D,B,E,A,C,,,2.402,161.106,162.138,,37,C,B,A,E,B,A,E,C,D,C,Woman,Asian,1,"EECS 183,EECS 280,EECS 281,EECS 370",No,Two or more,Never,No,More than two,Moderately well,,,3,3,3,,,1127
+11/22/2019 10:10:09,11/22/2019 10:31:32,100,1282,True,11/22/2019 10:31:32,R_3FKh51KlDvRqnmu,anonymous,EN,,,,,,,,,,,,,1.39,81.853,82.916,2,9,No,10.695,87.478,88.118,2,16,No,3.768,77.391,77.949,2,-1,No,,,,,,,,,,,,,,,,,,,,,,,,,0.891,131.09,131.769,5,false,No,2.69,16.36,29.109,2,false,No,,,,,,,3.245,170.594,173.298,2,9 1 4 3 2 6 7,No,,,,,,,1.028,94.424,96.294,3,"****
+***
+**
+*",No,5.259,169.635,180.01,9,A,D,B,D,B,E,A,C,,E,12.413,168.902,169.48,,10,C,B,A,E,E,A,E,D,D,D,Man,Caucasian,5,"ENGIN 101,EECS 280,EECS 281,EECS 370",No,Two or more,Once,No,More than two,Moderately well,48127,camkab,4,3,3,,,1282
+11/22/2019 10:17:43,11/22/2019 10:32:47,100,904,True,11/22/2019 10:32:47,R_2U9qjK3AXbkANvy,anonymous,EN,,,,,,,,,,,,,,,,,,,23.9,104.343,106.928,2,256,No,,,,,,,,,,,,,105.299,107.436,108.033,2,-9,No,,,,,,,58.153,60.039,61.057,2,10,No,34.14,41.072,42.094,2,false,No,,,,,,,,,,,,,8.323,102.674,140.569,4,2173964,Yes,15.205,57.576,58.248,3,"0*1*2*3*
+0*1*2*
+0*1*
+1",No,,,,,,,5.984,166.837,180.109,9,A,D,B,D,B,E,E,C,,E,6.598,104.951,109.535,,11,C,B,A,E,B,A,E,C,D,C,Man,Asian,1,EECS 280,No,"Yes, one",Never,Yes,More than two,Moderately well,11364,larwong,3,3,3,,,904
+11/22/2019 10:36:27,11/22/2019 10:36:36,22,8,False,11/25/2019 22:24:02,R_25T8611gvyKe3W1,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,8
+11/22/2019 10:36:35,11/22/2019 10:36:57,5,22,False,11/25/2019 22:24:06,R_3dSMjvu8QpJDMzS,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,22
+11/22/2019 10:41:29,11/22/2019 11:01:14,100,1184,True,11/22/2019 11:01:14,R_1PXak7oIO2y3EKD,anonymous,EN,,,,,,,,,,,,,,,,,,,19.933,138.973,139.532,9,4,No,,,,,,,1.162,154.286,158.614,23,-1,No,,,,,,,,,,,,,11.407,67.878,68.519,5,10,No,,,,,,,3.772,53.259,53.618,6,False,No,3.871,117.801,119.164,40,9 6 7 3 2 1 4,No,,,,,,,,,,,,,3.868,93.061,95.264,17,"****
+***
+**
+*
+",No,5.152,154.462,180.022,29,A,D,B,D,B,E,A,C,,,0.85,175.321,176.172,,54,C,B,A,E,B,A,D,D,D,C,Man,Caucasian,3,"EECS 183,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,"Yes, one",Never,Yes,More than two,Not well at all,48195,halchris@umich.edu ,3,3,3,,,1184
+11/22/2019 10:55:19,11/22/2019 11:03:41,100,501,True,11/22/2019 11:03:41,R_DSR1A6znKXoD1qF,anonymous,EN,,,,,,,,,,,,,1.013,56.297,56.806,10,131.4,Yes,,,,,,,,,,,,,7.201,39.265,39.781,9,2,Yes,,,,,,,,,,,,,2.432,25.752,26.201,3,70,Yes,,,,,,,3.925,23.834,25.258,5,,Yes,1.35,59.179,59.732,5,2 3 7 9 10,Yes,,,,,,,1.984,30.44,30.472,6,**,Yes,1.636,41.125,41.726,6,"**
+**",Yes,4.353,92.099,93.45,33,A,C,C,D,C,B,D,B,C,C,0.534,10.216,10.69,,19,D,D,B,A,Not Sure,C,A,Not Sure,C,A,Man,"Caucasian,Pacific Islander",0.33333,ENGIN 101,No,Two or more,Once,Yes,More than two,Moderately well,48080,,4,3,3,,,501
+11/22/2019 11:01:34,11/22/2019 11:09:39,100,485,True,11/22/2019 11:09:40,R_1Ln6U7ZMPAsJubu,anonymous,EN,1.012,1.012,1.749,1,,No,,,,,,,,,,,,,0.852,0.852,1.821,1,,No,1,1,1.99,1,,No,,,,,,,,,,,,,,,,,,,1.885,1.885,3.068,1,,No,,,,,,,7.702,9.585,12.421,2,,No,,,,,,,2.828,2.828,3.693,1,,No,,,,,,,,,,,,,4.228,177.053,180.017,10,A,D,B,D,B,E,A,C,E,,5.896,137.251,138.132,,13,C,B,A,E,E,A,E,D,D,C,Man,Caucasian,1,ENGIN 101,No,Two or more,Never,No,Two,Slightly well,48006,bmoers,3,3,3,,,485
+11/22/2019 10:55:12,11/22/2019 11:10:15,100,903,True,11/22/2019 11:10:16,R_s4KVRN8Vm3HaLUl,anonymous,EN,24.657,25.607,47.686,2,9,No,,,,,,,,,,,,,75.685,87.141,88.504,2,4,No,,,,,,,,,,,,,13.448,50.624,51.662,2,-1,No,,,,,,,,,,,,,9.87,60.101,61.981,3,false,No,,,,,,,,,,,,,22.327,137.974,138.535,4,"9, 6, 7, 3, 2, 1, 4",No,6.453,32.253,36.378,3,"****
+***
+**
+*",No,,,,,,,3.959,139.365,159,11,A,D,B,D,B,E,A,C,D,E,6.245,154.508,157.708,,12,C,B,A,E,B,A,E,C,D,B,Woman,Caucasian,5,"ENGIN 101,EECS 280,EECS 281,EECS 370",No,Two or more,Twice,Yes,More than two,Very well,48105,jododson,3,3,3,,,903
+11/22/2019 11:20:30,11/22/2019 11:20:41,1,10,False,11/25/2019 22:24:34,R_1QxVkCmtUYTktgn,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,10
+11/22/2019 11:15:07,11/22/2019 11:26:07,100,659,True,11/22/2019 11:26:07,R_2ZCuXzlQutr0iyL,anonymous,EN,,,,,,,,,,,,,34.839,38.189,39.25,3,7,No,,,,,,,2.075,80.294,81.347,6,0,Yes,,,,,,,,,,,,,41.319,43.916,44.667,3,30,No,,,,,,,,,,,,,0.77,13.479,14.52,10,True,Yes,34.241,130.601,131.262,12,55555,Yes,,,,,,,,,,,,,1.556,48.876,49.515,9,"***
+**
+*",No,3.587,139.075,139.932,33,A,D,B,D,B,E,A,C,B,E,1.069,79.178,80.843,,28,C,B,A,E,B,A,E,B,D,A,Man,Asian,0,ENGIN 101,No,"Yes, one",Twice,Yes,More than two,Very well,00000,yyasuda,3,3,3,,,659
+11/22/2019 11:36:50,11/22/2019 11:37:00,18,10,False,11/25/2019 22:24:22,R_tXRc8fbi7D1cDOp,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,3,,,10
+11/22/2019 11:25:10,11/22/2019 11:43:25,100,1094,True,11/22/2019 11:43:25,R_2BfB9nV53o7Jf01,anonymous,EN,,,,,,,,,,,,,,,,,,,58.244,61.458,62.454,2,8,No,,,,,,,,,,,,,3.59,113.065,113.507,10,1,No,23.475,40.45,42.083,3,100,No,,,,,,,3.096,52.119,52.897,6,false,Yes,1.163,61.291,62.163,5,True,Yes,,,,,,,2.155,125.468,126.58,9,Error?,No,,,,,,,1.687,87.509,88.705,2,"****
+***
+**
+*
+",No,3.097,170.99,171.547,21,A,D,B,D,D,E,A,C,D,C,8.787,174.02,174.724,,12,C,B,A,A,B,A,E,D,D,Not Sure,Man,Caucasian,1,ENGIN 101,No,Two or more,Once,Yes,More than two,Very well,49085,nosh,4,3,3,,,1094
+11/22/2019 11:52:24,11/22/2019 11:52:33,1,9,False,11/25/2019 22:24:04,R_25l1OVr4OOM4WdP,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,9
+11/22/2019 11:37:33,11/22/2019 11:55:05,100,1052,True,11/22/2019 11:55:06,R_3nPGhf3q52IVIIJ,anonymous,EN,,,,,,,,,,,,,37.622,41.161,41.597,3,9,No,66.234,67.729,69.233,2,4,No,,,,,,,,,,,,,,,,,,,,,,,,,63.303,67.32,68.219,6,30,No,32.069,162.653,163.7,3,False,No,,,,,,,,,,,,,82.871,82.871,180.02,1,"[9, 6,  1, 4]",,14.599,35.528,37.787,2,"****
+***
+**
+*",No,,,,,,,24.421,171.7,180.011,8,A,A,B,D,B,E,E,,,,12.356,161.3,180.114,,11,C,B,A,E,B,A,E,Not Sure,D,,Man,Asian,3,"ENGIN 101,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,Two or more,Once,No,More than two,Slightly well,11365,liuchun,3,3,3,,,1052
+11/22/2019 11:52:30,11/22/2019 12:09:04,100,993,True,11/22/2019 12:09:04,R_3hu2eZ6isvvpUlu,anonymous,EN,,,,,,,1.231,52.252,57.301,6,9,No,,,,,,,9.337,104.082,104.92,4,16,No,72.696,75.698,76.668,4,-1,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.922,49.608,50.792,7,false,No,,,,,,,0.864,176.445,180.12,9,9 6 7 ,,,,,,,,0.555,47.459,47.519,10,"****
+***
+**
+*",No,1.335,157.74,180.023,21,A,D,B,D,B,E,A,C,Not Sure,,0.666,180.115,180.125,,24,C,B,A,E,E,A,E,Not Sure,D,,Man,"Asian,Caucasian",6,"EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,Two or more,Twice,Yes,More than two,Moderately well,20854,lubicz,3,3,3,,,993
+11/22/2019 12:09:15,11/22/2019 12:09:26,1,10,False,11/25/2019 22:24:34,R_3Puk9tsZfCaERxl,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,10
+11/22/2019 11:48:04,11/22/2019 12:19:21,1,1876,False,11/25/2019 22:24:04,R_1inyB4lTcJjfgaN,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,1876
+11/22/2019 12:14:57,11/22/2019 12:28:00,100,782,True,11/22/2019 12:28:01,R_4Yrz8djPeRPqOZj,anonymous,EN,,,,,,,,,,,,,37.984,38.994,48.175,2,131,Yes,54.998,54.998,58.979,1,2,,,,,,,,89.648,89.648,122.444,1,-1,,,,,,,,24.448,24.448,77.011,1,"(70, 10/7)",,,,,,,,,,,,,,19.965,19.965,29.323,1,false,,,,,,,,,,,,,,,,,,,,3.885,54.472,56.827,2,"*
+*
+*
+*",Yes,15.649,171.483,172.681,13,A,D,B,D,B,E,E,E,E,E,13.019,97.463,98.555,,12,C,B,A,E,Not Sure,A,E,C,Not Sure,C,Woman,Caucasian,1.5,ENGIN 101,Yes,Two or more,Never,Yes,More than two,Moderately well,48371,vittetoe,3,4,3,,,782
+11/22/2019 12:14:42,11/22/2019 12:32:50,100,1087,True,11/22/2019 12:32:50,R_31WLROmXWHhBRvr,anonymous,EN,,,,,,,18.185,104.725,105.921,4,9,No,,,,,,,3.641,72.604,74.718,4,1,No,,,,,,,,,,,,,3.497,75.734,76.616,5,"-2
+",No,,,,,,,2.127,116.058,117.395,13,40,No,,,,,,,4.598,94.268,107.237,3,false,No,22.833,175.775,180.007,14,array ,No,,,,,,,,,,,,,,,,,,,7.973,165.624,166.55,13,A,D,B,D,B,E,D,C,E,D,6.427,138.995,140.126,,10,C,B,A,E,B,A,E,Not Sure,D,C,Woman,Caucasian,4,"ENGIN 101,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",Yes,Two or more,Once,Yes,Two,Very well,49505,jkfrank,3,3,3,,,1087
+11/22/2019 10:32:15,11/22/2019 13:09:39,100,9443,True,11/22/2019 13:09:39,R_2CCE0MOjsBzLOqr,anonymous,EN,,,,,,,,,,,,,4.709,63.197,66.94,4,9,No,2.667,120.641,122.161,3,256,No,,,,,,,,,,,,,6.394,69.66,73.381,3,-1,No,5.26,67.005,92.877,3,114,No,,,,,,,,,,,,,,,,,,,2.767,2.767,180.013,1,9273164,,,,,,,,,,,,,,14.933,19.834,71.242,3,"****
+***
+**
+*",No,3.218,164.638,165.274,10,A,D,B,D,B,E,A,C,E,E,6.283,136.338,137.328,,10,C,B,A,E,E,A,E,E,A,C,Man,Caucasian,2,"ENGIN 101,EECS 280,EECS 370",No,"Yes, one",Never,No,One,Not well at all,49442,widepend,3,3,3,,,9443
+11/22/2019 13:02:27,11/22/2019 13:19:39,100,1032,True,11/22/2019 13:19:39,R_1o7pRsIpikq3O93,anonymous,EN,,,,,,,,,,,,,1.481,29.588,30.146,3,9,No,4.437,124.868,125.473,13,4,No,,,,,,,2.927,93.142,93.648,10,-2,No,2.986,84.204,84.68,4,-1,No,,,,,,,1.615,47.199,47.923,8,10,No,,,,,,,,,,,,,,,,,,,16.814,138.956,180.016,2,,,1.649,66.834,66.874,6,"****
+***
+**
+*",No,,,,,,,7.268,142.73,143.592,27,A,D,B,D,B,E,A,C,E,E,4.897,95.87,97.45,,24,C,B,A,E,B,A,E,D,D,C,Man,Asian,0.5,ENGIN 101,No,"Yes, one",Twice,No,More than two,Moderately well,,Opang,4,3,3,,,1032
+11/22/2019 13:23:24,11/22/2019 13:23:48,1,24,False,11/25/2019 22:24:35,R_3kzSZa72X8iQFzn,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,24
+11/22/2019 13:33:55,11/22/2019 13:34:23,1,28,False,11/25/2019 22:24:23,R_1fa9bixdT7RJZnq,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,28
+11/22/2019 13:15:21,11/22/2019 13:40:15,100,1494,True,11/22/2019 13:40:16,R_ZKxBhbfFYLmngbL,anonymous,EN,3.896,142.452,143.501,6,"9
+",No,,,,,,,,,,,,,53.857,151.985,180.113,3,8,No,7.607,147.954,148.302,7,-1,No,,,,,,,,,,,,,,,,,,,1.035,156.174,159.89,7,10,No,,,,,,,4.448,84.319,86.045,3,false,Yes,,,,,,,,,,,,,,,,,,,4.927,77.878,78.978,5,"****
+***
+**
+*",No,14.6,160.049,161.546,10,A,D,B,D,B,E,A,C,E,E,5.874,173.87,180.011,,10,C,B,A,E,B,A,E,D,D,C,Man,Caucasian,4,ENGIN 101,No,Two or more,Once,No,More than two,Moderately well,48894,flynnai,3,3,3,,,1494
+11/22/2019 13:31:16,11/22/2019 13:44:27,100,791,True,11/22/2019 13:44:28,R_1oGDUUcCM3Y3d15,anonymous,EN,,,,,,,42.31,74.976,77.816,3,idk,Yes,,,,,,,27.328,73.851,101.842,2,4,Yes,,,,,,,,,,,,,,,,,,,,,,,,,23.672,68.309,111.52,3,70,No,,,,,,,2.937,9.639,10.465,2,i cant do this rn,Yes,,,,,,,4.329,8.74,9.93,2,no thanks,Yes,13.573,14.827,17.711,2,idk,Yes,,,,,,,4.51,175.797,176.728,10,A,D,B,D,B,E,A,C,Not Sure,E,11.412,150.291,151.716,,11,C,A,A,E,B,A,E,Not Sure,D,A,Man,Caucasian,2,ENGIN 101,Yes,Two or more,Never,No,Two,Moderately well,48180,trigotti,3,3,3,,,791
+11/22/2019 13:44:15,11/22/2019 13:51:42,72,446,False,11/25/2019 22:24:06,R_OrHhl1Ath2X0mR3,anonymous,EN,,,,,,,,,,,,,8.596,55.666,56.021,4,0,Yes,87.109,116.155,116.837,2,"1
+4",Yes,,,,,,,,,,,,,70.706,93.528,94.624,3,"3
+1",No,,,,,,,,,,,,,1.431,59.798,60.603,5,false,Yes,,,,,,,21.322,21.322,22.005,1,,Yes,,,,,,,,,,,,,14.698,33.61,35.129,3,Nothing,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,4,3,,,446
+11/22/2019 14:00:47,11/22/2019 14:01:22,27,35,False,11/25/2019 22:24:06,R_2uINdAVf5BT0SIz,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,35
+11/22/2019 13:58:49,11/22/2019 14:05:14,80,384,False,11/25/2019 22:24:21,R_3GxguyKVmv0MpHE,anonymous,EN,,,,,,,,,,,,,,,,,,,0,0,0.365,0,,,,,,,,,,,,,,,1.149,1.149,2.53,1,,,0,0,0.345,0,,,,,,,,,,,,,,,0,0,0.547,0,,,,,,,,,,,,,,,0.15,0.15,0.994,1,,,,,,,,,15.606,168.814,169.579,14,A,D,B,D,B,E,A,C,D,E,16.33,141.706,147.72,,11,C,B,A,E,B,A,E,Not Sure,D,Not Sure,,,,,,,,,,,,,2,3,3,,,384
+11/22/2019 14:00:05,11/22/2019 14:06:39,22,394,False,11/25/2019 22:24:06,R_2VJ8UsDDwsui74x,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.481,174.287,180.01,7,A,D,B,D,B,E,,C,,,6.644,136.389,180.009,,7,C,B,A,C,B,A,E,,,,,,,,,,,,,,,,0,0,3,,,394
+11/22/2019 14:03:52,11/22/2019 14:21:33,100,1060,True,11/22/2019 14:21:33,R_1KiISQjCyJRtekt,anonymous,EN,3.026,120.218,120.921,5,9,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.877,76.813,77.945,3,-1,No,11.132,61.682,63.382,2,10,No,,,,,,,,,,,,,6.4,50.528,81.318,3,false,Yes,7.815,171.95,180.077,4,1 1 2 3 7 6 ,Yes,,,,,,,,,,,,,2.241,59.081,62.149,3,"****
+***
+**
+*",No,6.137,170.073,180.124,8,A,D,B,D,B,E,A,C,,,5.773,111.965,113.084,,11,C,B,A,E,B,A,E,C,B,B,Man,Asian,1,ENGIN 101,No,Two or more,Three or more times,Yes,More than two,Very well,,tshete,3,3,3,,,1060
+11/22/2019 14:24:19,11/22/2019 14:25:23,24,64,False,11/25/2019 22:24:06,R_1dLgyvxsZ0KNj04,anonymous,EN,,,,,,,,,,,,,1.428,40.644,41.131,8,4,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0,3,,,64
+11/22/2019 14:24:31,11/22/2019 14:46:03,100,1292,True,11/22/2019 14:46:04,R_3hg8l5lbnWYYind,anonymous,EN,16.351,71.362,72.127,9,131.4,Yes,,,,,,,,,,,,,40.871,56.552,57.252,4,4 4,Yes,,,,,,,,,,,,,26.304,110.896,111.682,3,-2,No,,,,,,,24.78,68.831,69.422,4,7000,Yes,95.705,151.177,152.024,9,10 2 6 18 6,No,17.792,80.44,81.186,5,True,No,,,,,,,9.632,178.181,180.012,14,8 ,,,,,,,,,,,,,,22.114,170.553,180.13,14,A,D,B,D,B,,,,,,4.79,142.619,180.013,,20,C,B,A,E,B,A,E,D,D,,Man,Caucasian,0,ENGIN 101,No,Two or more,Three or more times,Yes,More than two,Very well,74105,logroa,4,3,3,,,1292
+11/22/2019 14:59:08,11/22/2019 14:59:57,11,48,False,11/25/2019 22:24:08,R_1jNCEjrhijf6DVm,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,48
+11/22/2019 15:19:22,11/22/2019 15:19:26,1,4,False,11/25/2019 22:24:25,R_1jMVQa20bMWcl7J,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,4
+11/22/2019 15:07:48,11/22/2019 15:25:40,100,1072,True,11/22/2019 15:25:41,R_psKvrVmBU6fnehj,anonymous,EN,,,,,,,,,,,,,,,,,,,1.178,112.292,112.749,4,16,No,,,,,,,1.751,88.834,99.089,4,1,No,,,,,,,,,,,,,70.706,72.371,72.677,3,30,No,35.907,74.313,74.923,3,false,No,,,,,,,35.957,48.554,57.296,2,9 6 7 3 2 1 4,No,,,,,,,,,,,,,15.586,82.224,82.716,3,"****
+***
+**
+*",No,0.746,179.383,180.009,32,A,D,B,A,C,E,B,,,,0.716,172.124,180.11,,45,C,B,A,B,E,A,E,Not Sure,D,Not Sure,Man,"Asian,Caucasian",3,"ENGIN 101,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,Two or more,Once,Yes,More than two,Very well,48176,churyan,3,3,3,,,1072
+11/22/2019 15:27:25,11/22/2019 15:27:51,1,25,False,11/25/2019 22:24:22,R_u9Zuyyw4DOZJeSJ,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,25
+11/22/2019 15:48:55,11/22/2019 16:03:40,100,885,True,11/22/2019 16:03:40,R_1Lb8Gt6VEX97iYR,anonymous,EN,,,,,,,,,,,,,26.159,40.235,41.25,2,9,No,90.889,97.126,98.569,2,16,No,,,,,,,,,,,,,103.054,105.776,106.549,2,-1,No,,,,,,,35.44,37.436,38.064,2,30,No,,,,,,,,,,,,,72.049,94.319,95.426,2,9 6 7 3 2 1 4,No,,,,,,,21.048,34.533,35.599,2,"****
+***
+**
+*",No,,,,,,,5.607,158.235,180.112,9,A,D,B,D,B,E,A,C,,,18.974,174.379,175.151,,10,C,B,A,E,E,A,D,C,D,A,Man,Asian,4,"ENGIN 101,EECS 280,EECS 281,EECS 370,Two or more upper level EECS electives",No,Two or more,Once,No,More than two,Moderately well,,aanant,3,3,3,,,885
+11/22/2019 16:00:13,11/22/2019 16:03:58,31,224,False,11/25/2019 22:24:28,R_3oZN3ZZpFoHgxtj,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29.468,87.232,88.835,6,"*****
+****
+***",No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,0,3,,,224
+11/22/2019 16:32:08,11/22/2019 16:46:32,100,864,True,11/22/2019 16:46:33,R_3fxwc6wMvMXuxZT,anonymous,EN,,,,,,,,,,,,,40.563,42.913,43.787,2,9,No,,,,,,,2.319,60.607,61.63,2,-1,No,,,,,,,,,,,,,,,,,,,16.796,41.894,42.892,4,10,No,52.894,55.746,56.932,2,false,No,,,,,,,55.948,71.665,72.531,2,9 6 7 3 2 1 4,No,,,,,,,,,,,,,7.074,24.421,25.595,5,"****
+****
+****
+****",No,3.409,148.573,152.236,14,A,D,B,D,B,E,B,B,E,E,6.378,149.522,180.01,,10,C,B,A,E,B,A,E,D,D,,Man,Asian,2,"ENGIN 101,EECS 280,EECS 281,One upper level EECS elective",No,No,Once,Yes,More than two,Moderately well,48168,yankevn,3,3,3,,,864
+11/22/2019 16:52:07,11/22/2019 16:52:21,18,13,False,11/25/2019 22:24:30,R_2WxlnsCdn4ifG8P,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,3,,,13
+11/22/2019 17:19:07,11/22/2019 17:21:20,39,132,False,11/25/2019 22:24:08,R_CfxxBsYGqYYREI1,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.136,30.288,31.747,11,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,0.614,10.199,11.145,,11,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,,,,,,,,,,,,,1,0,3,,,132
+11/22/2019 17:30:39,11/22/2019 17:31:05,1,25,False,11/25/2019 22:24:24,R_2c5VNxDXvKrGbmc,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,25
+11/22/2019 17:18:44,11/22/2019 17:35:45,100,1021,True,11/22/2019 17:35:46,R_1CaXK7zsIMaMv7j,anonymous,EN,,,,,,,6.429,58.254,61.173,2,262.8,Yes,,,,,,,112.515,157.467,162.779,3,tmp,Yes,47.53,53.682,54.041,4,"0,0,1",No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.181,3.493,16.013,2,false,Yes,,,,,,,59.07,60.534,108.59,2,4,Yes,,,,,,,8.346,41.114,71.226,2,**,,7.882,169.26,180.01,11,A,D,B,B,B,E,A,Not Sure,D,Not Sure,6.655,160.081,175.973,,12,C,B,A,E,B,A,D,Not Sure,B,A,Woman,Black/African,0.5,ENGIN 101,Yes,Two or more,Twice,Yes,More than two,Slightly well,48076,pmaggies,3,3,3,,,1021
+11/22/2019 21:01:33,11/22/2019 21:01:40,22,6,False,11/25/2019 22:24:32,R_1GVKrWYbuEv2Qk5,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,6
+11/22/2019 22:19:56,11/22/2019 22:29:42,89,585,False,11/25/2019 22:24:33,R_6lpx34CmLQ4VhCN,anonymous,EN,,,,,,,,,,,,,,,,,,,75.285,75.285,78.288,1,16,,,,,,,,,,,,,,47.883,47.883,50.575,1,-3,,7.357,31.093,37.45,2,10,,,,,,,,,,,,,,2.696,60.545,79.22,3,false,,,,,,,,9.682,11.98,74.684,3,9342434324,,3.058,3.058,27.402,1,"****
+***
+**
+*",,,,,,,,16.781,155.236,180.122,11,A,D,B,D,B,E,B,A,,,6.272,32.798,33.909,,10,C,C,A,B,B,C,D,B,C,D,,,,,,,,,,,,,3,3,3,,,585
+11/23/2019 7:11:13,11/23/2019 7:15:27,100,254,True,11/23/2019 7:15:27,R_1kOhPZn0uLmnK55,anonymous,EN,,,,,,,0,0,0.638,0,,,,,,,,,0,0,28.738,0,,,,,,,,,,,,,,,0,0,1.944,0,,,,,,,,,0,0,0.571,0,,,,,,,,,0,0,1.119,0,,,0,0,0.476,0,,,0,0,0.564,0,,,,,,,,,,,,,,,13.811,172.416,180.051,12,A,D,B,D,B,E,A,C,E,,0,0,1.699,,0,,,,,,,,,,,,,,,,,,,,,,pwdowiak,4,3,3,,,254
+11/23/2019 11:47:48,11/23/2019 12:00:32,100,763,True,11/23/2019 12:00:32,R_XtigeLL6ab9RGYF,anonymous,EN,,,,,,,,,,,,,11.721,49.528,58.31,2,9,No,,,,,,,,,,,,,2.141,103.182,104.637,6,-1,No,,,,,,,25.99,52.262,67.289,2,10,No,,,,,,,33.5,58.188,62.424,2,false,No,,,,,,,,,,,,,2.722,46.384,52.574,2,9 6 7 3 2 1 4,No,,,,,,,11.065,31.764,46.552,2,"****
+***
+**
+*",No,4.176,95.063,96.897,10,A,D,B,D,B,E,A,C,E,E,5.8,112.086,113.26,,10,C,B,A,E,B,A,E,D,D,C,Man,Caucasian,6,EECS 280,No,Two or more,Never,Yes,More than two,Slightly well,48116,brightp,3,3,3,,,763
+11/22/2019 15:23:20,11/23/2019 12:02:21,39,74340,False,11/25/2019 22:24:27,R_3Ean5vyEFMda8pQ,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4.851,111.501,180.012,12,A,D,B,D,B,E,A,C,,,2.417,126.571,127.458,,12,C,B,A,E,B,A,E,C,D,C,,,,,,,,,,,,,0,1,3,,,74340
+11/23/2019 13:10:44,11/23/2019 13:11:20,22,36,False,11/25/2019 22:24:08,R_1LM8HrX9RgsVGKq,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,3,,,36
+11/23/2019 16:15:28,11/23/2019 16:28:43,15,795,False,11/25/2019 22:24:35,R_2Sv2oQrCwyMfy1Z,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,3,,,795
+11/23/2019 19:12:21,11/23/2019 19:22:02,53,581,False,11/25/2019 22:24:37,R_3fxGIUnQfW1SaiW,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.886,149.299,150.157,5,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7.553,138.521,180.01,10,A,D,B,D,B,E,A,C,,,5.95,160.379,161.157,,11,C,B,A,E,E,A,E,C,D,Not Sure,,,,,,,,,,,,,0,2,3,,,581
+11/23/2019 19:11:40,11/23/2019 19:33:00,100,1279,True,11/23/2019 19:33:00,R_30kHXHKsOdkIBtY,anonymous,EN,,,,,,,,,,,,,17.384,51.415,54.174,4,9,No,151.042,155.2,157.665,3,4,No,,,,,,,,,,,,,15.988,157.801,161.587,4,-3,No,76.951,129.912,131.594,4,30,No,8.476,57.321,58.384,5,30,No,,,,,,,54.662,129.163,130.734,2,false,No,,,,,,,,,,,,,24.991,70.367,72.792,2,"****
+***
+**
+*
+",No,,,,,,,8.506,173.746,180.111,13,A,D,B,D,B,E,A,C,E,,5.115,178.057,179.097,,12,C,B,A,E,B,A,E,D,D,C,Woman,Caucasian,2,"ENGIN 101,EECS 280,EECS 281",Yes,Two or more,Once,No,Two,Slightly well,49240,dnora,4,3,3,,,1279
+11/24/2019 11:50:58,11/24/2019 12:14:45,100,1427,True,11/24/2019 12:14:46,R_3MguDwMxpWFLFdQ,anonymous,EN,,,,,,,,,,,,,108.703,110.652,112.126,2,8,Yes,5.82,158.627,162.101,16,none,Yes,,,,,,,126.386,149.88,152.037,2,-1,Yes,,,,,,,,,,,,,2.507,171.262,173.226,3,30,Yes,,,,,,,,,,,,,1.491,176.033,179.001,3,5 3 5 6 7 8,Yes,,,,,,,,,,,,,100.205,106.329,107.407,2,"****
+***
+**
+*",Yes,4.938,161.521,180.013,15,A,D,B,D,B,E,Not Sure,C,E,E,9.49,150.452,151.435,,10,C,B,A,E,E,A,E,D,D,C,Man,Caucasian,0.5,ENGIN 101,Yes,Two or more,Three or more times,No,More than two,Very well,48025,Lemercer,3,3,3,,,1427
+11/24/2019 12:40:29,11/24/2019 13:12:02,100,1893,True,11/24/2019 13:12:03,R_1OiwwHDzKQfY5LA,anonymous,EN,,,,,,,,,,,,,,,,,,,100.576,104.936,108.234,3,0,No,,,,,,,,,,,,,24.872,91.875,92.781,2,0,No,29.641,71.088,72.036,3,70,No,,,,,,,,,,,,,6.221,64.259,65.001,4,1,Yes,,,,,,,3.629,56.111,111.512,2,10 2 3 4 8 7 10,Yes,48.539,62.016,63.062,2,"****
+",No,,,,,,,3.767,162.699,165.776,10,A,D,B,D,B,E,A,C,E,E,5.753,126.669,129.967,,12,C,B,A,E,B,A,E,D,D,C,Man,Caucasian,0,ENGIN 101,No,Two or more,Never,No,Two,Slightly well,07940,baxelsen,3,3,3,,,1893
+11/24/2019 16:46:25,11/24/2019 16:48:41,22,135,False,11/25/2019 22:24:35,R_307Y1UasUQ8ja4L,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26.224,79.678,80.659,11,A,D,E,D,B,D,C,C,A,C,8.174,34.978,36.611,,15,C,C,D,A,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,Not Sure,,,,,,,,,,,,,0,0,3,,,135
+11/22/2019 12:01:09,11/24/2019 18:14:58,100,195228,True,11/24/2019 18:14:58,R_3O1XchFgq7Orq0Z,anonymous,EN,4.9,121.974,122.998,4,17,No,,,,,,,,,,,,,3.969,67.323,68.369,7,0,No,,,,,,,,,,,,,,,,,,,,,,,,,3.275,105.225,107.946,4,70,No,3.151,59.318,60.265,8,false,No,,,,,,,,,,,,,4.425,178.595,180.036,8,,No,,,,,,,3.412,76.16,77.107,5,"****
+***
+**
+*",No,5.35,175.044,180.039,21,A,D,B,D,B,E,A,C,E,,2.554,168.061,169.189,,24,C,B,A,E,E,A,E,D,D,C,Man,Caucasian,2,,Yes,Two or more,Three or more times,Yes,Two,Moderately well,49441,ecabel,3,3,3,,,195228
+11/24/2019 20:08:14,11/24/2019 20:09:45,18,90,False,11/25/2019 22:24:38,R_3KJhT8bFtywZCWE,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,3,,,90
+11/24/2019 20:48:03,11/24/2019 21:01:58,100,835,True,11/24/2019 21:01:59,R_6SDNcXCMD0kA81z,anonymous,EN,,,,,,,40.847,43.2,60.936,2,9,No,,,,,,,19.493,20.194,21.513,2,16,No,,,,,,,,,,,,,57.34,58.675,59.731,2,-1,No,,,,,,,1.532,19.949,22.791,4,10,No,,,,,,,,,,,,,66.06,74.729,76.053,2,9 6 7 3 2 1 4,No,,,,,,,,,,,,,2.214,46.957,51.611,3,"****
+***
+**
+*",No,19.171,172.091,180.139,6,A,D,B,C,B,E,,,,,11.64,169.793,171.177,,11,C,B,A,E,B,A,E,C,D,D,Man,Asian,10,EECS 280,No,No,Twice,No,More than two,Moderately well,,ramkapte,3,3,3,,,835
+11/24/2019 22:10:21,11/24/2019 22:25:06,100,885,True,11/24/2019 22:25:07,R_6rk54xqor8m8vFn,anonymous,EN,,,,,,,,,,,,,42.993,45.24,46.528,2,9,No,90.5,93.571,94.606,3,16,No,58.036,62.703,64.571,3,-1,No,,,,,,,,,,,,,77.106,79.236,80.688,2,30,No,,,,,,,,,,,,,56.135,59.882,60.779,2,false,No,,,,,,,60.034,77.181,78.712,2,9 6 7 3 2 1 4,No,,,,,,,,,,,,,3.116,134.756,136.322,13,A,D,B,D,B,E,A,C,E,E,3.474,129.859,134.482,,11,C,B,A,E,B,A,E,D,D,C,Man,Asian,1,"ENGIN 101,EECS 280",Yes,Two or more,Twice,Yes,More than two,Very well,60564,arjunsun,3,3,3,,,885
+11/25/2019 10:01:52,11/25/2019 10:14:31,100,759,True,11/25/2019 10:14:32,R_qwrNveZwEz53oWt,anonymous,EN,,,,,,,,,,,,,49.168,52.044,52.888,2,118.26,No,,,,,,,33.624,48.49,49.606,2,0,No,,,,,,,,,,,,,3.799,43.009,43.789,2,"70, 7",No,2.591,21.465,22.459,2,70,No,,,,,,,14.036,85.753,114.675,6,2,Yes,,,,,,,15.35,16.913,26.988,2,[4 1 2],Yes,10.268,21.397,21.759,4,***,No,,,,,,,13.93,168.739,180.013,10,A,A,B,D,B,E,A,C,,,7.304,144.258,145.842,,11,C,B,A,B,B,A,E,C,D,C,Woman,Asian,1,ENGIN 101,Yes,"Yes, one",Three or more times,Yes,More than two,Moderately well,,ashfuh,4,3,3,,,759
+11/25/2019 11:59:35,11/25/2019 12:00:01,18,26,False,11/25/2019 22:24:26,R_42Fc4Fs9y64FrEd,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,3,,,26
+11/25/2019 13:14:51,11/25/2019 13:16:20,1,89,False,11/25/2019 22:24:35,R_2tyWezvvMgLbkvE,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,89
+11/25/2019 13:20:21,11/25/2019 13:20:38,1,16,False,11/25/2019 22:24:08,R_2YWzzYV7ryBcYOm,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3,,,16
+11/25/2019 14:45:23,11/25/2019 15:10:15,100,1492,True,11/25/2019 15:10:16,R_d4ffdFVkpKML0Xf,anonymous,EN,,,,,,,78.563,86.023,88.852,2,9,No,44.91,48.15,49.227,2,9,No,86.974,91.426,94.187,2,16,No,,,,,,,,,,,,,73.947,129.284,130.617,4,-1,No,,,,,,,51.001,56.977,57.992,2,10,No,54.175,64.839,66.044,2,false,No,,,,,,,,,,,,,,,,,,,,,,,,,62.246,79.728,81.014,2,"****
+***
+**
+*
+",No,11.092,149.944,180.109,8,A,D,B,D,B,E,A,C,,,4.234,158.458,168.435,,10,C,B,A,E,B,A,E,D,D,C,Man,Asian,6,"ENGIN 101,EECS 280,EECS 281,EECS 370",Yes,Two or more,Three or more times,Yes,More than two,Moderately well,00000,xaoyer,4,3,3,,,1492
+11/25/2019 15:05:19,11/25/2019 15:15:01,37,581,False,11/25/2019 22:24:40,R_3HIwsHIdbuhex5L,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33.251,138.174,180.012,4,A,D,B,,,,,,,,13.829,168.848,182.285,,9,C,B,A,E,B,A,E,D,E,,,,,,,,,,,,,,0,2,3,,,581
+11/25/2019 17:04:10,11/25/2019 17:18:06,100,835,True,11/25/2019 17:18:06,R_2dAqzjiVzBmQ4qb,anonymous,EN,35.292,40.916,41.842,2,135,No,,,,,,,,,,,,,103.613,106.045,106.746,2,16,No,,,,,,,,,,,,,,,,,,,,,,,,,22.278,84.185,85.139,2,10,No,,,,,,,50.67,52.175,53.124,2,false,No,,,,,,,5.743,43.881,44.551,5,9 6 7 3 2 1 4,No,11.378,35.682,36.584,2,"****
+***
+**
+*",No,,,,,,,4.001,146.317,146.964,11,A,D,B,D,B,E,A,C,E,E,9.89,160.814,161.692,,13,C,B,A,E,B,A,E,D,D,C,Man,Caucasian,4,"ENGIN 101,EECS 280,EECS 281,One upper level EECS elective",Yes,Two or more,Three or more times,Yes,More than two,Very well,98006,jrodg@umich.edu,3,3,3,,,835
