@@ -17,7 +17,7 @@ Finally, we investigated correlations between programming performance and backgr
 * [Amir Kamil](https://web.eecs.umich.edu/~akamil/), University of Michigan, akamil@umich.edu
 
 ## Paper Link
-Fixme
+https://github.com/CelloCorgi/SIGCSE2021-IterativeAndRecursive/blob/main/paper_endres_sigcse2021.pdf
 
 ## Repository Contents
 * `qualtrics`: Contains a pdf of the survey used in our experiment along with a qualtrics-formatted project file
