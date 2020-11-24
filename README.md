@@ -1,11 +1,11 @@
 # SIGCSE2021-IterativeAndRecursive
 
-This repository contains the materials relating to the paper: An Analysis of Iterative and Recursive Problem Performance, pulished in SiGCSE 2021.
+This repository contains the materials relating to the paper: An Analysis of Iterative and Recursive Problem Performance, pulished in SIGCSE 2021.
 
 ## Paper Abstract
 
 Iteration and recursion are fundamental programming constructs in introductory computer science. Understanding the relationship between contextual factors, such as problem formulation or student background, that relate to performance on iteration and recursion problems can help inform pedagogy. 
-We present the results of a study of 162 undergraduate participants tasked with comprehending iterative, recursive, and tail-recursive versions of CS1 functions. First, we carry out a task-specific analysis, finding that students perform significantly better on the iterative framings of two problems with non-branching numerical computation and significantly better on the recursive framing of another that involves array classification ($p <= 0.036$). 
+We present the results of a study of 162 undergraduate participants tasked with comprehending iterative, recursive, and tail-recursive versions of CS1 functions. First, we carry out a task-specific analysis, finding that students perform significantly better on the iterative framings of two problems with non-branching numerical computation and significantly better on the recursive framing of another that involves array classification (p <= 0.036). 
 
 Second, we investigate differences in the most common student mistakes by program framing. We find that students were more likely to produce wrong answers with incorrect types or structures for recursive and tail-recursive program versions.
 
