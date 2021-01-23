@@ -19,6 +19,9 @@ Finally, we investigated correlations between programming performance and backgr
 ## Paper Link
 https://github.com/CelloCorgi/SIGCSE2021-IterativeAndRecursive/blob/main/paper_endres_sigcse2021.pdf
 
+## Presentation Slides Link
+https://docs.google.com/presentation/d/1R9eEqEl6P7-P6YzBqSD3QHMUsBLj4TSBAYevprGQR_s/edit?usp=sharing
+
 ## Repository Contents
 * `qualtrics`: Contains a pdf of the survey used in our experiment along with a qualtrics-formatted project file
 * `code`: Contains text versions of the program stimuli. Variable names and formatting were modified between this text version and the final qualtrics version shown to participants (see `qualtrics` folder)
